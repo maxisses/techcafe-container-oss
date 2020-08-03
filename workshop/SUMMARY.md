@@ -1,15 +1,15 @@
 # Table of contents
 
-* [Hallo](README.md)
+* [Container, Cloud-Native & Kubernetes](README.md)
 
 ## Getting Started
 
 * [Pre-work](getting-started/pre-work.md)
 
-## Some Heading
+## Sessions <a id="some-heading"></a>
 
-* [Some Section](some-heading/some-section/README.md)
-  * [Some Exercise](some-heading/some-section/some-exercise.md)
+* [Session 1](some-heading/asdfjhjlksadjflkjsadjhfsad/README.md)
+  * [Login IBM Cloud](some-heading/asdfjhjlksadjflkjsadjhfsad/some-exercise.md)
 
 ## Workshop Resources
 
