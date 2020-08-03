@@ -21,7 +21,7 @@ The introductory page of the workshop is broken down into the following sections
 |  |  |
 | :--- | :--- |
 | [Exercise 0: Pre-work](getting-started/pre-work.md) | Pre-work for the project |
-| [Exercise 1: Some Exercise](some-heading/asdfjhjlksadjflkjsadjhfsad/some-exercise.md) | Exercise to do the thing |
+| [Exercise 1: Some Exercise](some-heading/app-entwicklung-auf-der-cloud/some-exercise.md) | Exercise to do the thing |
 
 ## Compatibility
 
