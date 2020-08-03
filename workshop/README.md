@@ -1,6 +1,6 @@
 # Hallo
 
-## Workshop Title
+## Blub
 
 Welcome to our workshop! In this workshop we'll be using foo to accomplish bar. The goals of this workshop are:
 
