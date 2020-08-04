@@ -6,13 +6,17 @@
 
 * [Pre-work](getting-started/pre-work.md)
 
-## Sessions <a id="some-heading"></a>
+## Sessions
 
-* [1: App Entwicklung auf der Cloud](some-heading/app-entwicklung-auf-der-cloud/README.md)
-  * [Untitled](some-heading/app-entwicklung-auf-der-cloud/untitled-2.md)
-  * [Untitled](some-heading/app-entwicklung-auf-der-cloud/untitled-1.md)
-  * [Login IBM Cloud](some-heading/app-entwicklung-auf-der-cloud/some-exercise.md)
-  * [Starter App deployen](some-heading/app-entwicklung-auf-der-cloud/starter-app-deployen.md)
+* [1: WarmUp - App Entwicklung auf der Cloud](sessions/app-entwicklung-auf-der-cloud/README.md)
+  * [Login IBM Cloud](sessions/app-entwicklung-auf-der-cloud/some-exercise.md)
+  * [Node.JS App erstellen](sessions/app-entwicklung-auf-der-cloud/starter-app-deployen.md)
+  * [Node.JS App mit CI/CD deployen](sessions/app-entwicklung-auf-der-cloud/node.js-app-mit-ci-cd-deployen.md)
+  * [Die Delivery Pipeline](sessions/app-entwicklung-auf-der-cloud/die-delivery-pipeline.md)
+  * [SCM: gitlab Repo eurer App](sessions/app-entwicklung-auf-der-cloud/scm-gitlab-repo-eurer-app.md)
+  * [Eure App im git und als Webanwendung](sessions/app-entwicklung-auf-der-cloud/erster-commit.md)
+  * [Skalierung der App](sessions/app-entwicklung-auf-der-cloud/skalierung-der-app.md)
+  * [Code Änderung](sessions/app-entwicklung-auf-der-cloud/code-aenderung.md)
 
 ---
 
