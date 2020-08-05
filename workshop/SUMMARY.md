@@ -18,11 +18,6 @@
   * [Skalierung der App](sessions/app-entwicklung-auf-der-cloud/skalierung-der-app.md)
   * [Code Änderung](sessions/app-entwicklung-auf-der-cloud/code-aenderung.md)
 
----
-
-* [2: \(Im Team\) an der Applikation arbeiten](2-im-team-an-der-applikation-arbeiten/README.md)
-  * [Untitled](2-im-team-an-der-applikation-arbeiten/untitled-3.md)
-
 ## Workshop Resources
 
 * [Instructor Guide](workshop-resources/admin-guide.md)
