@@ -4,5 +4,9 @@
 
 | Begriff | Erklärung |
 | :--- | :--- |
-| Container |  |
+| IaaS |  |
+| PaaS |  |
+| SaaS |  |
+| FaaS |  |
+| weitere werden folgen ... :\) |  |
 
