@@ -8,7 +8,7 @@
 
 ## Sessions
 
-* [1: WarmUp - App Entwicklung auf der Cloud](sessions/app-entwicklung-auf-der-cloud/README.md)
+* [Session 1: Cloud-Native, Microservices & Public Cloud Services](sessions/app-entwicklung-auf-der-cloud/README.md)
   * [Login IBM Cloud](sessions/app-entwicklung-auf-der-cloud/some-exercise.md)
   * [Node.JS App erstellen](sessions/app-entwicklung-auf-der-cloud/starter-app-deployen.md)
   * [Node.JS App mit CI/CD deployen](sessions/app-entwicklung-auf-der-cloud/node.js-app-mit-ci-cd-deployen.md)

@@ -16,9 +16,11 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 * Vorkenntnisse & Was sollte man mitbringen
 * Agenda
 
+![](.gitbook/assets/image%20%2819%29.png)
+
 ## Coaches
 
-Rene Meyer  
+Rene Meyer   
 Max Dargatz
 
 ## **Eckdaten**
@@ -45,7 +47,7 @@ remote mit eigenen Endgeräten
 
 | Titel | Dauer | Wer? |
 | :--- | :--- | :--- |
-| Recap & Quiz | 5 Minuten | IBM Coaches |
+| Intro & Quiz | 5 Minuten | IBM Coaches |
 | Einführung zur Theorie und Inhalt des Labs | 10 Minuten | IBM Coaches |
 | Code & Work Along | 60 Minuten | Alle |
 | Wrap-Up: Was haben wir heute gemacht? Welche Relevanz hat es? | 10 Minuten | Alle |
