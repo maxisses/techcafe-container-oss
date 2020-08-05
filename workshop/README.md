@@ -36,15 +36,22 @@ remote mit eigenen Endgeräten
 * grundlegende Erfahrungen mit einer oder mehr Programmiersprachen
 * BYOD 
 
-## Agenda
+## Sessions
 
-|  |  |
+| ID | Titel |
 | :--- | :--- |
-| [T](getting-started/pre-work.md)ag 1: | Pre-work for the project |
-| [Exercise 1: Some Exercise](sessions/app-entwicklung-auf-der-cloud/some-exercise.md) | Exercise to do the thing |
-|  |  |
+| Session 1 |  |
+| Session 2 |  |
+| Session 3 |  |
+| Session 4 |  |
+| Session 5 |  |
+| Session 6 |  |
+| Session 7 |  |
+| Session 8 |  |
+| Session 9 |  |
+| Session 10 |  |
 
-## Ablauf der Sessions
+## Agenda der Sessions
 
 | Titel | Dauer | Wer? |
 | :--- | :--- | :--- |
