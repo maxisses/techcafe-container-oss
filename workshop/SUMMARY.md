@@ -26,4 +26,5 @@
 ## Resources
 
 * [IBM Developer](https://developer.ibm.com)
+* [IBM Developer](https://developer.ibm.com)
 
