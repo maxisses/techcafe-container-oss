@@ -2,7 +2,7 @@
 
 This section is broken up into the following steps:
 
-1. [Sign up for IBM Cloud](pre-work.md#1-sign-up-for-ibm-cloud)
+1. Sign up for IBM Cloud
 2. Bereitet eure Teilnahme vor
 
 ## 1. Sign up for IBM Cloud
