@@ -9,9 +9,10 @@
 ## Sessions
 
 * [Session 1: Cloud-Native, Microservices & Public Cloud Services](sessions/app-entwicklung-auf-der-cloud/README.md)
-  * [0: Organisation](sessions/app-entwicklung-auf-der-cloud/0-organisation.md)
-  * [Part 0: Ein bisschen Hintergrund](sessions/app-entwicklung-auf-der-cloud/part-0-ein-bisschen-hintergrund.md)
-  * [Part 1: Hello World auf IBM Cloud](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/README.md)
+  * [Part 1: Organisation](sessions/app-entwicklung-auf-der-cloud/0-organisation.md)
+  * [Part 2: Ein bisschen Hintergrund](sessions/app-entwicklung-auf-der-cloud/part-0-ein-bisschen-hintergrund.md)
+  * [Part 3: Public Cloud Tour](sessions/app-entwicklung-auf-der-cloud/part-3-public-cloud-tour.md)
+  * [Part 4: Hello World auf IBM Cloud](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/README.md)
     * [Login IBM Cloud](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/some-exercise.md)
     * [Node.JS App erstellen](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/starter-app-deployen.md)
     * [Node.JS App mit CI/CD deployen](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/node.js-app-mit-ci-cd-deployen.md)
@@ -20,6 +21,7 @@
     * [Eure App im git und als Webanwendung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/erster-commit.md)
     * [Skalierung der App](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/skalierung-der-app.md)
     * [Code Änderung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/code-aenderung.md)
+* [Session 2: folgt!](sessions/session-2-folgt.md)
 
 ---
 
