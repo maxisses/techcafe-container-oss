@@ -30,6 +30,7 @@
 * [IBM Cloud](https://cloud.ibm.com)
 * [WebEx Login](https://ibm.webex.com/meet/max.dargatz)
 * [WebEx Login - Breakout](https://ibm.webex.com/meet/rene.meyer)
+* [Slack Channel](https://ibmpublicdach.slack.com/archives/G017Z3RB762)
 * [IBM CLI Guide](https://cloud.ibm.com/docs/cli/index.html)
 * [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 * [Kubernetes Cheat Sheet](https://kubernetes.io/de/docs/reference/kubectl/cheatsheet/)
