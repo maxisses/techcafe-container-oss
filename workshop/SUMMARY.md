@@ -25,6 +25,9 @@
 
 ## Resources
 
-* [IBM Developer](https://developer.ibm.com)
-* [IBM Developer](https://developer.ibm.com)
+* [IBM Cloud](https://cloud.ibm.com)
+* [IBM CLI Guide](https://cloud.ibm.com/docs/cli/index.html)
+* [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
+* [Kubernetes Cheat Sheet](https://kubernetes.io/de/docs/reference/kubectl/cheatsheet/)
+* [IBM Tutorials](https://developer.ibm.com)
 
