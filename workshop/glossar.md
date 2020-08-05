@@ -1,0 +1,8 @@
+# Glossar
+
+## 
+
+| Begriff | Erklärung |
+| :--- | :--- |
+| Container |  |
+

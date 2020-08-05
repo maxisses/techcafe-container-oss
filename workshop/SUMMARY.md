@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Tech Café der DRV Bund](README.md)
+* [TechCafé der DRV Bund](README.md)
 
 ## Getting Started
 
@@ -19,9 +19,9 @@
     * [Skalierung der App](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/skalierung-der-app.md)
     * [Code Änderung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/code-aenderung.md)
 
-## Workshop Resources
+---
 
-* [Instructor Guide](workshop-resources/admin-guide.md)
+* [Glossar](glossar.md)
 
 ## Resources
 

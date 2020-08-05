@@ -2,7 +2,7 @@
 description: 'Hands-On Sessions zu Containertechnologie, Microservices & Kubernetes'
 ---
 
-# Tech Café der DRV Bund
+# TechCafé der DRV Bund
 
 ## About
 
@@ -40,7 +40,7 @@ remote mit eigenen Endgeräten
 
 | ID | Titel |
 | :--- | :--- |
-| Session 1 |  |
+| Session 1 | Cloud-Native, Microservices & Public Cloud Services |
 | Session 2 |  |
 | Session 3 |  |
 | Session 4 |  |
