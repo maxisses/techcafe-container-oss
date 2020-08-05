@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Container, Cloud-Native & Kubernetes](README.md)
+* [Tech Café der DRV Bund](README.md)
 
 ## Getting Started
 

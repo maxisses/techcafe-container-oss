@@ -1,8 +1,8 @@
 ---
-description: 'Tech Café der DRV Bund - Containertechnologie, Microservices & Kubernetes'
+description: 'Hands-On Sessions zu Containertechnologie, Microservices & Kubernetes'
 ---
 
-# Container, Cloud-Native & Kubernetes
+# Tech Café der DRV Bund
 
 ## About
 
@@ -33,7 +33,8 @@ remote mit eigenen Endgeräten
 
 * Neugier, Engagement, Motivation
 * grundlegende IT-Kenntnisse \(z.B. Umgang mit Terminal, Betriebssystemen\)
-* grundlegende Erfahrungen mit einer oder mehr Programmiersprachen 
+* grundlegende Erfahrungen mit einer oder mehr Programmiersprachen
+* BYOD 
 
 ## Agenda
 
