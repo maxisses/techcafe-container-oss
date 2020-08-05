@@ -2,15 +2,15 @@
 
 Nochmal zurück zu eurem Git-Projekt und dem manifest.yaml. Ruft es auf und klickt auf "Edit".
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../../.gitbook/assets/image%20%282%29.png)
 
 Ändert die "Instances" auf 2 und clickt unten auf Commit.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
 Geht jetzt in eure Delivery Pipeline um das Ergebnis zu überprüfen. Nämlich ein neues Deployment.
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../../.gitbook/assets/image%20%2814%29.png)
 
 
 

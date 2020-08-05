@@ -2,7 +2,7 @@
 
 Nun klicke **Deploy your App**
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../../.gitbook/assets/image%20%2813%29.png)
 
 **M**it Continous Integration deployen und Cloud Foundry wählen, für IBM Cloud API Key "New +" wählen; 
 
@@ -12,7 +12,7 @@ Nun klicke **Deploy your App**
 * Default ist euer AppName 
 * Bestätigen **"Deploy your App"**
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../../.gitbook/assets/image%20%286%29.png)
 
 
 
