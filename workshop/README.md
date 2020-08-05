@@ -25,9 +25,9 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 ## **Eckdaten**
 
-10 Sessions á 1,5h  
-5 bis 8 Teilnehmer  
-remote mit eigenen Endgeräten
+* 10 Sessions á 1,5h
+* 5 bis 8 Teilnehmer
+* remote mit eigenen Endgeräten
 
 ## **Vorkenntnisse & Was sollte man mitbringen:**
 
