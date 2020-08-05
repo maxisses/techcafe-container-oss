@@ -21,7 +21,7 @@
     * [Eure App im git und als Webanwendung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/erster-commit.md)
     * [Skalierung der App](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/skalierung-der-app.md)
     * [Code Änderung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/code-aenderung.md)
-* [Session 2: folgt!](sessions/session-2-folgt.md)
+* [Session 2: ... folgt ...](sessions/session-2-folgt.md)
 
 ---
 

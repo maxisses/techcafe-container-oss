@@ -1,2 +1,2 @@
-# Session 2: folgt!
+# Session 2: ... folgt ...
 
