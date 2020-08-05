@@ -9,6 +9,8 @@
 ## Sessions
 
 * [Session 1: Cloud-Native, Microservices & Public Cloud Services](sessions/app-entwicklung-auf-der-cloud/README.md)
+  * [0: Organisation](sessions/app-entwicklung-auf-der-cloud/0-organisation.md)
+  * [Part 0: Ein bisschen Hintergrund](sessions/app-entwicklung-auf-der-cloud/part-0-ein-bisschen-hintergrund.md)
   * [Part 1: Hello World auf IBM Cloud](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/README.md)
     * [Login IBM Cloud](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/some-exercise.md)
     * [Node.JS App erstellen](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/starter-app-deployen.md)

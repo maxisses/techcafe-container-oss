@@ -40,16 +40,16 @@ remote mit eigenen Endgeräten
 
 | ID | Titel |
 | :--- | :--- |
-| Session 1 | Cloud-Native, Microservices & Public Cloud Services |
-| Session 2 |  |
-| Session 3 |  |
-| Session 4 |  |
-| Session 5 |  |
-| Session 6 |  |
-| Session 7 |  |
-| Session 8 |  |
-| Session 9 |  |
-| Session 10 |  |
+| Session 1 | [Cloud-Native, Microservices & Public Cloud Services](sessions/app-entwicklung-auf-der-cloud/) |
+| Session 2 | Hello World Microservice in der Cloud |
+| Session 3 | Kubernetes & Container am Beispiel einer Java Anwendung |
+| Session 4 | ContinuousIntegration /Continuous Delivery mit Kubernetes |
+| Session 5 | Was fehlt “vanilla Kubernetes”? |
+| Session 6 | Service Mesh in OpenShift |
+| Session 7 | Continuous Integration /Continuous Delivery mit Tekton in OpenShift |
+| Session 8 | Serverless - Cloud Functions mit KNative |
+| Session 9 | Serverless - OpenShift Operator & KNative |
+| Session 10 | Machine Learning& Container Technologie - TextGen im Container |
 
 ## Agenda der Sessions
 
