@@ -23,9 +23,10 @@
   * [Part 1: SCM auf der Cloud](sessions/session-2-folgt/part-1-scm-auf-der-cloud/README.md)
     * [SSH Keys für Kommunikation mit git remote](sessions/session-2-folgt/part-1-scm-auf-der-cloud/ssh-keys-fuer-kommunikation-mit-git-remote.md)
     * [Code von der Cloud auf euren Rechner clonen](sessions/session-2-folgt/part-1-scm-auf-der-cloud/code-von-der-cloud-auf-euren-rechner-clonen.md)
-    * [Untitled](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled-2.md)
-    * [Untitled](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled-1.md)
-    * [Untitled](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled.md)
+    * [Code lokal ausführen & testen](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled-2.md)
+    * [Code ändern und pushen](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled-1.md)
+    * [Team für die Arbeit am Code aufsetzen](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled.md)
+    * [Merge Request \(Pull Request\)](sessions/session-2-folgt/part-1-scm-auf-der-cloud/merge-request-pull-request.md)
 
 ---
 
