@@ -41,7 +41,11 @@
     * [Mit Container und eigenem Dockerfile](sessions/session-2-folgt/part-3-app-in-container-packen/mit-container-und-eigenem-dockerfile.md)
     * [Dockerfile reloaded](sessions/session-2-folgt/part-3-app-in-container-packen/dockerfile-reloaded.md)
     * [Image veröffentlichen](sessions/session-2-folgt/part-3-app-in-container-packen/image-veroeffentlichen.md)
-  * [Part 4: next stop - Kubernetes](sessions/session-2-folgt/part-4-next-stop-kubernetes.md)
+  * [Part 4: next stop - Kubernetes](sessions/session-2-folgt/part-4-next-stop-kubernetes/README.md)
+    * [CLI konfigurieren - kubeconfig](sessions/session-2-folgt/part-4-next-stop-kubernetes/cli-konfigurieren-kubeconfig.md)
+    * [Deployment der Anwendung erstellen](sessions/session-2-folgt/part-4-next-stop-kubernetes/deployment-der-anwendung-erstellen.md)
+    * [Service für die App erstellen](sessions/session-2-folgt/part-4-next-stop-kubernetes/service-fuer-die-app-erstellen.md)
+    * [Untitled](sessions/session-2-folgt/part-4-next-stop-kubernetes/untitled.md)
 * [Session 3: ... folgt ...](sessions/session-3-...-folgt-....md)
 
 ---

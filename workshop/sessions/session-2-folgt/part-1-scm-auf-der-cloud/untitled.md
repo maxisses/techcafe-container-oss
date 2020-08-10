@@ -4,7 +4,7 @@
 
 * geht in euer git Projekt Überblich auf der Cloud
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 
 * dann im gitlab project overview links runterscrollen und settings --&gt; Members anwählen und entsprechende Collaborator hinzufügen
 * da die ssh infrastrukur bereits aufgesetzt ist kann der hinzugefügte jetzt sofort clonen
