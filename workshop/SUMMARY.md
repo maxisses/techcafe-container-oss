@@ -48,7 +48,7 @@
     * [App erreichen aus dem Web](sessions/session-2-folgt/part-4-next-stop-kubernetes/untitled.md)
     * [optional: manuell Skalieren](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-manuell-skalieren.md)
     * [optional: Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md)
-* [Session 3: ... folgt ...](sessions/session-3-...-folgt-....md)
+* [Session 3: ... folgt ... Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-...-folgt-....md)
 
 ---
 
