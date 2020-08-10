@@ -41,6 +41,7 @@
     * [Mit Container und eigenem Dockerfile](sessions/session-2-folgt/part-3-app-in-container-packen/mit-container-und-eigenem-dockerfile.md)
     * [Dockerfile reloaded](sessions/session-2-folgt/part-3-app-in-container-packen/dockerfile-reloaded.md)
     * [Image veröffentlichen](sessions/session-2-folgt/part-3-app-in-container-packen/image-veroeffentlichen.md)
+  * [Part 4: next stop - Kubernetes](sessions/session-2-folgt/part-4-next-stop-kubernetes.md)
 * [Session 3: ... folgt ...](sessions/session-3-...-folgt-....md)
 
 ---

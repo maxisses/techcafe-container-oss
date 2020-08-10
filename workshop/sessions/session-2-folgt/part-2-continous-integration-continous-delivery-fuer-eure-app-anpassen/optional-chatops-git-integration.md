@@ -6,9 +6,9 @@
 
 - geht links auf Settings & Integrations - scrolled runter und clicked auf Slack Notification Service
 
-![](../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2841%29.png)
 
 - Webhook Url & Channel Name wie oben; Username könnt ihr wählen
 
-![](../../../.gitbook/assets/image%20%2837%29.png)
+![](../../../.gitbook/assets/image%20%2839%29.png)
 

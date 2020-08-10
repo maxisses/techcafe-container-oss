@@ -12,11 +12,11 @@ Da ihr einem anderen projekt hinzugefügt wurdet könnt ihr oben den "projects" 
 
 * diesen request könnt ihr dann jemanden Berechtigten zuweisen, welcher ihn bestätigt und euren Branch wieder in den "Hauptast" \(master\) zurückführt.
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../.gitbook/assets/image%20%2838%29.png)
 
 Per Default wird die Delivery Pipeline durch den master Branch getriggered - deshalb:
 
   
 
-![](../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../.gitbook/assets/image%20%2840%29.png)
 
