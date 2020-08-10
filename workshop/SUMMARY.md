@@ -18,7 +18,7 @@
     * [Eure App im git und als Webanwendung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/erster-commit.md)
     * [Skalierung der App](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/skalierung-der-app.md)
     * [Code Änderung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/code-aenderung.md)
-* [Session 2: Flyover](sessions/session-2-folgt/README.md)
+* [Session 2: Flyover Cloud, Container, CI/CD, PaaS](sessions/session-2-folgt/README.md)
   * [Prework](sessions/session-2-folgt/prework.md)
   * [Part 1: SCM auf der Cloud](sessions/session-2-folgt/part-1-scm-auf-der-cloud/README.md)
     * [SSH Keys für Kommunikation mit git remote](sessions/session-2-folgt/part-1-scm-auf-der-cloud/ssh-keys-fuer-kommunikation-mit-git-remote.md)
@@ -45,7 +45,9 @@
     * [CLI konfigurieren - kubeconfig](sessions/session-2-folgt/part-4-next-stop-kubernetes/cli-konfigurieren-kubeconfig.md)
     * [Deployment der Anwendung erstellen](sessions/session-2-folgt/part-4-next-stop-kubernetes/deployment-der-anwendung-erstellen.md)
     * [Service für die App erstellen](sessions/session-2-folgt/part-4-next-stop-kubernetes/service-fuer-die-app-erstellen.md)
-    * [Untitled](sessions/session-2-folgt/part-4-next-stop-kubernetes/untitled.md)
+    * [App erreichen aus dem Web](sessions/session-2-folgt/part-4-next-stop-kubernetes/untitled.md)
+    * [optional: manuell Skalieren](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-manuell-skalieren.md)
+    * [optional: Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md)
 * [Session 3: ... folgt ...](sessions/session-3-...-folgt-....md)
 
 ---

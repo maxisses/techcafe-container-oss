@@ -1,4 +1,4 @@
-# Untitled
+# App erreichen aus dem Web
 
 Der freetier von IBM Kubernetes Services hat keinen built-in Ingress, welchen man üblicherweise nutzen würde um die App mit einer Domain im Netz verfügbar zu machen. Man müsste zB nginx extra aufsetzen. Das kommt später. Jetzt nutzen wir die Funktion den Service ebenfalls per NodePort verfügbar zu machen
 
