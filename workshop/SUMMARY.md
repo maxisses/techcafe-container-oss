@@ -1,10 +1,7 @@
 # Table of contents
 
 * [TechCafé der DRV Bund](README.md)
-
-## Getting Started
-
-* [Pre-work](getting-started/pre-work.md)
+* [Pre-work](pre-work.md)
 
 ## Sessions
 
@@ -21,7 +18,14 @@
     * [Eure App im git und als Webanwendung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/erster-commit.md)
     * [Skalierung der App](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/skalierung-der-app.md)
     * [Code Änderung](sessions/app-entwicklung-auf-der-cloud/part-1-hello-world-auf-ibm-cloud/code-aenderung.md)
-* [Session 2: ... folgt ...](sessions/session-2-folgt.md)
+* [Session 2: ... folgt ...](sessions/session-2-folgt/README.md)
+  * [Prework](sessions/session-2-folgt/prework.md)
+  * [Part 1: SCM auf der Cloud](sessions/session-2-folgt/part-1-scm-auf-der-cloud/README.md)
+    * [SSH Keys für Kommunikation mit git remote](sessions/session-2-folgt/part-1-scm-auf-der-cloud/ssh-keys-fuer-kommunikation-mit-git-remote.md)
+    * [Code von der Cloud auf euren Rechner clonen](sessions/session-2-folgt/part-1-scm-auf-der-cloud/code-von-der-cloud-auf-euren-rechner-clonen.md)
+    * [Untitled](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled-2.md)
+    * [Untitled](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled-1.md)
+    * [Untitled](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled.md)
 
 ---
 

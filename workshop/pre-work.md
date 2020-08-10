@@ -1,7 +1,5 @@
 # Pre-work
 
-This section is broken up into the following steps:
-
 1. Sign up for IBM Cloud
 2. Bereitet eure Teilnahme vor
 
@@ -11,7 +9,7 @@ Mach euch einen IBM Cloud Account:
 
 {% embed url="https://cloud.ibm.com" %}
 
-![Cloud Sign up](../.gitbook/assets/ibm-cloud-sign-up.png)
+![Cloud Sign up](.gitbook/assets/ibm-cloud-sign-up.png)
 
 ## 2. Überlegt euch wie ihr teilnehmt
 
