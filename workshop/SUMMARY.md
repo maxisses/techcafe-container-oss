@@ -27,6 +27,11 @@
     * [Code ändern und pushen](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled-1.md)
     * [Team für die Arbeit am Code aufsetzen](sessions/session-2-folgt/part-1-scm-auf-der-cloud/untitled.md)
     * [Merge Request \(Pull Request\)](sessions/session-2-folgt/part-1-scm-auf-der-cloud/merge-request-pull-request.md)
+  * [Part 2: Continous Integration / Continous Delivery für eure App anpassen](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
+    * [Definition der Infrastruktur](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/definition-der-infrastruktur.md)
+    * [Untitled](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-2.md)
+    * [Untitled](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-1.md)
+    * [Untitled](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled.md)
 
 ---
 
