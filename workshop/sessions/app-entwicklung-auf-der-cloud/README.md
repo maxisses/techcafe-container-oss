@@ -1,4 +1,4 @@
-# Session 1: Cloud-Native, Microservices & Public Cloud Services
+# Session 1: Cloud-Native, Container & Public Cloud
 
 <table>
   <thead>

@@ -40,10 +40,10 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 | ID | Titel |
 | :--- | :--- |
-| Session 1 | [Cloud-Native, Microservices & Public Cloud Services](sessions/app-entwicklung-auf-der-cloud/) |
+| Session 1 | [Cloud-Native, Container & Public Cloud](sessions/app-entwicklung-auf-der-cloud/) |
 | Session 2 | [Flyover Cloud, Container, CI/CD, PaaS](sessions/session-2-folgt/) |
 | Session 3 | [Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-...-folgt-....md) |
-| Session 4 | ContinuousIntegration /Continuous Delivery mit Kubernetes |
+| Session 4 | Continuous Integration / Continuous Delivery mit Kubernetes |
 | Session 5 | Was fehlt “vanilla Kubernetes”? |
 | Session 6 | Service Mesh in OpenShift |
 | Session 7 | Continuous Integration /Continuous Delivery mit Tekton in OpenShift |

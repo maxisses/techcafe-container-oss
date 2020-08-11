@@ -5,7 +5,7 @@
 
 ## Sessions
 
-* [Session 1: Cloud-Native, Microservices & Public Cloud Services](sessions/app-entwicklung-auf-der-cloud/README.md)
+* [Session 1: Cloud-Native, Container & Public Cloud](sessions/app-entwicklung-auf-der-cloud/README.md)
   * [Part 1: Organisation](sessions/app-entwicklung-auf-der-cloud/0-organisation.md)
   * [Part 2: Ein bisschen Hintergrund](sessions/app-entwicklung-auf-der-cloud/part-0-ein-bisschen-hintergrund.md)
   * [Part 3: Public Cloud Tour](sessions/app-entwicklung-auf-der-cloud/part-3-public-cloud-tour.md)
