@@ -26,8 +26,10 @@
       <td style="text-align:left">runtime instance of an image plus a read/write layer</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Cloud Foundry</td>
+      <td style="text-align:left">Platform-as-a-Service Angebot mit starkem Entwicklerfokus um deployments
+        so einfach wie m&#xF6;glich zu machen. Nutzt f&#xFC;r den Anwender nicht
+        sichtbar ebenfalls container - man deployed aber keine docker images selber.</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -35,4 +37,6 @@
     </tr>
   </tbody>
 </table>
+
+
 
