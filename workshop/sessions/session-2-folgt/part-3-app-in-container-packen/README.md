@@ -1,2 +1,2 @@
-# Part 3: App in Container packen
+# Übung 3: App in Container packen
 
