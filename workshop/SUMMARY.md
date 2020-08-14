@@ -41,7 +41,7 @@
     * [App erreichen aus dem Web](sessions/session-2-folgt/part-4-next-stop-kubernetes/untitled.md)
     * [optional: manuell Skalieren](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-manuell-skalieren.md)
     * [optional: Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md)
-  * [Übung 4: Continous Integration / Continous Delivery für eure App anpassen](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
+  * [Übung 4: - under construction - Continous Integration / Continous Delivery für eure App anpassen](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
     * [Definition der Infrastruktur](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/definition-der-infrastruktur.md)
     * [Staging Phase zur Delivery Pipe hinzufügen](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-2.md)
     * [Neue Delivery Pipeline auslösen](sessions/session-2-folgt/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-1.md)
