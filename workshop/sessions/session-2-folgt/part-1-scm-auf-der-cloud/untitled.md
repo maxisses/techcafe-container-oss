@@ -1,4 +1,4 @@
-# Team für die Arbeit am Code aufsetzen
+# optional: Team für die Arbeit am Code aufsetzen
 
 
 
@@ -6,8 +6,8 @@
 
 ![](../../../.gitbook/assets/image%20%2835%29.png)
 
-* dann im gitlab project overview links runterscrollen und settings --&gt; Members anwählen und entsprechende Collaborator hinzufügen
-* da die ssh infrastrukur bereits aufgesetzt ist kann der hinzugefügte jetzt sofort clonen
+* dann im gitlab project overview links runterscrollen und settings --&gt; Members anwählen und entsprechenden Collaborator hinzufügen
+* da die ssh infrastrukur für die sichere Kommunikation mit diesem git-Server bereits aufgesetzt ist kann der hinzugefügte jetzt sofort clonen
 
 ```text
 git clone git@<euer repo name>
@@ -19,7 +19,7 @@ git clone git@<euer repo name>
 git branch
 git branch neuesfeature_branch 
 git branch
-git checkout neuesfeaturebranch_euername
+git checkout neuesfeature_branch
 git status 
 git add . 
 git status 

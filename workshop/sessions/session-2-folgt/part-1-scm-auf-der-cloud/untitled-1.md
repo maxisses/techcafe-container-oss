@@ -24,5 +24,5 @@ git push
 * check es ins IBM gitlab ein und macht euren lokalen "commit" zu einem commit in der zentralen Codeverwaltung
 * schaut auf eure Delivery Pipeline --&gt; sollte "in progress" sein, da ein webhook auf den commit existiert
 
-Sollte man auf "master" pushen?
+Sollte man auf "master" pushen? Nein - in der Praxis natürlich nicht!
 
