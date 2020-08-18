@@ -9,5 +9,11 @@
 kubectl apply -f deployment.yaml
 ```
 
-* prüft mit kubectl get pods  oder in der GUI ob es funktioniert hat
+* prüft mit 
+
+```text
+kubectl get pods
+```
+
+oder in der GUI ob es funktioniert hat
 
