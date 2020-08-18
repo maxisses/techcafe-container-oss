@@ -1,4 +1,4 @@
-# Part 1: Organisation
+# Organisation
 
 * Funktionieren die Zugänge?
 * Wo ist was?

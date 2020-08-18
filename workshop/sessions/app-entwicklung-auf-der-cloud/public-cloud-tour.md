@@ -1,4 +1,4 @@
-# Part 3: Public Cloud Tour
+# Public Cloud Tour
 
 * Catalog \(DBaaS, SaaS\)
 * PaaS & FaaS

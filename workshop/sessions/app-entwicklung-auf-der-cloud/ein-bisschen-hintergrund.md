@@ -1,4 +1,4 @@
-# Part 2: Ein bisschen Hintergrund
+# Ein bisschen Hintergrund
 
 Wie funktioniert eine Public Cloud?  
 Was ist Cloud Native?  
