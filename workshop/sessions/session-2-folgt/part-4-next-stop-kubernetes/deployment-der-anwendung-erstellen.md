@@ -11,23 +11,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: "maxpubliceduapp-deployment"
+  name: maxpubliceduapp-deployment
 spec:
-  # anpassen auf mehrere instanzen wenn gewünscht
-  replicas: 1
-  selector: 
-    matchLabels:
-      app: "maxpubliceduapp-selector"
-  template:
-    metadata:
-      labels:
-        app: "maxpubliceduapp-selector"
-    spec:
-      containers:
-      - name: maxpubliceduapp
-        image: maxisses/maxapp:latest
-        ports:
-            - containerPort: 3000
+  # anpassen auf mehrere instanzen wenn gewünscht
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: maxpubliceduapp-selector
+  template:
+    metadata:
+      labels:
+        app: maxpubliceduapp-selector
+    spec:
+      containers:
+      - name: maxpubliceduapp
+        image: maxisses/maxpubliceduapp:latest
+        ports:
+            - containerPort: 3000
 ```
 
 führt im Terminal den Befehl aus:
