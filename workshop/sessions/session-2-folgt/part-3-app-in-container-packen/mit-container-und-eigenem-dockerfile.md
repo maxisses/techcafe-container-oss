@@ -1,6 +1,6 @@
 # Mit Container und eigenem Dockerfile
 
-* öffne VSCode, dort findest du bereits deine Anwendung
+* öffne VSCode\(oder die IDE deiner Wahl\), dort findest du bereits deine Anwendung
 * da ist ein Dockerfile; das benutzen wir erstmal nicht deshalb benenne es um in "Dockerfileoriginal"
 * clicke rechte maustaste im VsCode links auf deinen Ordner und wähle "New File", nenne es "Dockerfile"
 
@@ -39,7 +39,7 @@ CMD ["npm", "start"]
 Und jetzt seid ihr bereit eure Anwendung im Container auszuführen:
 
 ```text
-docker build . -t meineappimcontainer
+docker build . -t <nameeuresimages-freiwählbar>
 ```
 
 wenn fertig, seht ihr euer Image und die Größe:
@@ -51,7 +51,7 @@ docker images
 und jetzt startet euren Container:
 
 ```text
-docker run -p 3000:3000 meineappimcontainer
+docker run -p 3000:3000 <nameeuresimages>
 ```
 
 ... ihr kommt drauf wie immer: localhost:3000

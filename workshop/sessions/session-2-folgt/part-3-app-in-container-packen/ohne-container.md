@@ -4,7 +4,15 @@
 
 - node & npm installieren \(Prework\) - 
 
-- npm install : alle bibliotheken/dependencies installieren - hoffentlich vertragen sich alle dependencies mit den bereits installierten
+- alle bibliotheken/dependencies installieren - hoffentlich vertragen sich alle dependencies mit den bereits installierten
 
-- npm start : Anwendung startet auf eigenem Rechner - hoffentlich verträgt sich die runtime mit dem OS
+```text
+npm install
+```
+
+- Anwendung startet auf eigenem Rechner - hoffentlich verträgt sich die runtime mit dem OS
+
+```text
+npm start
+```
 
