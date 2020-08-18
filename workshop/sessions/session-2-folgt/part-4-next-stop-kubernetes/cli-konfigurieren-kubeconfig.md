@@ -8,7 +8,7 @@ Um über eure CLI mit dem Cluster zu kommunizieren, müsst ihr eine kubeconfig e
 * auf dem Dashboard rechts oben "Actions" und connect via cli; im Schritt 1 recht "ibmcloud login" und dann eure nutzerdaten eingeben aus; schritt 2 & 3 exakt in den Terminal kopieren
 
 ```text
-ibmcloud login
+ibmcloud login -sso
 ibmcloud ks cluster config --cluster <eure ClusterID>
 kubectl config current-context
 ```
