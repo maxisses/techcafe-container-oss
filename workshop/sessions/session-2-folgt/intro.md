@@ -2,5 +2,5 @@
 
 #### Link zu den Folien: [https://ibm.box.com/s/qqep7oqfinyd2zrzgsslv40bjbxia4j0](https://ibm.box.com/s/qqep7oqfinyd2zrzgsslv40bjbxia4j0)
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
