@@ -10,15 +10,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: "maxpubliceduapp-service"
+  name: "welearnpubliccloud-service"
 spec:
-  type: NodePort
-  ports:
-    - name: http
-      port: 3000
-      nodePort: 32555
-  selector:
-    app: "maxpubliceduapp-selector"
+  type: NodePort
+  ports:
+    - name: http
+      port: 3000
+      nodePort: 32555
+  selector:
+    app: "welearnpubliccloud-selector"
 ```
 
 
