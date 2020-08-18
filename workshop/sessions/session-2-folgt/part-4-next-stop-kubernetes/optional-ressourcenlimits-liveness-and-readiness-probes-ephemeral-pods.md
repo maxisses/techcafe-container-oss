@@ -4,12 +4,12 @@ fügt eurem deployment.yaml folgendes unten hinzu \(auf einrückung achten\) und
 
 ```text
 resources:
-            limits:
-              memory: "256Mi"
-              cpu: "1000m"
-            requests:
-              memory: "128Mi"
-              cpu: "250m"
+            limits:
+              memory: "256Mi"
+              cpu: "1000m"
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
 ```
 
 ![](../../../.gitbook/assets/image%20%2838%29.png)
