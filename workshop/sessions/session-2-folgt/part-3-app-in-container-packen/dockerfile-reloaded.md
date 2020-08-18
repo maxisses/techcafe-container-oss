@@ -63,6 +63,12 @@ Kopiert euch die Container ID und geht damit in den Container:
 docker exec -it <container id> /bin/bash
 ```
 
+oder wenn ihr von alpine kommt \(da gibts kein /bin/bash\):
+
+```text
+docker exec -it <container id> sh
+```
+
 Auf der Kommandozeile des Containers:
 
 ```text
