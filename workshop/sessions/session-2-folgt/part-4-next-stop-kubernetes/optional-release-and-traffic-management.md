@@ -1,2 +1,2 @@
-# optional: Release & Traffic Management
+# optional: Horizontal Pod Autoscaling
 

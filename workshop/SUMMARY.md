@@ -41,7 +41,7 @@
     * [App erreichen aus dem Web](sessions/session-2-folgt/part-4-next-stop-kubernetes/untitled.md)
     * [optional: manuell Skalieren](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-manuell-skalieren.md)
     * [optional: Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md)
-    * [optional: Release & Traffic Management](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-release-and-traffic-management.md)
+    * [optional: Horizontal Pod Autoscaling](sessions/session-2-folgt/part-4-next-stop-kubernetes/optional-release-and-traffic-management.md)
 * [Session 3: ... folgt ... Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-...-folgt-.../README.md)
   * [Prework](sessions/session-3-...-folgt-.../prework.md)
   * [Part 1:](sessions/session-3-...-folgt-.../part-1.md)
