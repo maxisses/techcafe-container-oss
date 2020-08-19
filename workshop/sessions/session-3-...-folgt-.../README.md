@@ -1,4 +1,4 @@
-# Session 3: Kubernetes für eure App
+# Session 3: Kubernetes Basics für eure App
 
 ## 
 
