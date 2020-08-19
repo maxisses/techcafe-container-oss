@@ -46,6 +46,7 @@
     * [optional: Horizontal Pod Autoscaling](sessions/session-3-...-folgt-.../part-4-next-stop-kubernetes/optional-release-and-traffic-management.md)
   * [Übung 2: - under construction - Kubernetes & Container mit Java Anwendung](sessions/session-3-...-folgt-.../part-1.md)
 * [Session 4: Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
+  * [Prework](sessions/part-3/prework.md)
   * [Übung 1: - under construction - Continous Integration / Continous Delivery für eure App anpassen](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
     * [Definition der Infrastruktur](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/definition-der-infrastruktur.md)
     * [Staging Phase zur Delivery Pipe hinzufügen](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-2.md)
