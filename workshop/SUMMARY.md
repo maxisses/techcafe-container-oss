@@ -36,7 +36,7 @@
     * [Image veröffentlichen](sessions/session-2-folgt/part-3-app-in-container-packen/image-veroeffentlichen.md)
 * [Session 3: Kubernetes Basics für eure App](sessions/session-3-...-folgt-.../README.md)
   * [Prework](sessions/session-3-...-folgt-.../prework.md)
-  * [Übung 1: next stop - Kubernetes](sessions/session-3-...-folgt-.../part-4-next-stop-kubernetes/README.md)
+  * [Übung 1: next stop - Kubernetes Basics](sessions/session-3-...-folgt-.../part-4-next-stop-kubernetes/README.md)
     * [CLI konfigurieren - kubeconfig](sessions/session-3-...-folgt-.../part-4-next-stop-kubernetes/cli-konfigurieren-kubeconfig.md)
     * [Deployment der Anwendung erstellen](sessions/session-3-...-folgt-.../part-4-next-stop-kubernetes/deployment-der-anwendung-erstellen.md)
     * [Service für die App erstellen](sessions/session-3-...-folgt-.../part-4-next-stop-kubernetes/service-fuer-die-app-erstellen.md)
