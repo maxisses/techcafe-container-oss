@@ -124,10 +124,9 @@ In this section, you first push the Docker image to the IBM Cloud private contai
 4. Build, tag \(`-t`\) and push the docker image to your container registry on IBM Cloud
 
    ```bash
-   ibmcloud cr build -t $MYREGISTRY/$MYNAMESPACE/$MYPROJECT:v1.0.0 .
+   docker build -t $MYREGISTRY/$MYNAMESPACE/$MYPROJECT:v1.0.0 .
+   docker push $MYREGISTRY/$MYNAMESPACE/$MYPROJECT:v1.0.0
    ```
-
-   {: pre}
 
 #### Deploy the application
 
