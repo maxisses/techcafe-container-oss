@@ -5,7 +5,7 @@
 1. Define an environment variable named `MYPROJECT` set with the name of the application you generated in the previous section:
 
    ```bash
-   export MYPROJECT=<your-initials>kubeapp
+   export MYPROJECT=<your-app-name>
    ```
 
 2. Change to the directory of the generated project.
