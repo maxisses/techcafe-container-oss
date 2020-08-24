@@ -2,7 +2,7 @@
 
 ## 
 
-This tutorial walks you through how to scaffold a web application, run it locally in a container, and then deploy it to a Kubernetes cluster created with . Additionally, you will learn how to bind a custom domain, monitor the health of the environment, and scale the application. {:shortdesc}
+This tutorial walks you through how to scaffold a web application, run it locally in a container, and then deploy it to a Kubernetes cluster created with . Additionally, you will learn how to bind a custom domain, monitor the health of the environment, and scale the application.
 
 Containers are a standard way to package apps and all their dependencies so that you can seamlessly move the apps between environments. Unlike virtual machines, containers do not bundle the operating system. Only the app code, run time, system tools, libraries, and settings are packaged inside containers. Containers are more lightweight, portable, and efficient than virtual machines.
 
