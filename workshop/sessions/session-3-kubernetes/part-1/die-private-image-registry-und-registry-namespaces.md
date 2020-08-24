@@ -13,7 +13,7 @@ In this section, you push the Docker image to the IBM Cloud private container re
 2. Define an environment variable named `MYREGISTRY` pointing to the URL such as:
 
    ```bash
-   export MYREGISTRY=us.icr.io
+   export MYREGISTRY=de.icr.io
    ```
 
 3. Pick one of your existing registry namespaces or create a new one. To list existing namespaces, use:
@@ -32,9 +32,9 @@ ibmcloud cr namespace-add <REGISTRY_NAMESPACE>
 ```
 {% endhint %}
 
-1. Define an environment variable named `MYNAMESPACE` pointing to the registry namespace:
+1. Define an environment variable named `MYNAMESPACE` pointing to the registry namespace. Use the provided namespace: drvtechcaferegistry
 
    ```bash
-   export MYNAMESPACE=<REGISTRY_NAMESPACE>
+   export MYNAMESPACE=drvtechcaferegistry
    ```
 
