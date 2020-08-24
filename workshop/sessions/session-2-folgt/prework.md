@@ -18,8 +18,6 @@ git --version
 node --version
 npm --version
 docker --version
-ibmcloud --version
-kubectl --version
 ```
 
 ![](../../.gitbook/assets/image%20%2839%29.png)
