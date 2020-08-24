@@ -6,10 +6,10 @@ description: Mit git clone oder ibmcloud dev
 
 
 
-Since we don't use most of the automation features "ibmcloud dev" provides we can alternatively we can just do:
+Since we don't use most of the automation features \(integration with ci/cd; direct deployment to kubernetes / openshift\) "ibmcloud dev" provides, alternatively we can just do a git clone , which is get us the repo that is behind the scaffold application we would build with the ibmcloud dev command.
 
 ```text
-https://github.com/IBM/java-liberty-app
+git clone https://github.com/IBM/java-liberty-app
 ```
 
 
