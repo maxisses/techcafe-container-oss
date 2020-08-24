@@ -22,15 +22,17 @@ In this section, you push the Docker image to the IBM Cloud private container re
    ibmcloud cr namespaces
    ```
 
+{% hint style="info" %}
 
 
-   To create a new namespace:
+To create a new namespace \(on your own account\):
 
-   ```bash
-   ibmcloud cr namespace-add <REGISTRY_NAMESPACE>
-   ```
+```bash
+ibmcloud cr namespace-add <REGISTRY_NAMESPACE>
+```
+{% endhint %}
 
-4. Define an environment variable named `MYNAMESPACE` pointing to the registry namespace:
+1. Define an environment variable named `MYNAMESPACE` pointing to the registry namespace:
 
    ```bash
    export MYNAMESPACE=<REGISTRY_NAMESPACE>

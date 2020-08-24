@@ -24,6 +24,7 @@
 
    ```bash
    docker build -t $MYREGISTRY/$MYNAMESPACE/$MYPROJECT:v1.0.0 .
+   ibmcloud cr login
    docker push $MYREGISTRY/$MYNAMESPACE/$MYPROJECT:v1.0.0
    ```
 
