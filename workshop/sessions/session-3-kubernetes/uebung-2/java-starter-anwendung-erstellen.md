@@ -1,4 +1,18 @@
+---
+description: Mit git clone oder ibmcloud dev
+---
+
 # Java Starter Anwendung erstellen
+
+
+
+Since we don't use most of the automation features "ibmcloud dev" provides we can alternatively we can just do:
+
+```text
+https://github.com/IBM/java-liberty-app
+```
+
+
 
 The `ibmcloud dev` tooling greatly cuts down on development time by generating application starters with all the necessary boilerplate, build and configuration code so that you can start coding business logic faster.
 
