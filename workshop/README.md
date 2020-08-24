@@ -42,7 +42,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 | :--- | :--- |
 | Session 1 | [Cloud-Native, Container & Public Cloud](sessions/app-entwicklung-auf-der-cloud/) |
 | Session 2 | [Flyover Cloud, Container, CI/CD, PaaS](sessions/session-2-folgt/) |
-| Session 3 | [Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-...-folgt-.../) |
+| Session 3 | [Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-kubernetes/) |
 | Session 4 | Continuous Integration / Continuous Delivery mit Kubernetes |
 | Session 5 | Was fehlt “vanilla Kubernetes”? |
 | Session 6 | Service Mesh in OpenShift |
