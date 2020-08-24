@@ -17,7 +17,7 @@
 ```text
 ibmcloud --version
 kubectl --version
-helm --version
+helm version
 ```
 
 
