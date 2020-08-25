@@ -74,6 +74,7 @@
 ## Resources
 
 * [IBM Cloud](https://cloud.ibm.com)
+* [IBM Kubernetes Cluster Inviter](https://drvtechcafe.eu-de.mybluemix.net/)
 * [WebEx Login](https://ibm.webex.com/meet/max.dargatz)
 * [WebEx Login - Breakout](https://ibm.webex.com/meet/rene.meyer)
 * [Slack Channel](https://ibmpublicdach.slack.com/archives/G017Z3RB762)
