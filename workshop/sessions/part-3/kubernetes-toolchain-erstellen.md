@@ -1,4 +1,4 @@
-# Kubernetes Toolchain erstellen -
+# Kubernetes Toolchain erstellen - Pipeline Konfiguration
 
 
 
@@ -30,7 +30,7 @@
 
 3. On the left, click **Worker**.
 
-   a. Select the private worker that you want to use to run your Tekton pipeline on the associated cluster. Either select the private worker you set up in the previous steps, or select the **IBM Managed workers in DALLAS** option.
+   a. Select the private worker that you want to use to run your Tekton pipeline on the associated cluster. Either select the private worker you set up in the previous steps, or select the **IBM Managed workers in Frankfurt** option.
 
    ![Worker tab](https://www.ibm.com/cloud/architecture/images/tutorials/toolchains/develop-kubernetes-app-using-tekton-delivery-pipelines/Tekton_Worker.png)
 

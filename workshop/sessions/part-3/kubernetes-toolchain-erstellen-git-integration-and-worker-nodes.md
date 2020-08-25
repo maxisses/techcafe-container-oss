@@ -1,4 +1,4 @@
-# Kubernetes Toolchain erstellen - Git Integration & Worker Nodes
+# Kubernetes Toolchain erstellen - Git Integration
 
 
 
@@ -45,9 +45,8 @@ In this task, you create a toolchain and add the tools that you need for this Se
    d. Click **Create Integration**. Tiles for Git Issues and Git Code are added to your toolchain.
 
 5. Return to your toolchain's overview page.
-6. Set up a Worker Nodes for your pipeline. _Pipeline Workers_ are the entities that run the pipeline stages. Typically, workers are used to access information that isn't publicly available. For example, you might use them to adhere to a security policy where jobs need to be run in non-public environments or to access a private repository. For more information about private workers, see [Working with Delivery Pipeline Private Workers](https://cloud.ibm.com/docs/ContinuousDelivery?topic=ContinuousDelivery-private-workers&cm_mmc=IBMBluemixGarageMethod-_-MethodSite-_-10-19-15::12-31-18-_-ContinuousDelivery-private-workers). We will use the Managed workers provided by IBM:
 
-![](../../.gitbook/assets/image%20%2860%29.png)
-
-
+{% hint style="info" %}
+Setting up a Worker Nodes for your pipeline would be the next step if you want private Workers. _Pipeline Workers_ are the entities that run the pipeline stages. Typically, workers are used to access information that isn't publicly available. For example, you might use them to adhere to a security policy where jobs need to be run in non-public environments or to access a private repository. For more information about private workers, see [Working with Delivery Pipeline Private Workers](https://cloud.ibm.com/docs/ContinuousDelivery?topic=ContinuousDelivery-private-workers&cm_mmc=IBMBluemixGarageMethod-_-MethodSite-_-10-19-15::12-31-18-_-ContinuousDelivery-private-workers). We will use the Managed workers provided by IBM, and we will configure it in the next step.
+{% endhint %}
 
