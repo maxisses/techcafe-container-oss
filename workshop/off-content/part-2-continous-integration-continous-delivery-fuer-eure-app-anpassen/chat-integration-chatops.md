@@ -4,7 +4,7 @@
 
 - geht auf "Add a Tool"
 
-![](../../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 - Wählt Slack aus und fügt es hinzu
 

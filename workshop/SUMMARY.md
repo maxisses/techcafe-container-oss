@@ -52,7 +52,7 @@
     * [Die Applikation über NodePort anschauen](sessions/session-3-kubernetes/uebung-2/die-applikation-ueber-nodeport-anschauen.md)
     * [Cloud Loadbalancer und Ingress \(Domain\) für die App](sessions/session-3-kubernetes/uebung-2/cloud-loadbalancer-und-ingress-domain-fuer-die-app.md)
     * [optional: Applikationsmonitoring & Auto-Skalierung](sessions/session-3-kubernetes/uebung-2/optional-applikationsmonitoring-and-auto-skalierung.md)
-* [Session 4: - under construction-Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
+* [Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
   * [Prework](sessions/part-3/prework.md)
   * [SetUp checken](sessions/part-3/setup-checken.md)
   * [Kubernetes Toolchain erstellen - Git Integration](sessions/part-3/kubernetes-toolchain-erstellen-git-integration-and-worker-nodes.md)
@@ -60,14 +60,6 @@
   * [Manueller PipelineRun um die Pipeline zu untersuchen](sessions/part-3/manueller-pipelinerun-um-die-pipeline-zu-untersuchen.md)
   * [GitHook & Code Änderung](sessions/part-3/untitled.md)
   * [Pipeline Tasks, Deployment & App Zugriff](sessions/part-3/pipeline-tasks-deployment-and-app-zugriff.md)
-  * [Übung 1: - under construction - Continous Integration / Continous Delivery für eure App anpassen](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
-    * [Definition der Infrastruktur](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/definition-der-infrastruktur.md)
-    * [Staging Phase zur Delivery Pipe hinzufügen](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-2.md)
-    * [Neue Delivery Pipeline auslösen](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-1.md)
-    * [simplen Health Check einbauen](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/simplen-health-check-einbauen.md)
-    * [Chat Integration \(ChatOps\)](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/chat-integration-chatops.md)
-    * [Optional: ChatOps git Integration](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/optional-chatops-git-integration.md)
-    * [optional: lokale Tests in Delivery Pipeline einbinden](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/optional-lokale-tests-in-delivery-pipeline-einbinden.md)
 
 ---
 
@@ -83,4 +75,16 @@
 * [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 * [Kubernetes Cheat Sheet](https://kubernetes.io/de/docs/reference/kubectl/cheatsheet/)
 * [IBM Tutorials](https://developer.ibm.com)
+
+---
+
+* [off-content](off-content/README.md)
+  * [Übung 1: - under construction - Continous Integration / Continous Delivery für eure App anpassen](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
+    * [Definition der Infrastruktur](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/definition-der-infrastruktur.md)
+    * [Staging Phase zur Delivery Pipe hinzufügen](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-2.md)
+    * [Neue Delivery Pipeline auslösen](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-1.md)
+    * [simplen Health Check einbauen](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/simplen-health-check-einbauen.md)
+    * [Chat Integration \(ChatOps\)](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/chat-integration-chatops.md)
+    * [Optional: ChatOps git Integration](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/optional-chatops-git-integration.md)
+    * [optional: lokale Tests in Delivery Pipeline einbinden](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/optional-lokale-tests-in-delivery-pipeline-einbinden.md)
 

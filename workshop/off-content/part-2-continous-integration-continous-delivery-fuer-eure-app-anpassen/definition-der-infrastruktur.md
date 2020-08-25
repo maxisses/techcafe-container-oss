@@ -8,5 +8,5 @@ Der Einfachheit halber - eine neue Application hinzufügen die "staging" im Name
 Hier gibt es natürlich verschiedene Möglichkeiten. Grundsätzlich natürlich Parametrisierung oder auch für jede Umgebung eine eigene Pipeline mit bspw. triggern auf verschiedenen Branches und weitere.
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 

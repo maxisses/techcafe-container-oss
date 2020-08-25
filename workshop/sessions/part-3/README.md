@@ -1,4 +1,4 @@
-# Session 4: - under construction-Continuous Integration / Continuous Delivery mit Kubernetes & Tekton
+# Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton
 
 By following this tutorial, you create an open toolchain that includes a Tekton-based delivery pipeline. You then use the toolchain and DevOps practices to develop a simple "Hello World" web application \(app\) that you deploy to the cluster provided by us running [IBM Cloud™ Kubernetes Service](https://www.ibm.com/garage/method/practices/run/tool_ibm_container) with Kubernetes. 
 

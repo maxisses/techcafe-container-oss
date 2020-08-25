@@ -14,7 +14,7 @@ https://staging-Domain eurer App/
 https://Domain eurer App/
 ```
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 - Clicke auf "Add Stage" rechts oben, ersetze MyStage durch "Health Check"
 

@@ -11,7 +11,7 @@ npm run test
 echo "$?"
 ```
 
-![](../../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 {% hint style="info" %}
 Bei node.js Anwendungen kann man in package.json zb "npm run test" definieren. In diesem Falle wird mit mocha getestet. Die Files sind im Ordner "test".
