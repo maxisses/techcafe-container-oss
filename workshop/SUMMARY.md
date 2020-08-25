@@ -54,12 +54,14 @@
     * [optional: Applikationsmonitoring & Auto-Skalierung](sessions/session-3-kubernetes/uebung-2/optional-applikationsmonitoring-and-auto-skalierung.md)
 * [Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
   * [Prework](sessions/part-3/prework.md)
+  * [Intro zu CI/CD & Tekton im speziellen](sessions/part-3/intro-zu-ci-cd-and-tekton-im-speziellen.md)
   * [SetUp checken](sessions/part-3/setup-checken.md)
   * [Kubernetes Toolchain erstellen - Git Integration](sessions/part-3/kubernetes-toolchain-erstellen-git-integration-and-worker-nodes.md)
   * [Kubernetes Toolchain erstellen - Pipeline Konfiguration](sessions/part-3/kubernetes-toolchain-erstellen.md)
   * [Manueller PipelineRun um die Pipeline zu untersuchen](sessions/part-3/manueller-pipelinerun-um-die-pipeline-zu-untersuchen.md)
   * [GitHook & Code Änderung](sessions/part-3/untitled.md)
   * [Pipeline Tasks, Deployment & App Zugriff](sessions/part-3/pipeline-tasks-deployment-and-app-zugriff.md)
+  * [Ressource Files analysieren](sessions/part-3/ressource-files-analysieren.md)
 
 ---
 
