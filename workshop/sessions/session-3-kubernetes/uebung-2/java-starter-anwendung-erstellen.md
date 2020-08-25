@@ -22,8 +22,6 @@ The `ibmcloud dev` tooling greatly cuts down on development time by generating a
    ibmcloud dev create
    ```
 
-   {: pre}
-
    You may be asked to target an organization and a space, follow the instructions on the CLI {:tip}
 
 2. Select `Backend Service / Web App` &gt; `Java - MicroProfile / JavaEE` &gt; `Java Liberty App` to create a Java starter. \(To create a Node.js starter instead, use `Backend Service / Web App` &gt; `Node`&gt; `Node.js Web App with Express.js (Web App)` \)
