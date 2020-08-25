@@ -1,4 +1,4 @@
-# Prework
+# SetUp checken
 
 Check whether your provided cluster is available.
 
