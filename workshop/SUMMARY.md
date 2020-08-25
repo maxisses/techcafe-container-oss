@@ -50,7 +50,7 @@
     * [Container Image bauen und in die private Registry verschieben.](sessions/session-3-kubernetes/uebung-2/container-image-bauen-und-in-die-private-registry-verschieben..md)
     * [Deployment nach Kubernetes mit HELM](sessions/session-3-kubernetes/uebung-2/deployment-nach-kubernetes-mit-helm.md)
     * [Die Applikation über NodePort anschauen](sessions/session-3-kubernetes/uebung-2/die-applikation-ueber-nodeport-anschauen.md)
-    * [Cloud Loadbalancer und Ingress \(Domain\) für die App](sessions/session-3-kubernetes/uebung-2/cloud-loadbalancer-und-ingress-domain-fuer-die-app.md)
+    * [optional: Cloud Loadbalancer und Ingress \(Domain\) für die App](sessions/session-3-kubernetes/uebung-2/cloud-loadbalancer-und-ingress-domain-fuer-die-app.md)
     * [optional: Applikationsmonitoring & Auto-Skalierung](sessions/session-3-kubernetes/uebung-2/optional-applikationsmonitoring-and-auto-skalierung.md)
 * [Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
   * [Prework](sessions/part-3/prework.md)

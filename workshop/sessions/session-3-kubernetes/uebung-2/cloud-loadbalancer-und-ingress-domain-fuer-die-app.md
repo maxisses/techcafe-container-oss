@@ -1,4 +1,4 @@
-# Cloud Loadbalancer und Ingress \(Domain\) für die App
+# optional: Cloud Loadbalancer und Ingress \(Domain\) für die App
 
 In the previous step, the application was accessed with a not standard port. The service was exposed by way of Kubernetes NodePort feature.
 
