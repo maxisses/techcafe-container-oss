@@ -1,4 +1,4 @@
-# optional: Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods
+# Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods
 
 fügt eurem deployment.yaml folgendes unten hinzu \(auf einrückung achten\) und deployed neu wie oben \(kubectl apply -f deployment.yaml\):
 

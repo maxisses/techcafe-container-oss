@@ -1,4 +1,4 @@
-# optional: Horizontal Pod Autoscaling
+# Horizontal Pod Autoscaling
 
 Passt euer deployment.yaml wieder auf 1 Replica an. Dann, diesmal ausnahmsweise imperativ, deployed ihr direkt in Kubernetes einen horizontal autoscaler \(vertical wäre nodes hinzufügen\). In diesem Falle ist die Cpu percentage bezogen auf den resource request bewusst gering gewählt da wir ja eine Miniwebanwendung haben. min/max bezieht sich auf die Pods.
 
@@ -6,13 +6,13 @@ Passt euer deployment.yaml wieder auf 1 Replica an. Dann, diesmal ausnahmsweise 
 kubectl autoscale deployment <name eures deployments> --cpu-percent=3 --min=1 --max=5
 ```
 
-Um den in Aktion zu sehen muss man ihn ein bisschen pushen und das schafft ihr wahrscheinlich nicht mit einem einfach curl:
+Um den in Aktion zu sehen muss man ihn ein bisschen pushen und das schafft ihr wahrscheinlich nicht mit einem einfach curl...
 
 ```text
 while true; do curl http://<ip eures nodes>:<nodeport>/; done
 ```
 
-sondern es braucht einen http load generator wie zB hey \([https://github.com/rakyll/hey](https://github.com/rakyll/hey)\). Nodeport und IP zu finden ist hier beschrieben:
+... sondern es braucht einen http load generator wie zB hey \([https://github.com/rakyll/hey](https://github.com/rakyll/hey)\). Nodeport und IP zu finden ist hier beschrieben:
 
 {% page-ref page="service-fuer-die-app-erstellen.md" %}
 

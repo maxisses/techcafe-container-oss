@@ -1,4 +1,4 @@
-# optional: manuell Skalieren
+# manuell Skalieren
 
 
 
