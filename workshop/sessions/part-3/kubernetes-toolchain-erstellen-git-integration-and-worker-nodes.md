@@ -5,6 +5,7 @@
 In this task, you create a toolchain and add the tools that you need for this Session. Before you begin, you need your API key and Kubernetes cluster name.
 
 1. Create your toolchain by following one of these options:
+
    * Open the toolchain creation page by clicking **Create toolchain**.
 
            [![Create Toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fopen-toolchain%2Fempty-toolchain&env_id=ibm:yp:us-east)
@@ -13,9 +14,12 @@ In this task, you create a toolchain and add the tools that you need for this Se
 
      ![Build your own toolchain](https://www.ibm.com/cloud/architecture/images/tutorials/toolchains/develop-kubernetes-app-using-tekton-delivery-pipelines/Blank_Template.png)
 
-   * If you already have a Kubernetes cluster, go to [cloud.ibm.com](https://cloud.ibm.com/?cm_mmc=IBMBluemixGarageMethod-_-MethodSite-_-10-19-15::12-31-18-_-ibm-bluemix-website). Open the menu in the upper-left corner and click **Kubernetes**. Click **Clusters** and click your cluster. On the cluster dashboard, click the **DevOps** tab and click **Create a Toolchain**. Click **Build Your Own Toolchain**. 
 
-     **Tip:** For instructions to navigate to the toolchain templates and select a toolchain to create, see [Navigating to the toolchain templates](https://www.ibm.com/cloud/architecture/tutorials/toolchain_nav).
+
+   We have a cluster there for you, so if you go to [cloud.ibm.com](https://cloud.ibm.com/?cm_mmc=IBMBluemixGarageMethod-_-MethodSite-_-10-19-15::12-31-18-_-ibm-bluemix-website) you could alternatively Open the menu in the upper-left corner and click **Kubernetes**. Click **Clusters** and click your cluster. On the cluster dashboard, click the **DevOps** tab and click **Create a Toolchain**. Click **Build Your Own Toolchain**. 
+
+   \*\*\*\*
+
 2. On the "Build your own toolchain" page, review the default information for the toolchain settings. The toolchain's name identifies it in IBM Cloud. Make sure that the toolchain's name is unique within IBM Cloud. Each toolchain is associated with a specific region and resource group. From the menus on the page, select the region and resource group where you want to create the toolchain. You can have up to 200 toolchains per resource group.
 
    ![Select\_Region](https://www.ibm.com/cloud/architecture/images/tutorials/toolchains/develop-kubernetes-app-using-tekton-delivery-pipelines/Region_Select.png)
