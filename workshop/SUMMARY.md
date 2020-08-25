@@ -58,7 +58,7 @@
   * [Kubernetes Toolchain erstellen - Git Integration](sessions/part-3/kubernetes-toolchain-erstellen-git-integration-and-worker-nodes.md)
   * [Kubernetes Toolchain erstellen - Pipeline Konfiguration](sessions/part-3/kubernetes-toolchain-erstellen.md)
   * [Manueller PipelineRun um die Pipeline zu untersuchen](sessions/part-3/manueller-pipelinerun-um-die-pipeline-zu-untersuchen.md)
-  * [Untitled](sessions/part-3/untitled.md)
+  * [GitHook & Code Änderung](sessions/part-3/untitled.md)
   * [Pipeline Tasks, Deployment & App Zugriff](sessions/part-3/pipeline-tasks-deployment-and-app-zugriff.md)
   * [Übung 1: - under construction - Continous Integration / Continous Delivery für eure App anpassen](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
     * [Definition der Infrastruktur](sessions/part-3/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/definition-der-infrastruktur.md)
