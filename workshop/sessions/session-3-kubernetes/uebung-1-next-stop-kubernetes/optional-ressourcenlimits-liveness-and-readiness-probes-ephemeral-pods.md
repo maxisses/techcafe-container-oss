@@ -41,7 +41,7 @@ livenessProbe:
           periodSeconds: 60
 ```
 
-* jetzt habt ihr eine ganz ähnliche funktionalität wie mit dem Health Check Skript aus Session 3 in der CI/CD Pipeline out-of-the-box und auch noch aller 60 sekunden \(das lässt sich natürlich anpassen\); sobald der healthcheck nicht erfolgreich ist startet der pod neu
+* sobald der healthcheck nicht erfolgreich ist startet der pod neu
 * schaut euch mit kubectl get pods eure X \(zB 5\) pods an \(mit kubectl get pods -o wide seht ihr auch noch etwas mehr\) 
 * killt einen mit kubectl delete pod &lt;NAME eines pods&gt; 
 * mit kubectl get pods direkt danach seht ihr das ein neuer pod als ersatz gestartet wurde, weil pods durch das replicaset gemonitored werden und sobald einer crashed/stirbt/gekillt wird, wird ein neuer gestartet
