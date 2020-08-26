@@ -17,7 +17,7 @@ resources:
 
 
 * wenn ihr 5 oder mehr replicas gewählt habt, stellt ihr fest \(**nur** wenn ihr den Free Cluster gewählt habt\), dass nicht alle pods im status running sind \(kubectl get pods\) weil eurer Knoten mit diesem groß gewählten ressource request ausgelastet ist; hättet ihr mehr als einen Worker würde natürlich auf verschiedenen Knoten gescheduled; die details zur auslatung eures knotes findet ihr mit:
-* 
+
 ```text
 kubectl get nodes
 ```
@@ -41,7 +41,7 @@ livenessProbe:
           periodSeconds: 60
 ```
 
-* sobald der healthcheck nicht erfolgreich ist startet der pod neu
+* sobald der healthcheck nicht erfolgreich ist wird er Pod neu gestartet
 * schaut euch mit kubectl get pods eure X \(zB 5\) pods an \(mit kubectl get pods -o wide seht ihr auch noch etwas mehr\) 
 * killt einen mit kubectl delete pod &lt;NAME eines pods&gt; 
 * mit kubectl get pods direkt danach seht ihr das ein neuer pod als ersatz gestartet wurde, weil pods durch das replicaset gemonitored werden und sobald einer crashed/stirbt/gekillt wird, wird ein neuer gestartet
