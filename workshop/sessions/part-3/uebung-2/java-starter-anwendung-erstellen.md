@@ -12,6 +12,8 @@ git clone https://github.com/IBM/java-liberty-app
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_ NOT REQUIRED IF YOU USED GIT CLONE \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 The `ibmcloud dev` tooling greatly cuts down on development time by generating application starters with all the necessary boilerplate, build and configuration code so that you can start coding business logic faster.
 
 1. Start the `ibmcloud dev` wizard to create a new directory in the current working directory.
