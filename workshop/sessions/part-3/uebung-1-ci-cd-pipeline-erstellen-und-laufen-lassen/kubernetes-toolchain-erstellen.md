@@ -59,8 +59,8 @@
 6. On the left, click **Environment properties**, and define the environment properties for this tutorial. To add each property, click **Add property** and click **Text property**, except for apiKey, which is a secured property. Add these properties:
    * `apikey`: Type the API key that you created earlier in this tutorial.
    * `cluster`: Type the name of the IBM Cloud Kubernetes Service cluster that you created.
-   * `clusterNamespace`: Type the namespace in your cluster where the app will be deployed. The default is prod.
-   * `clusterRegion`: Type the region where your IBM Cloud Kubernetes Service cluster is located. The default is us-south.
+   * `clusterNamespace`: Type the namespace in your cluster where the app will be deployed. Type in "default".
+   * `clusterRegion`: Type the region where your IBM Cloud Kubernetes Service cluster is located. Yours should be eu-de.
    * `registryNamespace`: Type the IBM Cloud Container Registry namespace where the app image will be built and stored. To use an existing namespace, use the CLI and run `ibmcloud cr namespace-list` to identify all your current namespaces.
    * `registryRegion`: Type the region where your IBM Cloud Container Registry is located. The default is us-south. To find your registry region, use the CLI and run `ibmcloud cr region`.
    * `repository`: Type the source Git repository where your resources are stored. This value is the URL of the Git repository that you created earlier in this tutorial. To find your repo URL, return to your toolchain and click the **Git** tile. When the repository is shown, copy the URL.

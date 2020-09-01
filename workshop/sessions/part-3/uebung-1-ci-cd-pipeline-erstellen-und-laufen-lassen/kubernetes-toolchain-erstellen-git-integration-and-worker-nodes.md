@@ -36,7 +36,7 @@ In this task, you create a toolchain and add the tools that you need for this Se
 
    a. From the **Repository type** list, select **Clone**.
 
-   b. In the **Source repository URL** field, type `https://github.com/open-toolchain/hello-tekton`.
+   b. In the **Source repository URL** field, type [`https://github.com/maxisses/hello-tekton`](https://github.com/maxisses/hello-tekton.git).
 
    c. Make sure that the **Make this repository private** checkbox is cleared and that the **Track deployment of code changes** checkbox is selected.
 

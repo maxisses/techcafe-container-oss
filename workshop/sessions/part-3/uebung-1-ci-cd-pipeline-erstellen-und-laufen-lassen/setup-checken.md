@@ -18,5 +18,3 @@ We stick to namespace from the last Session:
 
 `ibmcloud cr namespaces`
 
-Alternatively, you can create a namespace on the [Container Registry page](https://cloud.ibm.com/kubernetes/registry/main/namespaces?cm_mmc=IBMBluemixGarageMethod-_-MethodSite-_-10-19-15::12-31-18-_-namespaces).
-
