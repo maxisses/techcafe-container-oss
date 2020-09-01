@@ -45,7 +45,7 @@
     * [manuell Skalieren](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-manuell-skalieren.md)
     * [Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md)
     * [Horizontal Pod Autoscaling](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-release-and-traffic-management.md)
-* [Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
+* [Session 4: Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
   * [Prework](sessions/part-3/prework.md)
   * [Übung 0: Kubernetes Vertiefung mit Beispiel-Java Anwendung](sessions/part-3/uebung-2/README.md)
     * [Euer Trainingscluster](sessions/part-3/uebung-2/euer-trainingscluster.md)

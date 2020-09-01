@@ -1,4 +1,4 @@
-# Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton
+# Session 4: Continuous Integration / Continuous Delivery mit Kubernetes & Tekton
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
 
