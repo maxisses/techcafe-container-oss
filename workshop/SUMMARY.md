@@ -48,6 +48,7 @@
 * [Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/part-3/README.md)
   * [Prework](sessions/part-3/prework.md)
   * [Übung 0: Kubernetes Vertiefung mit Beispiel-Java Anwendung](sessions/part-3/uebung-2/README.md)
+    * [Euer Trainingscluster](sessions/part-3/uebung-2/euer-trainingscluster.md)
     * [CLI konfigurieren - kubeconfig](sessions/part-3/uebung-2/cli-konfigurieren-kubeconfig.md)
     * [Java Starter Anwendung erstellen](sessions/part-3/uebung-2/java-starter-anwendung-erstellen.md)
     * [Die private Image Registry und Registry Namespaces](sessions/part-3/uebung-2/die-private-image-registry-und-registry-namespaces.md)

@@ -25,7 +25,7 @@ In this section, you push the Docker image to the IBM Cloud private container re
 {% hint style="info" %}
 
 
-To create a new namespace \(on your own account\):
+Not required but to create a new namespace you would use \(on your own account\):
 
 ```bash
 ibmcloud cr namespace-add <REGISTRY_NAMESPACE>
