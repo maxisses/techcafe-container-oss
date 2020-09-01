@@ -1,8 +1,41 @@
 # Session 4: -under construction- Continuous Integration / Continuous Delivery mit Kubernetes & Tekton
 
-By following this tutorial, you create an open toolchain that includes a Tekton-based delivery pipeline. You then use the toolchain and DevOps practices to develop a simple "Hello World" web application \(app\) that you deploy to the cluster provided by us running [IBM Cloud™ Kubernetes Service](https://www.ibm.com/garage/method/practices/run/tool_ibm_container) with Kubernetes. 
+![](../../.gitbook/assets/image%20%2867%29.png)
 
-[Tekton](https://www.ibm.com/cloud/blog/tekton-a-modern-approach-to-continuous-delivery) is an [open-source](https://tekton.dev/), vendor-neutral, Kubernetes-native framework that you can use to build, test, and deploy apps to [Kubernetes](https://www.ibm.com/cloud/learn/kubernetes). Tekton provides a set of shared components for building [continuous integration](https://www.ibm.com/cloud/learn/continuous-integration) and [continuous delivery](https://www.ibm.com/cloud/learn/continuous-delivery) \(CICD\) systems. As an open-source project, Tekton is managed by the [Continuous Delivery Foundation](https://cd.foundation/) \(CDF\). The goal is to modernize continuous delivery by providing industry specifications for pipelines, workflows, and other building blocks. With Tekton, you can build, test, and deploy **across cloud providers or on-premises systems** by abstracting the underlying implementation details. Tekton pipelines are built in to [IBM Cloud™ Continuous Delivery](https://www.ibm.com/cloud/blog/announcements/build-and-deliver-using-tekton-enabled-pipelines).
-
-After you create the cluster and the toolchain, you change your app's code and push the change to the Git Repos and Issue Tracking repository \(repo\). When you push changes to your repo, the delivery pipeline automatically builds and deploys the code.
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Inhalt</b>
+      </th>
+      <th style="text-align:left"><b>Lernziele</b>
+      </th>
+      <th style="text-align:left"><b>Referenz</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>&#xB7; Nutze deine Anwendung um sie lokal zu testen, sie nach git zu pushen</p>
+        <p>&#xB7; verbinde dein git repo mit eine DevOps Delivery Pipeline und lasse
+          deine Anwendung bei jedem commit neu deployen nach Test und Prod Umgebung</p>
+        <p>&#xB7; Lerne das K8s native CI/CD Tool Tekton kennen</p>
+      </td>
+      <td style="text-align:left">
+        <p>Verst&#xE4;ndnis &#xFC;ber:</p>
+        <p>&#xB7; Wie baue ich eine Delivery Pipeline und erm&#xF6;gliche CI/CD?</p>
+        <p>&#xB7; Wie kann ich unterschiedliche Umgebungen f&#xFC;r Build, Test,
+          Deploy einbinden?</p>
+        <p>&#xB7; Welche weiteren Tools k&#xF6;nnen eingesetzt werden um sich in
+          Richtung &quot;DevOps&quot; zu entwickeln?</p>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-continuous-deployment-to-kubernetes">https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-continuous-deployment-to-kubernetes</a>
+        </p>
+        <p><a href="https://www.ibm.com/cloud/architecture/tutorials/develop-kubernetes-app-using-tekton-delivery-pipelines?task=1">https://www.ibm.com/cloud/architecture/tutorials/develop-kubernetes-app-using-tekton-delivery-pipelines?task=1</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 

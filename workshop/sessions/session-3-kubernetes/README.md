@@ -1,28 +1,38 @@
 # Session 3: Kubernetes Basics für eure App
 
-## 
+![](../../.gitbook/assets/image%20%2866%29.png)
 
-This tutorial walks you through how to scaffold a web application, run it locally in a container, and then deploy it to a Kubernetes cluster created with . Additionally, you will learn how to bind a custom domain, monitor the health of the environment, and scale the application.
-
-Containers are a standard way to package apps and all their dependencies so that you can seamlessly move the apps between environments. Unlike virtual machines, containers do not bundle the operating system. Only the app code, run time, system tools, libraries, and settings are packaged inside containers. Containers are more lightweight, portable, and efficient than virtual machines.
-
-For developers looking to kickstart their projects, the  CLI enables rapid application development and deployment by generating template applications that you can run immediately or customize as the starter for your own solutions. In addition to generating starter application code, Docker container image and CloudFoundry assets, the code generators used by the dev CLI and web console generate files to aid deployment into [Kubernetes](https://kubernetes.io/) environments. The templates generate [Helm](https://github.com/kubernetes/helm) charts that describe the application’s initial Kubernetes deployment configuration, and are easily extended to create multi-image or complex deployments as needed.
-
-### Objectives
-
-{: \#objectives}
-
-* Scaffold a starter application.
-* Deploy the application to the Kubernetes cluster.
-* Bind a custom domain.
-* Monitor the logs and health of the cluster.
-* Scale Kubernetes pods.
-
- !\[Architecture\]\(images/solution2/Architecture.png\)
-
-1. A developer generates a starter application with .
-2. Building the application produces a Docker container image.
-3. The image is pushed to a namespace in .
-4. The application is deployed to a Kubernetes cluster.
-5. Users access the application.
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Inhalt</b>
+      </th>
+      <th style="text-align:left"><b>Lernziele</b>
+      </th>
+      <th style="text-align:left"><b>Referenz</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>&#xB7; Nutzung einer Java oder Node.Js Anwendung</p>
+        <p>&#xB7; Deployment in einen Kubernetes Cluster</p>
+        <p>&#xB7; Automatisierung mit Helm</p>
+        <p>&#xB7; Monitoring der logs und der Applikation</p>
+        <p>&#xB7; Skalierung der Applikation &amp; Verkn&#xFC;pfung mit einer Domain</p>
+      </td>
+      <td style="text-align:left">
+        <p>Verst&#xE4;ndnis &#xFC;ber:</p>
+        <p>&#xB7; Wie bringe ich meine Anwendung in Kubernetes?</p>
+        <p>&#xB7; Wie k&#xF6;nnen mir Helm Charts dabei helfen?</p>
+        <p>&#xB7; Wof&#xFC;r dient die Container Registry?</p>
+        <p>&#xB7; Was sind Services &amp; Ingress und warum sind sie wichtig f&#xFC;r
+          die Kommunikation mit der Anwendung?</p>
+      </td>
+      <td style="text-align:left"><a href="https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-scalable-webapp-kubernetes">https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-scalable-webapp-kubernetes</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 

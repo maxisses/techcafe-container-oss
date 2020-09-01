@@ -36,6 +36,7 @@
     * [Image veröffentlichen](sessions/session-2-folgt/part-3-app-in-container-packen/image-veroeffentlichen.md)
 * [Session 3: Kubernetes Basics für eure App](sessions/session-3-kubernetes/README.md)
   * [Prework](sessions/session-3-kubernetes/prework.md)
+  * [Intro](sessions/session-3-kubernetes/intro-kubernetes.md)
   * [Übung 1: next stop - Kubernetes Basics](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/README.md)
     * [CLI konfigurieren - kubeconfig](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/cli-konfigurieren-kubeconfig.md)
     * [Deployment der Anwendung erstellen](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/deployment-der-anwendung-erstellen.md)
@@ -64,7 +65,7 @@
     * [GitHook & Code Änderung](sessions/part-3/uebung-2-automatisierte-pipelineruns-and-tasks/untitled.md)
     * [Pipeline Tasks, Deployment & App Zugriff](sessions/part-3/uebung-2-automatisierte-pipelineruns-and-tasks/pipeline-tasks-deployment-and-app-zugriff.md)
     * [Ressource Files analysieren](sessions/part-3/uebung-2-automatisierte-pipelineruns-and-tasks/ressource-files-analysieren.md)
-* [Session 5:](sessions/session-5.md)
+* [Session 5: Was fehlt “vanilla Kubernetes”?](sessions/session-5.md)
 
 ---
 
