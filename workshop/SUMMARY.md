@@ -66,6 +66,7 @@
     * [Ressource Files analysieren](sessions/part-3/uebung-2-automatisierte-pipelineruns-and-tasks/ressource-files-analysieren.md)
   * [Übung 3: ChatOps](sessions/part-3/uebung-3-chatops/README.md)
     * [Untitled](sessions/part-3/uebung-3-chatops/untitled.md)
+* [Session 5:](sessions/session-5.md)
 
 ---
 
