@@ -1,7 +1,5 @@
 # Kubernetes Toolchain erstellen - Git Integration
 
-
-
 In this task, you create a toolchain and add the tools that you need for this Session. Before you begin, you need your API key and Kubernetes cluster name.
 
 1. Create your toolchain by following one of these options:
