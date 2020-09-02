@@ -45,7 +45,7 @@
     * [manuell Skalieren](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-manuell-skalieren.md)
     * [Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md)
     * [Horizontal Pod Autoscaling](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-release-and-traffic-management.md)
-* [Session 4: Kubernetes Reloaded mit Java Liberty](sessions/session-4-kubernetes-reloaded-mit-java-liberty/README.md)
+* [Session 4: Kubernetes Reloaded mit Java Liberty, Helm & private Registry](sessions/session-4-kubernetes-reloaded-mit-java-liberty/README.md)
   * [Prework](sessions/session-4-kubernetes-reloaded-mit-java-liberty/prework.md)
   * [Intro](sessions/session-4-kubernetes-reloaded-mit-java-liberty/intro.md)
   * [Übung 1: Kubernetes Vertiefung mit Beispiel-Java Anwendung](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/README.md)

@@ -1,2 +1,2 @@
-# Session 4: Kubernetes Reloaded mit Java Liberty
+# Session 4: Kubernetes Reloaded mit Java Liberty, Helm & private Registry
 
