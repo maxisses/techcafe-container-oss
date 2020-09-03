@@ -71,6 +71,17 @@
     * [Pipeline Tasks, Deployment & App Zugriff](sessions/session-5/uebung-2-automatisierte-pipelineruns-and-tasks/pipeline-tasks-deployment-and-app-zugriff.md)
     * [Ressource Files analysieren](sessions/session-5/uebung-2-automatisierte-pipelineruns-and-tasks/ressource-files-analysieren.md)
 * [Session 6: Was fehlt “vanilla Kubernetes”?](sessions/session-6.md)
+* [Session 7: Service Mesh](sessions/session-7-service-mesh/README.md)
+  * [Prework](sessions/session-7-service-mesh/prework.md)
+  * [Intro](sessions/session-7-service-mesh/intro.md)
+  * [Übung 1: Istio aktivieren & Anwendung deployen](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen.md)
+  * [Übung 2: Visualisieren der Anwendung](sessions/session-7-service-mesh/uebung-2-visualisieren-der-anwendung.md)
+  * [Übung 3: Distributed Tracing](sessions/session-7-service-mesh/uebung-3-distributed-tracing.md)
+  * [Übung 4: Traffic Management - Canary & Dark Release](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release.md)
+  * [Übung 5: Fault Injection / Chaos Engineering](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering.md)
+  * [Untitled](sessions/session-7-service-mesh/untitled-2.md)
+  * [Untitled](sessions/session-7-service-mesh/untitled-1.md)
+  * [Untitled](sessions/session-7-service-mesh/untitled.md)
 
 ---
 
