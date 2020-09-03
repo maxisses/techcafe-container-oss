@@ -1,2 +1,2 @@
-# Session 7: Service Mesh
+# Session 7: Service Mesh in OpenShift
 

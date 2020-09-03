@@ -71,7 +71,7 @@
     * [Pipeline Tasks, Deployment & App Zugriff](sessions/session-5/uebung-2-automatisierte-pipelineruns-and-tasks/pipeline-tasks-deployment-and-app-zugriff.md)
     * [Ressource Files analysieren](sessions/session-5/uebung-2-automatisierte-pipelineruns-and-tasks/ressource-files-analysieren.md)
 * [Session 6: Was fehlt “vanilla Kubernetes”?](sessions/session-6.md)
-* [Session 7: Service Mesh](sessions/session-7-service-mesh/README.md)
+* [Session 7: Service Mesh in OpenShift](sessions/session-7-service-mesh/README.md)
   * [Prework](sessions/session-7-service-mesh/prework.md)
   * [Intro](sessions/session-7-service-mesh/intro.md)
   * [Übung 1: Istio aktivieren & Anwendung deployen](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen.md)
