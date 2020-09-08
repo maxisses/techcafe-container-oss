@@ -62,6 +62,8 @@
   * [Prework](sessions/session-5/prework.md)
   * [Intro zu CI/CD & Tekton im speziellen](sessions/session-5/intro-zu-ci-cd-and-tekton-im-speziellen.md)
   * [Übung 1: CI/CD Pipeline erstellen und laufen lassen](sessions/session-5/uebung-1-ci-cd-pipeline-erstellen-und-laufen-lassen/README.md)
+    * [Euer heutiger Cluster](sessions/session-5/uebung-1-ci-cd-pipeline-erstellen-und-laufen-lassen/your-cluster.md)
+    * [Verbinden mit eurem Cluster](sessions/session-5/uebung-1-ci-cd-pipeline-erstellen-und-laufen-lassen/verbinden-mit-eurem-cluster.md)
     * [SetUp checken](sessions/session-5/uebung-1-ci-cd-pipeline-erstellen-und-laufen-lassen/setup-checken.md)
     * [Kubernetes Toolchain erstellen - Git Integration](sessions/session-5/uebung-1-ci-cd-pipeline-erstellen-und-laufen-lassen/kubernetes-toolchain-erstellen-git-integration-and-worker-nodes.md)
     * [Kubernetes Toolchain erstellen - Pipeline Konfiguration](sessions/session-5/uebung-1-ci-cd-pipeline-erstellen-und-laufen-lassen/kubernetes-toolchain-erstellen.md)
