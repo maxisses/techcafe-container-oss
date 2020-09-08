@@ -81,9 +81,6 @@
   * [Übung 3: Distributed Tracing](sessions/session-7-service-mesh/uebung-3-distributed-tracing.md)
   * [Übung 4: Traffic Management - Canary & Dark Release](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release.md)
   * [Übung 5: Fault Injection / Chaos Engineering](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering.md)
-  * [Untitled](sessions/session-7-service-mesh/untitled-2.md)
-  * [Untitled](sessions/session-7-service-mesh/untitled-1.md)
-  * [Untitled](sessions/session-7-service-mesh/untitled.md)
 
 ---
 
