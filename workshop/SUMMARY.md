@@ -73,6 +73,8 @@
     * [Pipeline Tasks, Deployment & App Zugriff](sessions/session-5/uebung-2-automatisierte-pipelineruns-and-tasks/pipeline-tasks-deployment-and-app-zugriff.md)
     * [Ressource Files analysieren](sessions/session-5/uebung-2-automatisierte-pipelineruns-and-tasks/ressource-files-analysieren.md)
 * [Session 6: Was fehlt “vanilla Kubernetes”?](sessions/session-6-what-lacks-vanilla-k8s/README.md)
+  * [Untitled](sessions/session-6-what-lacks-vanilla-k8s/untitled-3.md)
+  * [Untitled](sessions/session-6-what-lacks-vanilla-k8s/untitled-2.md)
   * [Untitled](sessions/session-6-what-lacks-vanilla-k8s/untitled-1.md)
   * [Untitled](sessions/session-6-what-lacks-vanilla-k8s/untitled.md)
 * [Session 7: Service Mesh in OpenShift](sessions/session-7-service-mesh/README.md)
