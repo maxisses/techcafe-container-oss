@@ -1,61 +1,65 @@
-# Advocacy Workshop
+---
+description: 'Hands-On Sessions zu Containertechnologie, Microservices & Kubernetes'
+---
 
-This is a template for workshops hosted on Gitbook. To view it online, go to:
+# TechCafé der DRV Bund
 
-<https://ibm-developer.gitbook.io/workshop-template/>
+## About
 
-Create a new repo based off this template, and use the folowing folders as a guide:
+Das virtuelle Techcafé DRV Bund soll IT-Administratoren & Entwicklern der DRV Bund helfen OpenSource Technologien schnell kennenzulernen, anzuwenden und einzuschätzen welche Rolle sie im Kontext der eigenen Arbeit spielen.
 
-```ini
+Diese Einleitung ist folgendermaßen aufgebaut:
 
-- data (any data (CSV, JSON, etc files) to be used)
-- notebooks (any Jupyter notebooks can go here)
-- src (any application source code can go here)
-- workshop (this is where the workshop is documented)
-|_ .gitbook (images should go here)
-|_ <folder-n> (these are exercises for the workshop)
-  |_README.md (the steps for the exercise, in Markdown)
-|_ README.md (this will appear on the gitbook home page)
-|_ SUMMARY.md (this dictates the Table of Contents)
-.gitbook.yaml (tells GitBook to only read the stuff in 'workshop')
-.travis.yaml (runs markdownlint by default)
-README.md (only used for GitHub.com)
-```
+* About
+* Coaches
+* Eckdaten
+* Vorkenntnisse & Was sollte man mitbringen
+* Agenda
 
-## Tips and conventions
+![](.gitbook/assets/image%20%2819%29.png)
 
-### Screenshots
+## Coaches
 
-Screenshots look better if they are full page.
-Use [ImageMagick](https://imagemagick.org) to create a nice border around images with this command:
+[Rene Meyer ](https://www.linkedin.com/in/ren%C3%A9-meyer-6271308/)  
+[Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/)
 
-```bash
-magick mogrify -bordercolor gray -border 2
-```
+## **Eckdaten**
 
-### Design in GitBook
+* 10 Sessions á 1,5h
+* 5 bis 8 Teilnehmer
+* remote mit eigenen Endgeräten
 
-To ensure a common design for IBM workshops please use following options:
+## **Vorkenntnisse & Was sollte man mitbringen:**
 
-* Select in `Theme & Colors` the theme: `Bold` and the color: `#1C6DBC`
+* Neugier, Engagement, Motivation
+* grundlegende IT-Kenntnisse \(z.B. Umgang mit Terminal, Betriebssystemen\)
+* grundlegende Erfahrungen mit einer oder mehr Programmiersprachen
+* BYOD 
 
-![](workshop/.gitbook/generic/gitbook-theme-and-color.png)
+## Sessions
 
-* Select in `Logo & Title` the IBM logo
+| ID | Titel |
+| :--- | :--- |
+| Session 1 | [Cloud-Native, Container & Public Cloud](sessions/app-entwicklung-auf-der-cloud/) |
+| Session 2 | [Flyover Cloud, Container, CI/CD, PaaS](sessions/session-2-folgt/) |
+| Session 3 | [Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-kubernetes/) |
+| Session 4 | Continuous Integration / Continuous Delivery mit Kubernetes |
+| Session 5 | Was fehlt “vanilla Kubernetes”? |
+| Session 6 | Service Mesh in OpenShift |
+| Session 7 | Continuous Integration /Continuous Delivery mit Tekton in OpenShift |
+| Session 8 | Serverless - Cloud Functions mit KNative |
+| Session 9 | Serverless - OpenShift Operator & KNative |
+| Session 10 | Machine Learning& Container Technologie - TextGen im Container |
 
-![](workshop/.gitbook/generic/gitbook-logo.png)
+## Agenda der Sessions
 
-### Understand the major GitBook template structure
+| Titel | Dauer | Wer? |
+| :--- | :--- | :--- |
+| Intro & Quiz | 5 Minuten | IBM Coaches |
+| Einführung zur Theorie und Inhalt des Labs | 10 Minuten | IBM Coaches |
+| Code & Work Along | 60 Minuten | Alle |
+| Wrap-Up: Was haben wir heute gemacht? Welche Relevanz hat es? | 10 Minuten | Alle |
+| Feedback | 5 Minuten | DRV Techies |
 
-It is useful to understand the used GitBook structure of this [template](https://docs.gitbook.com/integrations/github/content-configuration#structure).
-
-* [README.md](https://docs.gitbook.com/integrations/github/content-configuration#structure): Each README.md dictates the Table of Contents on the right hand side.
-* [SUMMARY.md](https://docs.gitbook.com/integrations/github/content-configuration#summary): This dictates the Table of Contents on the left hand side.
-  * [root](https://docs.gitbook.com/integrations/github/content-configuration#root): Path to lookup for your documentation defaults to the root directory of the repository.
-* [.gitbook.yaml](https://docs.gitbook.com/integrations/github/content-configuration): You can configure how GitBook should parse your Git repository using the.gitbook.yaml file that must rely on the root of your repository.
-
-The image shows the file names and thier resonsibilities.
-
-![](workshop/.gitbook/generic/gitbook-mainstructure.png)
 
 
