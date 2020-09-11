@@ -79,6 +79,7 @@
     * [Von Yaml](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-yaml.md)
     * [Von Dockerfile](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-dockerfile.md)
     * [S2I - direkt von Git](sessions/session-6-what-lacks-vanilla-k8s/deploy/s2i-direkt-von-git.md)
+    * [Expose als Route](sessions/session-6-what-lacks-vanilla-k8s/deploy/expose-als-route.md)
   * [Logging](sessions/session-6-what-lacks-vanilla-k8s/logging.md)
   * [Monitoring](sessions/session-6-what-lacks-vanilla-k8s/monitoring.md)
   * [Skalieren der Anwendung](sessions/session-6-what-lacks-vanilla-k8s/scale.md)
