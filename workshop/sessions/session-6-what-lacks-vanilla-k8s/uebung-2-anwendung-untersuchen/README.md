@@ -1,2 +1,2 @@
-# Übung 2: Anwendung untersuchen
+# Übung 2: Logging und Monitoring der Anwendung
 
