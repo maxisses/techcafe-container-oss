@@ -1,4 +1,4 @@
-# Skalieren der Anwendung
+# Übungen 3: Skalieren der Anwendung
 
 In this exercise, you'll deploy a simple Node.js Express application - "Example Health". Example Health is a simple UI for a patient health records system. We'll use this example to demonstrate key OpenShift features throughout this workshop. You can find the sample application GitHub repository here: [https://github.com/svennam92/node-s2i-openshift](https://github.com/svennam92/node-s2i-openshift)
 
