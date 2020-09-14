@@ -83,7 +83,7 @@
     * [Yaml Deployment via Web Console](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-yaml.md)
     * [Dockerfile Build & Deployment via Web Console](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-dockerfile.md)
     * [Source2Image \(S2I\) Build & Deployment via WebConsole](sessions/session-6-what-lacks-vanilla-k8s/deploy/s2i-direkt-von-git.md)
-    * [Expose als Route](sessions/session-6-what-lacks-vanilla-k8s/deploy/expose-als-route.md)
+    * [Zugriff auf Productpage über eine Route](sessions/session-6-what-lacks-vanilla-k8s/deploy/expose-als-route.md)
   * [Übung 2: Logging und Monitoring der Anwendung](sessions/session-6-what-lacks-vanilla-k8s/uebung-2-anwendung-untersuchen/README.md)
     * [Logging](sessions/session-6-what-lacks-vanilla-k8s/uebung-2-anwendung-untersuchen/logging.md)
     * [Monitoring](sessions/session-6-what-lacks-vanilla-k8s/uebung-2-anwendung-untersuchen/monitoring.md)
