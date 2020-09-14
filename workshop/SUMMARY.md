@@ -75,7 +75,7 @@
 * [Session 6: Was fehlt “vanilla Kubernetes”?](sessions/session-6-what-lacks-vanilla-k8s/README.md)
   * [Prework](sessions/session-6-what-lacks-vanilla-k8s/prework.md)
   * [Intro](sessions/session-6-what-lacks-vanilla-k8s/intro-session3.md)
-  * [Übung 1: Deployen nach OpenShift](sessions/session-6-what-lacks-vanilla-k8s/deploy/README.md)
+  * [Übung 1: Bauen & Deployen nach OpenShift](sessions/session-6-what-lacks-vanilla-k8s/deploy/README.md)
     * [Von yaml file](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-yaml-file.md)
     * [Von Yaml via GUI](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-yaml.md)
     * [Von Dockerfile](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-dockerfile.md)
