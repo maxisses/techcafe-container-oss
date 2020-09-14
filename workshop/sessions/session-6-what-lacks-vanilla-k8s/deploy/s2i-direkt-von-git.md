@@ -4,7 +4,7 @@ Die letzte Komponente, die wir nun bauen und deployen ist die ProductPage. Diese
 
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-16.09.51.png)
 
-In dem Formular müssen wir nun angeben wo unser Source Code liegt und mit wellchem Builder Image wir dieses bauen wollen. Hier wählen wir Python in Version 3.6 aus.
+In dem Formular müssen wir nun angeben wo unser Source Code liegt und mit welchem Builder Image wir dieses bauen wollen. Hier wählen wir Python in Version 3.6 aus.
 
 Weiterhin müssen die folgedenen Werte angepasst werden:
 
