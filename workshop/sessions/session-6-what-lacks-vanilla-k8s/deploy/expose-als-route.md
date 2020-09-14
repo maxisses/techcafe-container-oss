@@ -16,7 +16,7 @@ In dem eingeblendeten Formular geben wir folgende Werte an:
 
   * 8080
 
-Die erstellte Route kann dann mittels der URL, die in dem Location Attribut referenziert wird konsumiert werden.
+Die erstellte Route kann dann mittels der URL, die in dem Location Attribut referenziert wird konsumiert werden. Alternativ kann man über das Icon in der Topolgy View \(rechts über dem Kreis, der den Pod darstellt\) klicken.
 
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-16.23.13.png)
 
