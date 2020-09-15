@@ -1,8 +1,22 @@
-# Health Checks - Readiness & Liveness Probes
+# optional: Health Checks - Readiness & Liveness Probes
 
 OpenShift \(bzw. Kubernetes ebenfalls\) überwacht den Zustand der Pods über sogenannte Readiness und Liveness Probes. Eine Readiness Probe checkt, ob der Prozess innerhalb des Pods erfogreich gestartet ist und bereit ist Anfragen entgegenzunehmen. Die Lifeness Probe überwacht, ob der Pod immer noch auf Anfragen reagiert und startet ihn ggf. neu.
 
+Wir haben das hier schonmal gemacht:
+
+{% page-ref page="../../session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md" %}
+
 ## Readiness Probe
+
+```text
+resources:
+            limits:
+              memory: "256Mi"
+              cpu: "1000m"
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
+```
 
 Wir definieren nun eine Readiness Probe auf der Productpage. Hierzu wählen wir wieder das Deployment aus und klicken auf den Hinweis, der uns auffordert einen Health Check hinzuzufügen.
 
@@ -18,6 +32,15 @@ In dem eingeblendeten Formular wählen wir Readiness Probe aus und setzen:
 Wir können beobachten, dass der neu deployte Pod niemals ready wird, da der Pfad /test in einem 404 error resultiert. Dies veranlasst das Deployment niemals auf die neue Pod Instanz umzuschalten. Wenn wir nun den Path auf / setzen \(rechte Maustaste Edit Health Checks\) geht das Deployment wieder erfolgreich durch.
 
 ## Liveness Probe
+
+```text
+livenessProbe:
+          httpGet:
+            path: /health
+            port: 3000
+          initialDelaySeconds: 60
+          periodSeconds: 60
+```
 
 Wir legen nun eine Liveness Probe an. Hierfür wählen wir wieder Productpage auf und editieren die Health Checks ein weiteres Mal  \(rechte Maustaste Edit Health Checks\). In dem Formular für die Liveness Probe hinterlegen wir folgende Werte:
 

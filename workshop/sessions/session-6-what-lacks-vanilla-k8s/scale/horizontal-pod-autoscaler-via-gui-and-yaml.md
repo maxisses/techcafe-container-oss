@@ -28,17 +28,3 @@ conditions:
       message: the HPA controller was able to get the target's current scale
 ```
 
-
-
-## Load auf der Applikation simulieren
-
-1. ```bash
-    while sleep 1; do curl -s http://<host>/productpage; done
-   ```
-
-   With Windows:
-
-   ```bash
-    while($true){curl http://<host>/productpage}
-   ```
-
