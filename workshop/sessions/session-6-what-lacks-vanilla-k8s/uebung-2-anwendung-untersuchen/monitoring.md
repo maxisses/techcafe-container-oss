@@ -16,17 +16,3 @@ Wenn über die Linke Hauptnavigation in der Developer View auf das Monitoring Ta
 
 
 
-## Load auf der Applikation simulieren
-
-1. ```bash
-    while sleep 1; do curl -s http://<host>/productpage; done
-   ```
-
-   With Windows:
-
-   ```bash
-    while($true){curl http://<host>/productpage}
-   ```
-
-
-

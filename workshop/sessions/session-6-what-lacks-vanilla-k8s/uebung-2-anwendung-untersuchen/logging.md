@@ -21,13 +21,13 @@ Alternativ könnt ihr in der Web Console über das Deployment auf den Pod navigi
 
 Die Logs können natürlich auch für Jobs, Builds etc. abgerufen werden.
 
-Ein weitere Möglichkeit auf Logs zuzugreifen oder zu debuggen ist das Terminal um eine Console auf einem Pod zu öffnen. Um diese Möglichkeit zu demonstrieren navigieren wir auf eines der Deployments und klicken in der Topology auf dessen Namen und wählen den Reiter Enviroment. Hier tragen wir den Schlüssel TEST\_KEY mit dem Wert TEST\_VALUE ein und speichern ab. Daraufhin wird der Pod neu ausgerollt. 
+Ein weitere Möglichkeit auf Logs zuzugreifen oder zu debuggen ist das Terminal um eine Console auf einem Pod zu öffnen. Um diese Möglichkeit zu demonstrieren navigieren wir auf eines der **Deployments z.B.** productpage und klicken in der Topology auf dessen Namen und wählen den Reiter Enviroment. Hier tragen wir den Schlüssel TEST\_KEY mit dem Wert TEST\_VALUE ein und speichern ab. Daraufhin wird der Pod neu ausgerollt. 
 
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-16.46.20.png)
 
 
 
-Wir wechseln auf den Reiter Pods und klicken auf den entsprechenden Eintrag in der Tabelle. Hier wechseln wir dann auf den Reiter Terminal.
+Wir wechseln auf den Reiter Pods und klicken auf den entsprechenden Pod "productpage-&lt;alphanumstrin&gt; in der Tabelle. Hier wechseln wir dann auf den Reiter Terminal.
 
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-16.48.13.png)
 

@@ -2,33 +2,25 @@
 
 Um über eure CLI mit dem Cluster zu kommunizieren, müsst ihr eine kubeconfig erstellen. Dazu braucht ihr einen token, den ihr über die GUI des OpenShift Clusters erhaltet. Öffnet die GUI zw. Console über den blauen Button.
 
+![](../../../.gitbook/assets/image%20%2872%29.png)
+
+![](../../../.gitbook/assets/image%20%2879%29.png)
+
+Rechts oben findet ihr ein Dropdown mit eurem Nutzernamen. Geht auf "copy login command" und kopiert euch den gesamten Befehl, wie unten in dem Bild dargestellt.
+
+![](../../../.gitbook/assets/image%20%2875%29.png)
+
 ![](../../../.gitbook/assets/image%20%2871%29.png)
 
-![](../../../.gitbook/assets/image%20%2873%29.png)
+Jetzt habt ihr die Wahl - entweder ihr habt das oc CLI Tool lokal oder im Container installiert. Alternativ könnt ihr die IBM Cloud CLI verwenden. Ihr findet sie auf der Startseite [www.cloud.ibm.com ](https://cloud.ibm.com/)rechts oben. Im Bild das Symbol ganz links, welches euch einen Terminal öffnet wo "oc", "kubectl" usw. schon vorinstalliert ist.
 
+![](../../../.gitbook/assets/image%20%2877%29.png)
 
-
-* * [https://cloud.ibm.com/kubernetes/clusters](https://cloud.ibm.com/kubernetes/clusters) 
-* euren cluster auswählen \(falls ihr den standard gelassen habt ist es: mycluster\)
-* optional: rechts oben Kubernetes Dashboard anwählen in neuem Tab öffnen und dann links auf "Deployments" klicken \(für später\)
-* auf dem Dashboard rechts oben "Actions" und connect via cli; im Schritt 1 recht "ibmcloud login" und dann eure nutzerdaten eingeben aus; schritt 2 & 3 exakt in den Terminal kopieren
+![](../../../.gitbook/assets/image%20%2876%29.png)
 
 {% hint style="info" %}
-Wichtig: Wählt nach Eingabe eures Logins nicht euren Account aus, sondern den des Gastgebers aus.
+oc ist eine Erweiterung zu kubectl. Ihr könnt also auch weiterhin mit kubectl mit dem OpenShift Cluster arbeiten. Aber oc bietet noch mehr Funktionalitäten. Hier ein Beispiel:
 {% endhint %}
 
-```text
-ibmcloud login -a cloud.ibm.com -r eu-de -g labinaboxdrvresgroup
-ibmcloud ks cluster config --cluster <eure ClusterID>
-kubectl config current-context
-```
-
-![](../../../.gitbook/assets/image%20%2833%29.png)
-
-Dann könnt ihr leicht prüfen ob alles läuft:
-
-```text
-kubectl get nodes
-kubectl get pods
-```
+![](../../../.gitbook/assets/image%20%2878%29.png)
 

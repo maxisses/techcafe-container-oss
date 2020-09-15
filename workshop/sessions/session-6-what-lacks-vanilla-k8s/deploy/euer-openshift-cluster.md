@@ -8,7 +8,7 @@ Folgt den angegeben Schritten auf der Website:
 
 Sobald ihr einen Cluster in eurer Ressourcen Liste seht, habt ihr Zugriff auf den OpenShift Cluster.
 
-![](../../../.gitbook/assets/image%20%2872%29.png)
+![](../../../.gitbook/assets/image%20%2873%29.png)
 
 
 
