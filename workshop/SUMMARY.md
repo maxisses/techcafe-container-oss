@@ -77,7 +77,7 @@
   * [Intro](sessions/session-6-what-lacks-vanilla-k8s/intro-session3.md)
   * [Übung 1: Bauen & Deployen nach OpenShift](sessions/session-6-what-lacks-vanilla-k8s/deploy/README.md)
     * [Euer OpenShift Cluster](sessions/session-6-what-lacks-vanilla-k8s/deploy/euer-openshift-cluster.md)
-    * [Verbinden mit dem Cluster](sessions/session-6-what-lacks-vanilla-k8s/deploy/verbinden-mit-dem-cluster.md)
+    * [Verbinden mit dem OpenShift Cluster](sessions/session-6-what-lacks-vanilla-k8s/deploy/verbinden-mit-dem-cluster.md)
     * [Neues Projekt erstellen](sessions/session-6-what-lacks-vanilla-k8s/deploy/neues-projekt-erstellen.md)
     * [Yaml Deployment über oc](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-yaml-file.md)
     * [Yaml Deployment via Web Console](sessions/session-6-what-lacks-vanilla-k8s/deploy/von-yaml.md)
