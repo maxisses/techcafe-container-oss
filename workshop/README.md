@@ -43,11 +43,11 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 | Session 1 | [Cloud-Native, Container & Public Cloud](sessions/app-entwicklung-auf-der-cloud/) |
 | Session 2 | [Flyover Cloud, Container, CI/CD, PaaS](sessions/session-2-folgt/) |
 | Session 3 | [Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-kubernetes/) |
-| Session 4 | Continuous Integration / Continuous Delivery mit Kubernetes |
-| Session 5 | Was fehlt “vanilla Kubernetes”? |
-| Session 6 | Service Mesh in OpenShift |
-| Session 7 | Continuous Integration /Continuous Delivery mit Tekton in OpenShift |
-| Session 8 | Serverless - Cloud Functions mit KNative |
+| Session 4 | [Kubernetes Reloaded mit Java Liberty, Helm & private Registry](sessions/session-4-kubernetes-reloaded-mit-java-liberty/) |
+| Session 5 | [Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/session-5/) |
+| Session 6 | [Was fehlt "vanilla" Kubernetes?](sessions/session-6-what-lacks-vanilla-k8s/) |
+| Session 7 | [Service Mesh mit Istio und OpenShift](sessions/session-7-service-mesh/) |
+| Session 8 | Continuous Integration / Continuous Delivery mit Tekton in OpenShift |
 | Session 9 | Serverless - OpenShift Operator & KNative |
 | Session 10 | Machine Learning& Container Technologie - TextGen im Container |
 
