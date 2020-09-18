@@ -122,7 +122,7 @@
     * [Fehler einbauen](sessions/session-7-service-mesh/uebung-6-circuit-breaking/erstellen-des-circuit-breakers.md)
     * [Circuit Breaker erstellen](sessions/session-7-service-mesh/uebung-6-circuit-breaking/circuit-breaker-erstellen.md)
     * [Funktioniert er?](sessions/session-7-service-mesh/uebung-6-circuit-breaking/funktioniert-er.md)
-  * [Übung 7: mTLS im Cluster](sessions/session-7-service-mesh/uebung-6-mtls-im-cluster.md)
+  * [left out: External Service & mTLS](sessions/session-7-service-mesh/uebung-6-mtls-im-cluster.md)
 
 ---
 
