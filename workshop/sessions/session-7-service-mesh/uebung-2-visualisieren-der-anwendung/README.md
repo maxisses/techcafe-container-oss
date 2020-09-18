@@ -1,2 +1,2 @@
-# Übung 2: Visualisieren der Anwendung
+# Übung 2: Visualisierung & TrafficManagement \(Canary\)
 
