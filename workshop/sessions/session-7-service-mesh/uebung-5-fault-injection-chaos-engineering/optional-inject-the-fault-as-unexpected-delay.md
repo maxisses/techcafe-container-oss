@@ -1,10 +1,52 @@
-# optional: Inject the fault as unexpected delay
+# Fault injection durch Service Delay
+
+
+
+### 2. Delay
 
 ```text
-- fault:
-      delay:
-        fixedDelay: 7s
-        percentage:
-          value: 100
+oc apply -f fault-injection_delay.yaml
+```
+
+```text
+kind: VirtualService
+apiVersion: networking.istio.io/v1alpha3
+metadata:
+  name: reviews
+spec:
+  hosts:
+    - reviews
+  http:
+    - fault:
+        delay:
+          fixedDelay: 3s
+          percentage:
+            value: 50
+      match:
+      - headers:
+          end-user:
+            exact: max
+      route:
+        - destination:
+            host: reviews
+            subset: risky
+    - route:
+        - destination:
+            host: reviews
+            subset: safe
+---
+kind: DestinationRule
+apiVersion: networking.istio.io/v1alpha3
+metadata:
+  name: reviews
+spec:
+  host: reviews
+  subsets:
+    - labels:
+        version: v2
+      name: safe
+    - labels:
+        version: v3
+      name: risky
 ```
 

@@ -12,7 +12,7 @@ Das alles funktioniert nur wenn es in jedem einzelnen Service implementiert ist,
 [https://istio.io/latest/faq/distributed-tracing/](https://istio.io/latest/faq/distributed-tracing/)
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%28105%29.png)
+![](../../../.gitbook/assets/image%20%28106%29.png)
 
-![](../../../.gitbook/assets/image%20%28108%29.png)
+![](../../../.gitbook/assets/image%20%28109%29.png)
 

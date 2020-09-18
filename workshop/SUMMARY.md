@@ -116,7 +116,7 @@
     * [Traffic suspension mit Kiali](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/traffic-suspension-mit-kiali.md)
     * [YAML des Kiali-generierten VirtualService inspizieren](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/yaml-exportieren.md)
     * [Fault Injection mit httpStatus Codes](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/inject-the-fault-as-httpstatus-503.md)
-    * [optional: Inject the fault as unexpected delay](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/optional-inject-the-fault-as-unexpected-delay.md)
+    * [Fault injection durch Service Delay](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/optional-inject-the-fault-as-unexpected-delay.md)
     * [Finde die fehlerhaften Traces mit Jaeger](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/finde-die-fehlerhaften-traces-mit-jaeger.md)
   * [Übung 6: Circuit Breaking](sessions/session-7-service-mesh/uebung-6-circuit-breaking/README.md)
     * [Erstellen des Circuit Breakers](sessions/session-7-service-mesh/uebung-6-circuit-breaking/erstellen-des-circuit-breakers.md)

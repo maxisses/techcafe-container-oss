@@ -10,7 +10,7 @@ Wählt dort rechts oben "Actions" aus und "Create Weighted Routing.
 
 Hier können wir die gleiche Funktionalität problemlos konfigurieren, ohne dafür extra Pods oder unnötigen Workload zu generieren. Ihr werdet bei einem Blick auf den curl output feststellen, dass das auch schneller und zuverlässiger funktioniert.
 
-![](../../../.gitbook/assets/image%20%28102%29.png)
+![](../../../.gitbook/assets/image%20%28103%29.png)
 
 Wenn man in Kiali runterscrolled sieht man, dass wieder sowohl ein VirtualService und eine DestinationRule erstellt wurden. In den YAML Files erkennt man die Einstellungen wieder und kann sie entsprechend anpassen. Die DestinationRule selektiert in diesem Fall, welche Pods herangezogen werden mittels des labels "version". Man kann also so granular selektieren wie man will und nicht auf Deployment Ebene wie in diesem Fall geschehen. 
 
@@ -20,5 +20,5 @@ Kiali Actions ist ein super Startpunkt um schnell Templates für Gateways\(siehe
 
 Zu guter letzt löschen wir das Routing erstmal.
 
-![](../../../.gitbook/assets/image%20%28103%29.png)
+![](../../../.gitbook/assets/image%20%28104%29.png)
 

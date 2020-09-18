@@ -14,9 +14,9 @@ Man sieht deutlich, dass hier 50:50 aufgeteilt wird. Das mit Kubernetes-Basis Mi
 
 Der curl darf ruhig weiterlaufen, damit wir gleich ein bisschen Traffic analysieren können. Er sollte sich zurück auf das alte 50:50 entwickeln.
 
-![](../../../.gitbook/assets/image%20%28112%29.png)
+![](../../../.gitbook/assets/image%20%28113%29.png)
 
-![](../../../.gitbook/assets/image%20%28110%29.png)
+![](../../../.gitbook/assets/image%20%28111%29.png)
 
 {% hint style="info" %}
 Defakto war das gerade eine Form von Canary Release, denn die "black"-Version von reviews hat nur gut 9% des Traffics bekommen \(11 Pods in Summe, 10 rot, 1 schwarz\).  
