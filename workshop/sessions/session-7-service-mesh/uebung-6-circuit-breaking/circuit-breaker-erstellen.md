@@ -1,6 +1,6 @@
 # Circuit Breaker erstellen
 
-Jetzt macht es Sinn einen Circuit Breaker einzubauen. Istio benutzt hier den Begriff OutlierDetection
+Jetzt macht es Sinn einen Circuit Breaker einzubauen. Istio benutzt hier den Begriff OutlierDetection.
 
 ```text
 oc apply -f circuit-breaking.yaml
@@ -28,8 +28,12 @@ spec:
   trafficPolicy:
     outlierDetection:
       consecutiveErrors: 2
-      interval: 2s
-      baseEjectionTime: 5s
+      interval: 1s
+      baseEjectionTime: 2s
       maxEjectionPercent: 100
 ```
+
+{% hint style="info" %}
+Dieser CircuitBreaker triggered nach 2 Errors infolge die innerhalb von 2 Sekunden aufgetreten sein müssen und nimmt den Service für 3 Sekunden raus mit 100% seiner pods.
+{% endhint %}
 
