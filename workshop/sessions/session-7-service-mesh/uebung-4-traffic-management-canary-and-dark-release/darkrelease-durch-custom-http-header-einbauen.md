@@ -7,7 +7,7 @@ Wir tun für unser dark Release so als wären unsere roten Sternchen ein neues F
 Anbei der Befehl den nötigen VirtualService und die DestinationRule welche via Label Selector Pods segmentiert. Hier in die Subsets risky und safe. Wir nutzen um das DarkRelease durchzuführen http-Header Modifikation. Mehr auf der nächsten Seite.
 
 ```text
-oc apply -f dark-release.yaml
+oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/01-dark-release/dark-release.yaml
 ```
 
 ```text

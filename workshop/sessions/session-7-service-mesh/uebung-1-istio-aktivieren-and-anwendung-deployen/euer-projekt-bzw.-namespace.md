@@ -21,7 +21,7 @@ oc project <initialien>-bookinfo
 Jetzt deployed ihr eure Anwendung wie in der letzten Session mit 4 Services.
 
 ```text
-oc apply -f bookinfo_part1.yaml
+oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/00-deploy/bookinfo_part1.yaml
 ```
 
 Jetzt haben wir fast den Zustand aus Session 6 hergestellt und es laufen wieder 4 Services der bookinfo Anwendung.
@@ -43,7 +43,7 @@ Problem: Da der erste Envoy Proxy Container in unserer Kette von Microservices n
 {% endhint %}
 
 ```text
-oc apply -f bookinfo-gateway.yaml
+oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/00-deploy/bookinfo-gateway.yaml
 ```
 
 Dieser Gateway läuft als pod in der istio controlplane in seinem eigenen Namespace und hat eine eigene URL. Damit wir alle sicher stellen, dass wir auch wirklich Traffic auf unsere eigene App bringen müsst ihr einmal das YAML anpassen und zwar so:

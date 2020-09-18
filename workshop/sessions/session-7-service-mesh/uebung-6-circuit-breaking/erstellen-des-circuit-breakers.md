@@ -7,7 +7,7 @@ Die aktuelle Anwendung läuft ziemlich fehlerfrei. Deshalb lasst uns einen fehle
 Mit folgendem Befehl wird nur ein Update auf das aktuelle details-Deployment gemacht und das Image durch das fehlerhafte getauscht.
 
 ```text
-oc apply -f bookinfo_part3.yaml
+oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/03-circuit_breaking/bookinfo_part3.yaml
 ```
 
 Wenn wir nun fleißíg refreshen dann sehen wir das in ca. 20% der Fälle folgendes erscheint. "Error fetching products details".

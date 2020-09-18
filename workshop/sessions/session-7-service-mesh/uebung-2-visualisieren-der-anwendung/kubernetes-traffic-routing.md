@@ -3,9 +3,7 @@
 Der Standard Mechanismus eines Service in Kubernetes ist seine Requests gleichmäßig gemäß Round Robin an seine Pods zu verteilen. Im folgenden Beispiel wird das durch ein simples curlen und auslesen der Farbe der Sterne deutlich. 
 
 ```text
-while true;
-do curl -s http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/max |
-grep "font color" | head -n 1; sleep 0.5; done
+while true; do curl -s http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/max | grep "font color" | head -n 1; sleep 0.5; done
 ```
 
 ![](../../../.gitbook/assets/image%20%2896%29.png)

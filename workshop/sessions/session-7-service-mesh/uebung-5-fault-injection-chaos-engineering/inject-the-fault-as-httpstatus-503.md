@@ -16,7 +16,7 @@ Und danach mit entsprechendem User:
 ### 1. Abort
 
 ```text
-oc apply -f fault-injection_abort.yaml
+oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/02-fault-injection/fault-injection_abort.yaml
 ```
 
 ```text
