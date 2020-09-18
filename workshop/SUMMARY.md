@@ -123,10 +123,12 @@
     * [Circuit Breaker erstellen](sessions/session-7-service-mesh/uebung-6-circuit-breaking/circuit-breaker-erstellen.md)
     * [Funktioniert er?](sessions/session-7-service-mesh/uebung-6-circuit-breaking/funktioniert-er.md)
   * [left out: External Service & mTLS](sessions/session-7-service-mesh/uebung-6-mtls-im-cluster.md)
+* [Session 8: CI / CD mit Tekton in OpenShift](sessions/untitled.md)
+* [Session 9: KNative und Serverless](sessions/session-9-knative-und-serverless.md)
+* [Session 10: Deep Learning und Container](sessions/session-10-deep-learning-und-container.md)
 
 ---
 
-* [Untitled](untitled.md)
 * [Glossar](glossar.md)
 
 ## Resources
