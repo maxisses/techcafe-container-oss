@@ -106,7 +106,7 @@
     * [Kubernetes Traffic Routing \(Canary\)](sessions/session-7-service-mesh/uebung-2-visualisieren-der-anwendung/kubernetes-traffic-routing.md)
     * [Kiali Dynamic Traffic Routing](sessions/session-7-service-mesh/uebung-2-visualisieren-der-anwendung/kiali-dynamic-traffic-routing.md)
   * [Übung 3: Distributed Tracing](sessions/session-7-service-mesh/uebung-3-distributed-tracing/README.md)
-    * [Jaeger](sessions/session-7-service-mesh/uebung-3-distributed-tracing/untitled.md)
+    * [Jaeger Trace Analyse](sessions/session-7-service-mesh/uebung-3-distributed-tracing/untitled.md)
   * [Übung 4: Traffic Management - Canary & Dark Release](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/README.md)
     * [Falls erforderlich: CleanUp](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/falls-erforderlich-cleanup.md)
     * [DarkRelease durch custom http-Header einbauen](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/darkrelease-durch-custom-http-header-einbauen.md)

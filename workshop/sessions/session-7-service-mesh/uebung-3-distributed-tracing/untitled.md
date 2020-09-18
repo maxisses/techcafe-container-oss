@@ -1,4 +1,4 @@
-# Jaeger
+# Jaeger Trace Analyse
 
 Jaeger lässt sich direkt aus Kiali heraus starten \(links unten\) oder alternativ aus dem istio-system Projekt in der Topology.
 
