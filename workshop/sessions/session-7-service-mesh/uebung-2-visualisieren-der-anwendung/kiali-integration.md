@@ -10,7 +10,7 @@ Daneben laufen in diesem Namespace eine Reihe weiterer Istio Komponenten zB der 
 
 [https://kiali-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/](https://kiali-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/)
 
-![](../../../.gitbook/assets/image%20%2898%29.png)
+![](../../../.gitbook/assets/image%20%2899%29.png)
 
 Dort können wir uns unsere Anwendung anschauen. 
 

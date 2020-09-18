@@ -4,5 +4,5 @@ Wenn ihr nach Erstellung in Kiali in den Details vom reviews Service runterscrol
 
 ![](../../../.gitbook/assets/image%20%2897%29.png)
 
-![](../../../.gitbook/assets/image%20%28101%29.png)
+![](../../../.gitbook/assets/image%20%28102%29.png)
 

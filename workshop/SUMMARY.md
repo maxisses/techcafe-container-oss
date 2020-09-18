@@ -119,7 +119,8 @@
     * [Fault injection durch Service Delay](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/optional-inject-the-fault-as-unexpected-delay.md)
     * [Finde die fehlerhaften Traces mit Jaeger](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/finde-die-fehlerhaften-traces-mit-jaeger.md)
   * [Übung 6: Circuit Breaking](sessions/session-7-service-mesh/uebung-6-circuit-breaking/README.md)
-    * [Erstellen des Circuit Breakers](sessions/session-7-service-mesh/uebung-6-circuit-breaking/erstellen-des-circuit-breakers.md)
+    * [Fehler einbauen](sessions/session-7-service-mesh/uebung-6-circuit-breaking/erstellen-des-circuit-breakers.md)
+    * [Circuit Breaker erstellen](sessions/session-7-service-mesh/uebung-6-circuit-breaking/circuit-breaker-erstellen.md)
     * [Funktioniert er?](sessions/session-7-service-mesh/uebung-6-circuit-breaking/funktioniert-er.md)
   * [Übung 7: mTLS im Cluster](sessions/session-7-service-mesh/uebung-6-mtls-im-cluster.md)
 

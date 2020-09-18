@@ -8,10 +8,10 @@ Chaos Engineering hat Netflix so richtig populär gemacht und während wir hier 
 
 Im ersten Schritt kann man einmal die Kiali mitgelieferte Traffic Suspension benutzen.
 
-![](../../../.gitbook/assets/image%20%28108%29.png)
+![](../../../.gitbook/assets/image%20%28110%29.png)
 
   
 Was dann auch schnell in Kiali sichtbar wird wenn man Last auf die Anwendung bringt:
 
-![](../../../.gitbook/assets/image%20%28107%29.png)
+![](../../../.gitbook/assets/image%20%28109%29.png)
 
