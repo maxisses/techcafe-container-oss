@@ -111,17 +111,17 @@
     * [Falls erforderlich: CleanUp](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/falls-erforderlich-cleanup.md)
     * [DarkRelease durch custom http-Header einbauen](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/darkrelease-durch-custom-http-header-einbauen.md)
     * [Testen des Dark Release](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/testen-des-dark-release.md)
-    * [optional: CleanUp](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/optional-cleanup.md)
+    * [CleanUp](sessions/session-7-service-mesh/uebung-4-traffic-management-canary-and-dark-release/optional-cleanup.md)
   * [Übung 5: Fault Injection / Chaos Engineering](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/README.md)
     * [Traffic suspension mit Kiali](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/traffic-suspension-mit-kiali.md)
-    * [Yaml exportieren](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/yaml-exportieren.md)
+    * [YAML des Kiali-generierten VirtualService inspizieren](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/yaml-exportieren.md)
     * [Fault Injection mit httpStatus Codes](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/inject-the-fault-as-httpstatus-503.md)
     * [optional: Inject the fault as unexpected delay](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/optional-inject-the-fault-as-unexpected-delay.md)
     * [Finde die fehlerhaften Traces mit Jaeger](sessions/session-7-service-mesh/uebung-5-fault-injection-chaos-engineering/finde-die-fehlerhaften-traces-mit-jaeger.md)
-  * [Übung 6: mTLS im Cluster](sessions/session-7-service-mesh/uebung-6-mtls-im-cluster.md)
-  * [Übung 7: Circuit Breaking](sessions/session-7-service-mesh/uebung-6-circuit-breaking/README.md)
+  * [Übung 6: Circuit Breaking](sessions/session-7-service-mesh/uebung-6-circuit-breaking/README.md)
     * [Erstellen des Circuit Breakers](sessions/session-7-service-mesh/uebung-6-circuit-breaking/erstellen-des-circuit-breakers.md)
     * [Funktioniert er?](sessions/session-7-service-mesh/uebung-6-circuit-breaking/funktioniert-er.md)
+  * [Übung 7: mTLS im Cluster](sessions/session-7-service-mesh/uebung-6-mtls-im-cluster.md)
 
 ---
 

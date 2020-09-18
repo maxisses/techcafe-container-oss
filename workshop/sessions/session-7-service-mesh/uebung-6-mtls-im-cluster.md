@@ -1,2 +1,2 @@
-# Übung 6: mTLS im Cluster
+# Übung 7: mTLS im Cluster
 

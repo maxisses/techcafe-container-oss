@@ -8,7 +8,7 @@ Dark Releases bauen in einen existierenden Flow ein neues Feature ein, welches v
 
 Stellt erstmal sicher, dass ihr kein Traffic Routing mehr auf dem reviews Service aktiviert habt via "Delete ALL Traffic Routing".
 
-![](../../../.gitbook/assets/image%20%28109%29.png)
+![](../../../.gitbook/assets/image%20%28111%29.png)
 
 
 

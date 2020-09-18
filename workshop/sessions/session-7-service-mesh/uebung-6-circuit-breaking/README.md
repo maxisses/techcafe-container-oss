@@ -1,2 +1,2 @@
-# Übung 7: Circuit Breaking
+# Übung 6: Circuit Breaking
 
