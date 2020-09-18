@@ -96,7 +96,7 @@
   * [Prework](sessions/session-7-service-mesh/prework.md)
   * [Intro](sessions/session-7-service-mesh/intro.md)
   * [Übung 1: Istio aktivieren & Anwendung deployen](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen/README.md)
-    * [Zugriff auf OpenShift Cluster mit Service Mesh](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen/zugriff-auf-openshift-cluster-mit-service-mesh.md)
+    * [Zugriff auf OpenShift Cluster mit aktiviertem Service Mesh](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen/zugriff-auf-openshift-cluster-mit-service-mesh.md)
     * [Euer Projekt bzw. Namespace](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen/euer-projekt-bzw.-namespace.md)
     * [optional: Operator in Kubernetes & wie man Service Mesh aktiviert](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen/optional-operator-in-kubernetes-and-wie-man-service-mesh-aktiviert.md)
   * [Übung 2: Visualisierung & TrafficManagement \(Canary\)](sessions/session-7-service-mesh/uebung-2-visualisieren-der-anwendung/README.md)
@@ -126,6 +126,7 @@
 
 ---
 
+* [Untitled](untitled.md)
 * [Glossar](glossar.md)
 
 ## Resources

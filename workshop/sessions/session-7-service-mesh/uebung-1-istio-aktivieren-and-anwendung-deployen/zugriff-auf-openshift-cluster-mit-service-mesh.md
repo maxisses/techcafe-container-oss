@@ -1,4 +1,4 @@
-# Zugriff auf OpenShift Cluster mit Service Mesh
+# Zugriff auf OpenShift Cluster mit aktiviertem Service Mesh
 
 Geht auf cloud.ibm.com und findet euren OpenShift Cluster in der Ressource Liste und wählt ihn aus:
 

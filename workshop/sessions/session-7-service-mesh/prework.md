@@ -2,7 +2,7 @@
 
 Heute kein Prework :\)
 
-Ein bisschen vorarbeit könntet ihr durch anschauen dieses Videos:
+Außer ... schaut euch dieses Video an:
 
 {% embed url="https://www.youtube.com/watch?v=6zDrLvpfCK4" %}
 
