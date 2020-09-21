@@ -1,2 +1,2 @@
-# Session 7: Service Mesh in OpenShift
+# Session 7: Service Mesh mit Istio und OpenShift
 

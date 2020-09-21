@@ -92,7 +92,7 @@
   * [Übungen 3: Skalieren der Anwendung](sessions/session-6-what-lacks-vanilla-k8s/scale/README.md)
     * [Manuell via GUI](sessions/session-6-what-lacks-vanilla-k8s/scale/manuell-via-gui.md)
     * [Horizontal Pod Autoscaler via GUI & YAML](sessions/session-6-what-lacks-vanilla-k8s/scale/horizontal-pod-autoscaler-via-gui-and-yaml.md)
-* [Session 7: Service Mesh in OpenShift](sessions/session-7-service-mesh/README.md)
+* [Session 7: Service Mesh mit Istio und OpenShift](sessions/session-7-service-mesh/README.md)
   * [Prework](sessions/session-7-service-mesh/prework.md)
   * [Intro](sessions/session-7-service-mesh/intro.md)
   * [Übung 1: Istio aktivieren & Anwendung deployen](sessions/session-7-service-mesh/uebung-1-istio-aktivieren-and-anwendung-deployen/README.md)
