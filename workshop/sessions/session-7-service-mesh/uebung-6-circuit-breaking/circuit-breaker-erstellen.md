@@ -3,7 +3,7 @@
 Jetzt macht es Sinn einen Circuit Breaker einzubauen. Istio benutzt hier den Begriff OutlierDetection.
 
 ```text
-oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/03-circuit_breaking/circuit-breaking.yaml
+oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/master/03-circuit_breaking/circuit-breaking.yaml
 ```
 
 ```text
