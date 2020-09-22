@@ -1,5 +1,7 @@
 # optional: Operator in Kubernetes & wie man Service Mesh aktiviert
 
+
+
 {% hint style="info" %}
 Das Service Mesh wurde in diesem Falle für euch aktiviert. Ihr könntet das auch selber tun indem ihr als Admin im istio-system Namespace in der OpenShift GUI den Operator Bereich aufklappt und dort bei Installed Operators "Red Hat OpenShift Service Mesh" auswählt.
 
