@@ -21,7 +21,7 @@ oc project <initialien>-bookinfo
 Jetzt deployed ihr eure Anwendung wie in der letzten Session mit 4 Services.
 
 ```text
-oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/00-deploy/bookinfo_part1.yaml
+oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/master/00-deploy/bookinfo_part1.yaml
 ```
 
 Jetzt haben wir fast den Zustand aus Session 6 hergestellt und es laufen wieder 4 Services der bookinfo Anwendung.
@@ -43,7 +43,7 @@ Problem: Da der erste Envoy Proxy Container in unserer Kette von Microservices n
 {% endhint %}
 
 ```text
-oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/00-deploy/bookinfo-gateway.yaml
+oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/master/00-deploy/bookinfo-gateway.yaml
 ```
 
 Dieser Gateway läuft als pod in der istio controlplane in seinem eigenen Namespace und hat eine eigene URL. Damit wir alle sicher stellen, dass wir auch wirklich Traffic auf unsere eigene App bringen müsst ihr einmal das YAML anpassen und zwar so:
@@ -52,15 +52,16 @@ Dieser Gateway läuft als pod in der istio controlplane in seinem eigenen Namesp
 2. öffnet darunter Home und geht auf Explore
 3. Sucht in der Liste nach "VirtualService", geht dann auf Instances und wählt den einzigen Eintrag aus
 4. ändert im yaml File dort wo bei mir /maxdargatz steht auf euren Namen bzw am besten eure Initialien
-5. Eure Anwendung ist dann unter folgendem link und eurer entsprechenden Endung erreichbar 
-
-```text
-http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/maxdargatz
-```
 
 ![](../../../.gitbook/assets/image%20%2883%29.png)
 
 {% hint style="info" %}
 Der VirtualService ist eine wesentliche Istio Ressource zum Traffic Management und in diesem Falle der Link zwischen dem Istio Gateway und des in eurem Projekt laufenden "productpage" Service. Wir gehen darauf noch mehr ein.
 {% endhint %}
+
+Eure Anwendung ist dann unter folgendem link und eurer entsprechenden Endung erreichbar. Die Endung Bitte auf Eure Initialien anpassen.
+
+```text
+http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/maxdargatz
+```
 
