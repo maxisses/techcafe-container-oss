@@ -11,12 +11,10 @@ while true; do curl -s http://istio-ingressgateway-istio-system.openshift-for-te
 
 Und danach mit entsprechendem User:
 
-
-
 ### 1. Abort
 
 ```text
-oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/02-fault-injection/fault-injection_abort.yaml
+oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/master/02-fault-injection/fault-injection_abort.yaml
 ```
 
 ```text

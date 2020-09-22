@@ -5,7 +5,7 @@
 ### 2. Delay
 
 ```text
-oc apply -f https://github.com/maxisses/openshiftservicemesh/blob/master/02-fault-injection/fault-injection_delay.yaml
+oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/master/02-fault-injection/fault-injection_delay.yaml
 ```
 
 ```text
