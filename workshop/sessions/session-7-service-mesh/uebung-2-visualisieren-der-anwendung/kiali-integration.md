@@ -15,8 +15,14 @@ Daneben laufen in diesem Namespace eine Reihe weiterer Istio Komponenten zB der 
 Dort können wir uns unsere Anwendung anschauen. 
 
 {% hint style="info" %}
-Damit Kiali sinnvollen Output liefert ist Traffic notwendig!
+Damit Kiali sinnvollen Output liefert ist Traffic notwendig! Also nicht wundern wenn das bei euch noch nicht so aussieht.
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%2893%29.png)
+Mit dieser Schleife könnt ihr ein bisschen Traffic erzeugen. Die Endung des Links auf eure Initialien ändern nicht vergessen
+
+```text
+while true; do curl -s http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/max | grep "font color" | head -n 1; sleep 0.5; done
+```
+
+![](../../../.gitbook/assets/image%20%28123%29.png)
 
