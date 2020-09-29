@@ -3,9 +3,7 @@
 Unsere productpage lässt schon ein bisschen aus der Ruhe bringe mit einfachem curl:
 
 ```text
-while true; do curl -s 
-http://productpage-<euer-namespace-name>.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/
-; sleep 0.05; done
+while true; do curl -s http://productpage-<euer-namespace-name>.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/; sleep 0.05; done
 ```
 
 Bei mir hat es für 7 Pods gereicht - und da ich den screenshot etwas zu spät gemacht habe sehen wir auch gleich wie das System wieder runterskaliert, dafür gibt es default gracePeriod von 40 Sekunden.
