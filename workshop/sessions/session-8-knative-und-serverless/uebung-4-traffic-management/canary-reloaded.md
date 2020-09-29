@@ -14,3 +14,5 @@ In der Topologie-Sicht kann ich über Set Traffic Distribution das Canary steuer
 while true; do curl -s http://productpage-<namespace>.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/productpage | grep "font color" | head -n 1; sleep 0.5; done
 ```
 
+
+
