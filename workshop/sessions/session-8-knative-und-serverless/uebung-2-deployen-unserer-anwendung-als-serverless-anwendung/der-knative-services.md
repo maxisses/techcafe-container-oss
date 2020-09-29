@@ -46,7 +46,7 @@ spec:
 
 Und OpenShift bringt eine GUI Integration für KNative mit - was die Arbeit und Übersicht deutlich vereinfacht.
 
-![](../../../.gitbook/assets/image%20%28134%29.png)
+![](../../../.gitbook/assets/image%20%28135%29.png)
 
 Und es sollte uns noch etwas bekannt vorkommen, wenn wir auf den Pod clicken und schauen welche container in ihm laufen - wie bei Istio und ServiceMesh kommt der Envoy Proxy auch hier zum Einsatz.
 

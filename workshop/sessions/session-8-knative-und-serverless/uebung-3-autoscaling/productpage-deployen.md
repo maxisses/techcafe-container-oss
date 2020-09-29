@@ -11,9 +11,10 @@ Sobald wir darauf verzichten, generiert KNative per default anhand des KNative I
 Außerdem sind hier folgende Dinge neu:
 
 1. Ich habe in Zeile 19 explizit den KNative Pod Autoscaler eingestellt - das ist die default Einstellung. Man könnte aber hier auch auf den Standard Kubernetes Scaler wechseln, wenn man nach CPU Last skalieren will
-2. 
+2. In Zeile 26 habe ich außerdem die Alternative Metrik zu concurrent request, nämlich request-per-second gewählt. Und da ich das auf lächerliche 2 gesetzt habe, sollten wir den Autoscaler gleich auch ohne spezielle Load Tools \(z.B fortio oder hey\) unter Last setzen können.
+
 {% hint style="danger" %}
-Die Umgebungsvariable SERVICE\_DOMAIN muss für euren Namespace angepasst werden in Zeile 37:
+Die Umgebungsvariable SERVICE\_DOMAIN muss für euren Namespace angepasst werden in Zeile 39:
 
 ```text
 value: <euer namespace bzw. Projektname>.svc.cluster.local

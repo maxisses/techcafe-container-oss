@@ -2,11 +2,22 @@
 
 Jetzt widmen wir uns den beiden Services, die einer Anpassung bedurften und zumindest was das .yaml angeht immer noch bedürfen.
 
-Ihr könnt das yaml deployen wie ihr mögt. Als File abspeichern und mit "oc apply -f &lt;filename&gt;" oder ihr nutzt die GUI von OpenShift für das deployment \("Create resources from their YAML"\). Nicht vergessen erst den ServiceAccount und dann den KNative Service.
+Ihr könnt das yaml deployen wie ihr mögt. Ich schlage die drei Möglichkeiten vor.
 
-![](../../../.gitbook/assets/image%20%28136%29.png)
+1. repo clonen und files dort anpassen und mit `oc apply -f <filename>` deployen 
 
-2 Dinge sind hier wieder neu. 
+   Am einfachsten \(und für euch potentiell nachhaltigsten :\) \) ist es wenn ihr euch das github-repo cloned:
+
+   1. ```text
+      git clone https://github.com/maxisses/knative-on-openshift.git
+      ```
+
+2. Ihr kopiert euch die hier angegebenen YAMLs und speichert sie als \*.yaml auf eurem rechner und deployed mit `oc apply -f <filename>` 
+3. Ihr nutzt die GUI von OpenShift für das deployment \("Create resources from their YAML"\). Nicht vergessen erst den ServiceAccount und dann den KNative Service, da die GUI nur eine Ressource auf einmal zulässt.
+
+![](../../../.gitbook/assets/image%20%28137%29.png)
+
+**2 Dinge sind in dem folgenden YAML für das Deployment von reviews wieder neu.** 
 
 1. Umgebungsvariablen in der Anwendung bzw. dem Container definieren in Zeile 33
 2. In Zeile 24 und 26 steht die maxScale Annotation und das Target. Mit dem ersten definiert man die maximale Anzahl an Pods und mit dem Target definiert man wann skaliert wird.

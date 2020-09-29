@@ -140,6 +140,7 @@
     * [Scaling testen](sessions/session-8-knative-und-serverless/uebung-3-autoscaling/scaling-testen.md)
   * [Übung 4: Traffic Management](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/README.md)
     * [Revisions](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/revisions.md)
+    * [Neue Revisionen vom reviews Service anlegen](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/neue-revisionen-vom-reviews-service-anlegen.md)
     * [Canary Reloaded](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/canary-reloaded.md)
   * [Untitled](sessions/session-8-knative-und-serverless/untitled.md)
 * [Session 9: CI / CD mit Tekton in OpenShift](sessions/untitled/README.md)
