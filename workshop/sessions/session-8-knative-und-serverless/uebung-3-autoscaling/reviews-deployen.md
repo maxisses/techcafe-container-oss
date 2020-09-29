@@ -1,7 +1,5 @@
 # Reviews deployen
 
-
-
 ```text
 apiVersion: v1
 kind: ServiceAccount
