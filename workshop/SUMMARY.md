@@ -136,7 +136,7 @@
   * [Übung 3: Autoscaling](sessions/session-8-knative-und-serverless/uebung-3-autoscaling/README.md)
     * [Reviews deployen](sessions/session-8-knative-und-serverless/uebung-3-autoscaling/reviews-deployen.md)
     * [Productpage deployen](sessions/session-8-knative-und-serverless/uebung-3-autoscaling/productpage-deployen.md)
-    * [Untitled](sessions/session-8-knative-und-serverless/uebung-3-autoscaling/untitled-1.md)
+    * [invoke und test](sessions/session-8-knative-und-serverless/uebung-3-autoscaling/untitled-1.md)
   * [Übung 4: Traffic Management](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/README.md)
     * [Revisions](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/revisions.md)
     * [Canary Reloaded](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/canary-reloaded.md)

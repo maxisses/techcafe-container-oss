@@ -1,7 +1,5 @@
 # Funktioniert er?
 
-
-
 Nutzt jetzt erneut den curl Befehl um zu schauen ob er funktioniert. Sobald er triggered ist er für 2 Sekunden aktiv bevor er den Traffic wieder freigibt.
 
 ```text
