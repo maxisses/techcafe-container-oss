@@ -1,4 +1,4 @@
-# Der KNative Services
+# Der KNative Services - am Bespiel des ratings Svc
 
 Wie man im yaml unten für den ersten Service - den ratings Service unserer Bookinfo-Anwendung - an der apiVersion sieht implementiert KNative seine eigenen Ressourcen. Eine wesentliche, auf die wir uns heute fokussieren, ist der KNative Service. Es ist **nicht** das gleiche wie ein Kubernetes Service!
 
@@ -15,6 +15,13 @@ oc apply -f https://raw.githubusercontent.com/maxisses/knative-on-openshift/mast
 ```
 
 ```text
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: bookinfo-ratings
+  labels:
+    account: ratings
+---
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
@@ -27,8 +34,6 @@ metadata:
 spec:
   template:
     metadata:
-      annotations:
-        # minimum --> knative heißt nicht zwangsläufig 0
     spec:
       serviceAccountName: bookinfo-ratings
       containers:
@@ -41,15 +46,15 @@ spec:
 
 Und OpenShift bringt eine GUI Integration für KNative mit - was die Arbeit und Übersicht deutlich vereinfacht.
 
-![](../../../.gitbook/assets/image%20%28131%29.png)
+![](../../../.gitbook/assets/image%20%28134%29.png)
 
 Und es sollte uns noch etwas bekannt vorkommen, wenn wir auf den Pod clicken und schauen welche container in ihm laufen - wie bei Istio und ServiceMesh kommt der Envoy Proxy auch hier zum Einsatz.
 
-![](../../../.gitbook/assets/image%20%28127%29.png)
+![](../../../.gitbook/assets/image%20%28128%29.png)
 
 Wir sehen auch schnell den "scale-to-zero", welcher per Default eingestellt ist, siehe Pod im Status "Terminating"
 
-![](../../../.gitbook/assets/image%20%28129%29.png)
+![](../../../.gitbook/assets/image%20%28132%29.png)
 
 
 

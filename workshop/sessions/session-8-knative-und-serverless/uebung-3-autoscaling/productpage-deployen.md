@@ -1,6 +1,24 @@
 # Productpage deployen
 
+Die productpage zu deployen funktioniert praktisch genauso wie die reviews Page. Es gibt aber einen Unterschied. Die productpage soll natürlich auch extern Adressierbar sein. Wer die bisherigen YAMLs aufmerksam gelesen hat, hat ggf. diese Zeile gesehen:
 
+```text
+serving.knative.dev/visibility: cluster-local
+```
+
+Sobald wir darauf verzichten, generiert KNative per default anhand des KNative Ingress eine externe Domain.
+
+Außerdem sind hier folgende Dinge neu:
+
+1. Ich habe in Zeile 19 explizit den KNative Pod Autoscaler eingestellt - das ist die default Einstellung. Man könnte aber hier auch auf den Standard Kubernetes Scaler wechseln, wenn man nach CPU Last skalieren will
+2. 
+{% hint style="danger" %}
+Die Umgebungsvariable SERVICE\_DOMAIN muss für euren Namespace angepasst werden in Zeile 37:
+
+```text
+value: <euer namespace bzw. Projektname>.svc.cluster.local
+```
+{% endhint %}
 
 ```text
 apiVersion: v1
@@ -27,7 +45,9 @@ spec:
         # maximum an erlaubten pods
         autoscaling.knative.dev/maxScale: "15"
         # handle 10 requests auf einmal pro pod
-        autoscaling.knative.dev/target: "10"
+        autoscaling.knative.dev/target: "2"
+        # Alternative zum default "concurrency" ist requests per second
+        autoscaling.knative.dev/metric: "rps"
     spec:
       containers:
       - image: maxisses/productpage-kn:latest
@@ -40,7 +60,7 @@ spec:
         - containerPort: 9080
         env:
           - name: SERVICES_DOMAIN
-            value: knative-tut.svc.cluster.local
+            value: <euer namespace bzw. Projektname>.cluster.local
       serviceAccountName: bookinfo-productpage
 
 ```

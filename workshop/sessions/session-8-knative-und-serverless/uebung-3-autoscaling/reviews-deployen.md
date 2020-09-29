@@ -2,7 +2,9 @@
 
 Jetzt widmen wir uns den beiden Services, die einer Anpassung bedurften und zumindest was das .yaml angeht immer noch bedürfen.
 
-Ihr könnt das yaml deployen wie ihr mögt. Als File abspeichern und mit "oc apply -f &lt;filename&gt;" oder ihr nutzt die GUI von OpenShift für das deployment. Nicht vergessen erst den ServiceAccount und dann den KNative Service.
+Ihr könnt das yaml deployen wie ihr mögt. Als File abspeichern und mit "oc apply -f &lt;filename&gt;" oder ihr nutzt die GUI von OpenShift für das deployment \("Create resources from their YAML"\). Nicht vergessen erst den ServiceAccount und dann den KNative Service.
+
+![](../../../.gitbook/assets/image%20%28136%29.png)
 
 2 Dinge sind hier wieder neu. 
 
@@ -43,7 +45,7 @@ spec:
         # maximum an erlaubten pods
         autoscaling.knative.dev/maxScale: "15"
         # handle 10 requests auf einmal pro pod
-        autoscaling.knative.dev/target: "10"
+        autoscaling.knative.dev/target: "5"
     spec:
       serviceAccountName: bookinfo-reviews
       containers:

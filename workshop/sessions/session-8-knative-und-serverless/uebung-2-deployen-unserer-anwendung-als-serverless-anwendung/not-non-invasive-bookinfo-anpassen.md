@@ -6,7 +6,7 @@ Beispiel:
 
 Wir erinnern uns, dass die reviews den ratings Service rufen müssen um die Anzahl Sternchen anzuzeigen. Das tut sie mit normalen Kubernetes Services mit Namen und Port, im Code sieht das so aus: http://ratings:9080
 
-![](../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../.gitbook/assets/image%20%28129%29.png)
 
 Während Kubernetes Services Ports brauchen nutzt KNative FQDNs der generierten Routen. Wir sehen sie auch in OpenShift: [http://ratings.max-bookinfo-kn.svc.cluster.local](http://ratings.max-bookinfo-kn.svc.cluster.local).
 
@@ -21,5 +21,5 @@ Wer sich jetzt denkt - ein Projekt oder Namespace wird man doch als Umgebungsvar
 [https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/](https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/)
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%28126%29.png)
+![](../../../.gitbook/assets/image%20%28127%29.png)
 
