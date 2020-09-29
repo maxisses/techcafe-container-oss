@@ -8,7 +8,7 @@ Ein KNative Service macht uns einiges leichter, denn er macht das Kubernetes Dep
 
 ![](../../../.gitbook/assets/image%20%28125%29.png)
 
-asdf
+Hier ist das yaml-File um ratings als KNative Service zu deployen.
 
 ```text
 oc apply -f https://raw.githubusercontent.com/maxisses/knative-on-openshift/master/ratings-kn.yaml
@@ -39,7 +39,7 @@ spec:
         - containerPort: 9080
 ```
 
-Und OpenShift bringt eine GUI Integration für KNative mit - was die arbeit deutlich vereinfacht.
+Und OpenShift bringt eine GUI Integration für KNative mit - was die Arbeit und Übersicht deutlich vereinfacht.
 
 ![](../../../.gitbook/assets/image%20%28131%29.png)
 

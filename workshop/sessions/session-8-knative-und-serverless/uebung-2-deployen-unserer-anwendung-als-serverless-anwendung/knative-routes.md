@@ -1,12 +1,12 @@
 # Details Service deployen
 
-Der Details Service wird nur gecalled und ruft nichts auf. Hier können wir ein ganz komplikationsloses KNative Service yaml verwenden.
+Der Details Service wird nur gecalled und ruft nichts auf. Hier können wir ein ganz komplikationsloses KNative Service yaml verwenden, wie wir es schon bei dem ratings-Service getan haben.
 
 ```text
 oc apply -f https://raw.githubusercontent.com/maxisses/knative-on-openshift/master/details-kn.yaml
 ```
 
-Bei der Gelegenheit ein neues Konzept im yaml-File. Nämlich das minScale. Dieser Service wird nie auf 0 skalieren. KNative kann also auch völlig ohne scale-to-zero auskommen.
+Bei der Gelegenheit ein neues Konzept im yaml-File. Nämlich das minScale in Zeile 22. Dieser Service wird nie auf 0 skalieren. KNative kann also auch völlig ohne scale-to-zero auskommen, was durchaus sinnvoll sein kann, wenn man die Vereinfachungen beim deployen schätzt.
 
 ```text
 apiVersion: v1

@@ -1,5 +1,17 @@
 # Reviews deployen
 
+Jetzt widmen wir uns den beiden Services, die einer Anpassung bedurften und zumindest was das .yaml angeht immer noch bedürfen.
+
+Ihr könnt das yaml deployen wie ihr mögt. Als File abspeichern und mit "oc apply -f &lt;filename&gt;" oder ihr nutzt die GUI von OpenShift für das deployment.
+
+2 Dinge sind hie
+
+{% hint style="danger" %}
+Bitte nicht
+{% endhint %}
+
+
+
 ```text
 apiVersion: v1
 kind: ServiceAccount
