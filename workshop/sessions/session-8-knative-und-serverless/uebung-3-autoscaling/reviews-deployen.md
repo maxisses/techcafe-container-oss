@@ -55,7 +55,7 @@ spec:
         autoscaling.knative.dev/minScale: "1"
         # maximum an erlaubten pods
         autoscaling.knative.dev/maxScale: "15"
-        # handle 10 requests auf einmal pro pod
+        # handle 5 requests auf einmal pro pod
         autoscaling.knative.dev/target: "5"
     spec:
       serviceAccountName: bookinfo-reviews
