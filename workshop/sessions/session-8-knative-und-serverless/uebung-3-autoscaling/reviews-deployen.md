@@ -15,7 +15,7 @@ Ihr könnt das yaml deployen wie ihr mögt. Ich schlage die drei Möglichkeiten 
 2. Ihr kopiert euch die hier angegebenen YAMLs und speichert sie als \*.yaml auf eurem rechner und deployed mit `oc apply -f <filename>` 
 3. Ihr nutzt die GUI von OpenShift für das deployment \("Create resources from their YAML"\). Nicht vergessen erst den ServiceAccount und dann den KNative Service, da die GUI nur eine Ressource auf einmal zulässt.
 
-![](../../../.gitbook/assets/image%20%28137%29.png)
+![](../../../.gitbook/assets/image%20%28138%29.png)
 
 **2 Dinge sind in dem folgenden YAML für das Deployment von reviews wieder neu.** 
 

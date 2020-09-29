@@ -24,5 +24,5 @@ Bei mir hat auch das rausnehmen des sleeps nichts gebracht. Mit größeren Gesch
 hey -c 120 -z 10s http://productpage-max-bookinfo-kn.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/productpage
 ```
 
-![](../../../.gitbook/assets/image%20%28140%29.png)
+![](../../../.gitbook/assets/image%20%28142%29.png)
 

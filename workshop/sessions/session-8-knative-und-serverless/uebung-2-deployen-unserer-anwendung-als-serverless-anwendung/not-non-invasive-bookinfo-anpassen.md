@@ -19,6 +19,8 @@ Wer sich jetzt denkt - ein Projekt oder Namespace wird man doch als Umgebungsvar
 [https://github.com/knative/serving/pull/8126](https://github.com/knative/serving/pull/8126)
 
 [https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/](https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/)
+
+Und es gäbe noch eine zweite charmante Methode - da wir den Wert an 4 Stellen ändern müssen bietet sich ein Helm Chart ebenfalls an. 
 {% endhint %}
 
 ![](../../../.gitbook/assets/image%20%28127%29.png)

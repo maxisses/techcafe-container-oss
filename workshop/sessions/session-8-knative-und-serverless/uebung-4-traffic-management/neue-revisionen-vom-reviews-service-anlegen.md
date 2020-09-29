@@ -17,6 +17,12 @@ value: <euer namespace bzw. Projektname>.svc.cluster.local
 ```
 {% endhint %}
 
+Sobald ihr die rote Version deployed `oc apply -f reviews-kn-red.yaml` habt und auf den gestrichelten Kasten in der Topologie-Sicht klickt seht ihr jetzt 2 Revisionen und sobald ihr `oc apply -f reviews-kn-nostars.yaml` deployed taucht auch die dritte auf. 
+
+![](../../../.gitbook/assets/image%20%28137%29.png)
+
+
+
 ```text
 apiVersion: serving.knative.dev/v1
 kind: Service
