@@ -47,8 +47,8 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 | Session 5 | [Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](sessions/session-5/) |
 | Session 6 | [Was fehlt "vanilla" Kubernetes?](sessions/session-6-what-lacks-vanilla-k8s/) |
 | Session 7 | [Service Mesh mit Istio und OpenShift](sessions/session-7-service-mesh/) |
-| Session 8 | Continuous Integration / Continuous Delivery mit Tekton in OpenShift |
-| Session 9 | Serverless - OpenShift Operator & KNative |
+| Session 8 | [Serverless - OpenShift Operator & KNative](sessions/session-8-knative-und-serverless/) |
+| Session 9 | Continuous Integration / Continuous Delivery mit Tekton in OpenShift |
 | Session 10 | Machine Learning& Container Technologie - TextGen im Container |
 
 ## Agenda der Sessions
