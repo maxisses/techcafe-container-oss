@@ -1,5 +1,6 @@
 # Prework
 
+optional:   
 Stellt einen Zugriff auf das CLI Tool "tkn" sicher, zB indem ihr es auf eurem Rechner/VM/Container einrichtet:
 
 {% embed url="https://github.com/tektoncd/cli" %}
