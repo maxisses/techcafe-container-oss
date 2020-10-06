@@ -164,6 +164,7 @@
     * [Ratings PipelineRun anlegen](sessions/untitled/uebung-4-pipeline-erstellen-aus-git-from-source-productpage-service/untitled.md)
   * [Übung 5: Productpage Deployen](sessions/untitled/uebung-5-pipeline-selber-konfigurieren-reviews-service/README.md)
     * [Productpage PipelineRun anlegen](sessions/untitled/uebung-5-pipeline-selber-konfigurieren-reviews-service/productpage-pipelinerun-anlegen.md)
+    * [Productpage git trigger](sessions/untitled/uebung-5-pipeline-selber-konfigurieren-reviews-service/productpage-git-trigger.md)
 * [Session 10: Deep Learning und Container](sessions/session-10-deep-learning-und-container/README.md)
   * [Wild West](sessions/session-10-deep-learning-und-container/wild-west.md)
   * [KubeInvader](sessions/session-10-deep-learning-und-container/kubeinvader.md)
