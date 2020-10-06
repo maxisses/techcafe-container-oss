@@ -125,6 +125,7 @@
   * [left out: External Service & mTLS](sessions/session-7-service-mesh/uebung-6-mtls-im-cluster.md)
 * [Session 8: KNative und Serverless](sessions/session-8-knative-und-serverless/README.md)
   * [Prework](sessions/session-8-knative-und-serverless/prework.md)
+  * [Intro](sessions/session-8-knative-und-serverless/intro.md)
   * [Übung 1: Serverless Operator & KNative](sessions/session-8-knative-und-serverless/uebung-1-serverless-operator-and-knative/README.md)
     * [Zugriff auf OpenShift Cluster mit aktiviertem Serverless Operator](sessions/session-8-knative-und-serverless/uebung-1-serverless-operator-and-knative/untitled-1.md)
     * [Projekt erstellen](sessions/session-8-knative-und-serverless/uebung-1-serverless-operator-and-knative/untitled-5.md)
@@ -145,13 +146,18 @@
   * [Übung 5: Administratorensicht](sessions/session-8-knative-und-serverless/untitled/README.md)
     * [OpenShift Console - Serverless Administration](sessions/session-8-knative-und-serverless/untitled/openshift-console-serverless-administration.md)
 * [Session 9: CI / CD mit Tekton in OpenShift](sessions/untitled/README.md)
+  * [ReCap Session 8](sessions/untitled/recap-session-8.md)
+  * [Recap Session 5](sessions/untitled/recap-session-5.md)
   * [Prework](sessions/untitled/prework.md)
   * [Übung 1: Pipelines Operator & Tekton](sessions/untitled/uebung-1-pipelines-operator-and-tekton/README.md)
     * [Zugriff auf OpenShift Cluster inklusive Tekton Pipelines](sessions/untitled/uebung-1-pipelines-operator-and-tekton/untitled-2.md)
     * [Untitled](sessions/untitled/uebung-1-pipelines-operator-and-tekton/untitled-1.md)
     * [Untitled](sessions/untitled/uebung-1-pipelines-operator-and-tekton/untitled.md)
     * [Untitled](sessions/untitled/uebung-1-pipelines-operator-and-tekton/untitled-3.md)
-* [Session 10: Deep Learning und Container](sessions/session-10-deep-learning-und-container.md)
+* [Session 10: Deep Learning und Container](sessions/session-10-deep-learning-und-container/README.md)
+  * [Wild West](sessions/session-10-deep-learning-und-container/wild-west.md)
+  * [KubeInvader](sessions/session-10-deep-learning-und-container/kubeinvader.md)
+  * [GPT2 and GoT](sessions/session-10-deep-learning-und-container/gpt2-and-got.md)
 
 ---
 
