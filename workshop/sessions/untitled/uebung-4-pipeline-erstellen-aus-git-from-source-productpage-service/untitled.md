@@ -7,7 +7,7 @@ Im Skript müsst ihr mindestens die NAMESPACE Variable anpassen auf euer OpenShi
 Für Ratings ist es:
 
 ```text
-cd /deployment-sripts/
+cd /deployment-scripts/
 ```
 
 ```text
