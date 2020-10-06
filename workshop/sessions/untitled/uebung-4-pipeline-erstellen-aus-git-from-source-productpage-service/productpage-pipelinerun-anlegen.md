@@ -11,7 +11,7 @@ cd /deployment-scripts/
 ```
 
 ```text
-./details.sh
+./productpage.sh
 ```
 
 

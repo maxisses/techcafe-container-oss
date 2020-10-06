@@ -11,6 +11,6 @@ cd /deployment-scripts/
 ```
 
 ```text
-./details.sh
+./ratings.sh
 ```
 
