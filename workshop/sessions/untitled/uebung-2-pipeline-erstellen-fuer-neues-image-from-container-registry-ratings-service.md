@@ -4,7 +4,7 @@ Den Reviews Service deployen wir erstmal traditionell. Hier wird bereits ein Ima
 
 Image Name: **docker.io/istio/examples-bookinfo-reviews-v1:1.16.2**
 
-![](../../.gitbook/assets/image%20%28148%29.png)
+![](../../.gitbook/assets/image%20%28149%29.png)
 
 
 

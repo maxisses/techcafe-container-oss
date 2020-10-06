@@ -13,10 +13,10 @@ Damit wir unsere neue Applikation Bookinfo bauen und deployen können müssen wi
 ### OC CLI
 
 ```text
-oc new-project bookinfo
+oc new-project <initialien>-bookinfo-tekton
 ```
 
 ### **OpenShift Console / GUI**
 
-![](../../../.gitbook/assets/image%20%28150%29.png)
+![](../../../.gitbook/assets/image%20%28151%29.png)
 
