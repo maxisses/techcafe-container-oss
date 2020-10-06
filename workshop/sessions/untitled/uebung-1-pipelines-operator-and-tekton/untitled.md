@@ -1,7 +1,5 @@
 # Projekt anlegen
 
-
-
 Die Ressource Project ist eine OpenShift spezifische Erweiterung von Kubernetes. Jedes Projekt erhält auch seinen gleichnamigen Kuberntes Namespace. Projekte können u. a. für folgende Use Cases genutzt werden:
 
 * Separate Namespaces für Applikationen und andere Ressourcen.
