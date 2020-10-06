@@ -1,0 +1,2 @@
+# Storage in OpenShift / Kubernetes
+

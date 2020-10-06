@@ -1,2 +1,2 @@
-# Übung 4: Pipeline erstellen aus git \(from Source\) - "Productpage Service"
+# Übung 4: Details & Ratings deployen
 

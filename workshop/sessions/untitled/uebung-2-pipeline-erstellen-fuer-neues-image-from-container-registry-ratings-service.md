@@ -1,4 +1,4 @@
-# Übung 2: Pipeline erstellen für neues Image \(from Container Registry\) - "Details Service"
+# Übung 2: Image Stream - "Reviews Service"
 
 
 
