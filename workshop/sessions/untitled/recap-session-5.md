@@ -6,7 +6,7 @@ Wir sehen hier unsere Pipeline aus Session 5 mit Ihren 3 Tasks. Jeder Task beste
 
 In den Logs des letzten Schrittes kann man sehen, dass natürlich immernoch YAML-Manifeste verwendet werden für das Deployment nach Kubernetes
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](../../.gitbook/assets/image%20%28152%29.png)
 
 ![](../../.gitbook/assets/image%20%28146%29.png)
 

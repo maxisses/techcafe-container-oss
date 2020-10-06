@@ -1,6 +1,6 @@
 # Verbinden mit dem OpenShift Cluster
 
-Um über eure CLI mit dem Cluster zu kommunizieren, müsst ihr eine kubeconfig erstellen. Dazu braucht ihr einen token, den ihr über die GUI des OpenShift Clusters erhaltet. Öffnet die GUI zw. Console über den blauen Button.
+Geht auf cloud.ibm.com und wählt euren Cluster aus. Um über eure CLI mit dem Cluster zu kommunizieren, müsst ihr eine kubeconfig erstellen. Dazu braucht ihr einen token, den ihr über die GUI des OpenShift Clusters erhaltet. Öffnet die GUI zw. Console über den blauen Button.
 
 ![](../../../.gitbook/assets/image%20%2872%29.png)
 
