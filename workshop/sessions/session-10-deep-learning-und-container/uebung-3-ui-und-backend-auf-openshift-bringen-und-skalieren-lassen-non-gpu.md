@@ -18,7 +18,7 @@ docker.io/maxisses/maxgpt2starter
 
 Die UI können wir hingegen auch über den eigebauten build Service von OpenShift deployen mit der "from Dockerfile" Strategie.
 
-![](../../.gitbook/assets/image%20%28166%29.png)
+![](../../.gitbook/assets/image%20%28168%29.png)
 
 
 
@@ -30,7 +30,7 @@ Wenn wir dann loslegen, stellt sich aber schnell Ernüchterung ein - DeepLearnin
 
 236 Sekunden .... für einen Request \( vs 8 Sekunden auf meiner Maschine mit GPU\).
 
-![](../../.gitbook/assets/image%20%28165%29.png)
+![](../../.gitbook/assets/image%20%28167%29.png)
 
 Im nächsten Schritt schauen wir mal ob wir das besser hinbekommen.
 
