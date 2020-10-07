@@ -36,6 +36,6 @@ Entweder ihr lasst beide Container direkt in CodeEngine laufen oder ihr deployed
 ![](../../.gitbook/assets/image%20%28166%29.png)
 
 {% hint style="info" %}
-Ergebnis: wir liegen wieder bei knapp einer Minute - das verwundert auch nicht, den auf meiner eigenen Maschine, wenn ich ohne GPU laufen lasse, kommt etwas ähnliches heraus.
+Ergebnis: wir liegen wieder bei knapp einer Minute - das verwundert auch nicht, den auf meiner eigenen Maschine, wenn ich ohne GPU laufen lasse, kommt etwas ähnliches heraus und die hat 32GB RAM und 16 Cores.
 {% endhint %}
 
