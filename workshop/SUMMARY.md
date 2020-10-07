@@ -165,7 +165,7 @@
     * [Ratings PipelineRun anlegen](sessions/untitled/uebung-4-pipeline-erstellen-aus-git-from-source-productpage-service/untitled.md)
     * [Productpage PipelineRun anlegen](sessions/untitled/uebung-4-pipeline-erstellen-aus-git-from-source-productpage-service/productpage-pipelinerun-anlegen.md)
 * [Session 10: Deep Learning und Container](sessions/session-10-deep-learning-und-container/README.md)
-  * [Intro: Deep Learning & Data Science](sessions/session-10-deep-learning-und-container/intro-deep-learning-and-data-science.md)
+  * [Intro: Deep Learning & Data Science für NLP](sessions/session-10-deep-learning-und-container/intro-deep-learning-and-data-science.md)
   * [Übung 1: \(optional\)Text Generator im Container bauen](sessions/session-10-deep-learning-und-container/uebung-1-optional-text-generator-im-container-bauen.md)
   * [Übung 2: Text Generator im Container ausführen](sessions/session-10-deep-learning-und-container/gpt2-and-got/README.md)
     * [Untitled](sessions/session-10-deep-learning-und-container/gpt2-and-got/untitled.md)
