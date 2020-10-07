@@ -173,6 +173,7 @@
     * [Untitled](sessions/session-10-deep-learning-und-container/gpt2-and-got/untitled-1.md)
     * [Untitled](sessions/session-10-deep-learning-und-container/gpt2-and-got/untitled-2.md)
   * [Übung 3: UI und Backend auf OpenShift bringen und skalieren lassen \(non-GPU :\( \)](sessions/session-10-deep-learning-und-container/uebung-3-ui-und-backend-auf-openshift-bringen-und-skalieren-lassen-non-gpu.md)
+  * [Übung 4: Code Engine](sessions/session-10-deep-learning-und-container/uebung-4-code-engine.md)
   * [some Fun Stuff](sessions/session-10-deep-learning-und-container/some-fun-stuff/README.md)
     * [KubeInvader](sessions/session-10-deep-learning-und-container/some-fun-stuff/kubeinvader.md)
     * [Wild West](sessions/session-10-deep-learning-und-container/some-fun-stuff/wild-west.md)
