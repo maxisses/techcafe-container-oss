@@ -8,7 +8,7 @@ Es bietet sich extrem an beide Images als 2 Steps in einen Tekton Task zu packen
 
 Da wir das nicht gemacht haben wählen wir einfach die Container Image Strategie um zu deployen \(OpenShift Console -&gt; Developer Ansicht -&gt; Add +\). Deployed inklusive einer Route. Es bietet sich außerdem an eine Resource Request einzurichten - das ist aber optional und dient dazu das wir hier einen Memory und Compute intensiven Pod haben werden, dem es hilft wenn er mehr Ressourcen zur Verfügung hat. Allerdings gilt es natürlich darauf zu achten, dass er überhaupt starten kann :\)
 
-![](../../.gitbook/assets/image%20%28163%29.png)
+![](../../.gitbook/assets/image%20%28164%29.png)
 
 Falls ihr mein Docker Image verwenden möchtet: 
 
@@ -18,7 +18,7 @@ docker.io/maxisses/maxgpt2starter
 
 Die UI können wir hingegen auch über den eigebauten build Service von OpenShift deployen mit der "from Dockerfile" Strategie.
 
-![](../../.gitbook/assets/image%20%28168%29.png)
+![](../../.gitbook/assets/image%20%28171%29.png)
 
 
 
@@ -30,7 +30,7 @@ Wenn wir dann loslegen, stellt sich aber schnell Ernüchterung ein - DeepLearnin
 
 236 Sekunden .... für einen Request \( vs 8 Sekunden auf meiner Maschine mit GPU\).
 
-![](../../.gitbook/assets/image%20%28167%29.png)
+![](../../.gitbook/assets/image%20%28169%29.png)
 
 Im nächsten Schritt schauen wir mal ob wir das besser hinbekommen.
 

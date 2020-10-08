@@ -35,9 +35,9 @@ curl localhost:8081 ##gpu
 
 Ich habe einen Timer in die App eingebaut. Ein Blick auf die Logs mit GPU sieht ganz gut aus - man bedenke, wie groß das Modell ist:
 
-![](../../.gitbook/assets/image%20%28165%29.png)
+![](../../.gitbook/assets/image%20%28166%29.png)
 
 Und ohne GPUs ist man weit entfernt:
 
-![](../../.gitbook/assets/image%20%28164%29.png)
+![](../../.gitbook/assets/image%20%28165%29.png)
 
