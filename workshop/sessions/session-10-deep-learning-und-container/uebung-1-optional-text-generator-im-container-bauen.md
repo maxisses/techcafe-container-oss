@@ -10,7 +10,7 @@ Was ihr hier seht ist Transfer Learning, d.h. wir nutzen das bereits mit Tonnen 
 
 Hier seht ihr einmal wie das Training inklusive voll ausgelasteter GPU abläuft. Damit das Modell etwas halbwegs sinnvolles ausspuckt sind hier 1000 "Steps" eingebaut und 200 davon sind in 238 Sekunden abgelaufen. 
 
-![](../../.gitbook/assets/image%20%28173%29.png)
+![](../../.gitbook/assets/image%20%28176%29.png)
 
 Getreu unserem bisherigen Motto arbeiten wir natürlich mit Containern. 
 

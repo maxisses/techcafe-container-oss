@@ -18,7 +18,7 @@ docker.io/maxisses/maxgpt2starter
 
 Die UI können wir hingegen auch über den eigebauten build Service von OpenShift deployen mit der "from Dockerfile" Strategie.
 
-![](../../.gitbook/assets/image%20%28171%29.png)
+![](../../.gitbook/assets/image%20%28173%29.png)
 
 
 
