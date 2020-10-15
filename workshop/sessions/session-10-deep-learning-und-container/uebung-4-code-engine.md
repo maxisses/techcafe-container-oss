@@ -7,6 +7,10 @@ Deshalb können wir Autoscaling nach Concurrent Request \(wer erinnert sich?\) e
 Es wird wie wir das von OpenShift kennen ein Build "from Dockerfile" und "from Dockerimage" unterstützt.  
 Der Gamechanger: CodeEngine eliminiert alle Limits die alle anderen functions-as-a-Service oder Container-Run Services am Markt bieten. Wir können unseren Container deshalb mit 32GB RAM und 8 vCPUs laufen lassen.
 
+
+
+\_\_
+
 {% hint style="warning" %}
 Leider bringt uns das für unser Neuronales Netz auch noch nicht so richtig auf Lichtgeschwindigkeit - denn CodeEngine unterstützt heute noch kein Deployment auf GPU Knoten. Man kann natürlich einen OpenShift oder Kubernetes  Cluster mit GPU-Nodes provisionieren - der Aufwand und die Kosten sind nur nicht ganz gerechtfertigt ;\)
 {% endhint %}
