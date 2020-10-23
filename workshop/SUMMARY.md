@@ -168,11 +168,12 @@
   * [Intro: Deep Learning & Data Science für NLP](sessions/session-10-deep-learning-und-container/intro-deep-learning-and-data-science.md)
   * [Übung 1: \(optional\)Text Generator im Container bauen](sessions/session-10-deep-learning-und-container/uebung-1-optional-text-generator-im-container-bauen.md)
   * [Übung 2: Text Generator im Container ausführen](sessions/session-10-deep-learning-und-container/gpt2-and-got.md)
-  * [Übung 3: UI und Backend auf OpenShift bringen und skalieren lassen \(non-GPU :\( \)](sessions/session-10-deep-learning-und-container/uebung-3-ui-und-backend-auf-openshift-bringen-und-skalieren-lassen-non-gpu.md)
+  * [Übung 3: \(optional\) UI und Backend auf OpenShift bringen und skalieren lassen \(non-GPU :\( \)](sessions/session-10-deep-learning-und-container/uebung-3-ui-und-backend-auf-openshift-bringen-und-skalieren-lassen-non-gpu.md)
   * [Übung 4: Die Cloud zur \(halben\) Rettung - Code Engine](sessions/session-10-deep-learning-und-container/uebung-4-code-engine.md)
   * [some Fun Stuff](sessions/session-10-deep-learning-und-container/some-fun-stuff/README.md)
     * [KubeInvader](sessions/session-10-deep-learning-und-container/some-fun-stuff/kubeinvader.md)
     * [Wild West](sessions/session-10-deep-learning-und-container/some-fun-stuff/wild-west.md)
+  * [Abschluß: kleine Umfrage](sessions/session-10-deep-learning-und-container/abschluss-kleine-umfrage.md)
 
 ---
 

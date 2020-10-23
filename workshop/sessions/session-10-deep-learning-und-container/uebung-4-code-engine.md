@@ -1,11 +1,11 @@
 # Übung 4: Die Cloud zur \(halben\) Rettung - Code Engine
 
-Da es ein unglaublich einfach zu bedienendes Tool ist nehmen wir das brandneue Tool CodeEngine von IBM, welches es uns ermöglicht Container zu starten. Unter der Haube läuft kubernetes mit KNative. Davon merken wir aber nichts. 
+Da es ein unglaublich einfach zu bedienendes Tool ist nehmen wir den Container-Service CodeEngine von IBM, welches es uns ermöglicht Container laufen zu lassen ohne die Komplexität von OpenShift oder K8s handlen zu müssen. Unter der Haube läuft Kubernetes mit KNative. Davon merken wir aber nichts. 
 
-Deshalb können wir Autoscaling nach Concurrent Request \(wer erinnert sich?\) erstellen und Memory und CPU requests \(wer erinnert sich?\) anlegen. Außerdem - wichtig - Umgebungsvariablen definieren. Das funktioniert so als würden sie im deployment.yaml eintragen \(wer erinnert sich? ;\) \).
+Deshalb können wir Autoscaling nach Concurrent Request \(wer erinnert sich?\) erstellen und Memory und CPU requests \(wer erinnert sich?\) anlegen. Außerdem - wichtig - Umgebungsvariablen definieren. Das funktioniert so als würden wir sie im deployment.yaml eintragen \(wer erinnert sich? ;\) \).
 
-Es wird wie wir das von OpenShift kennen ein Build "from Dockerfile" und "from Dockerimage" unterstützt.  
-Der Gamechanger: CodeEngine eliminiert alle Limits die alle anderen functions-as-a-Service oder Container-Run Services am Markt bieten. Wir können unseren Container deshalb mit 32GB RAM und 8 vCPUs laufen lassen.
+Es wird wie wir das von OpenShift kennen ein Build "from Dockerfile" und "from Docker Image" unterstützt.  
+Der Gamechanger: CodeEngine eliminiert alle Limits die alle anderen functions-as-a-Service oder Container-Run Services am Markt bieten. Wir können unseren Container deshalb mit 32GB RAM und 8 vCPUs laufen lassen und sogar noch skalieren.
 
 {% hint style="warning" %}
 Leider bringt uns das für unser Neuronales Netz auch noch nicht so richtig auf Lichtgeschwindigkeit - denn CodeEngine unterstützt heute noch kein Deployment auf GPU Knoten. Man kann natürlich einen OpenShift oder Kubernetes  Cluster mit GPU-Nodes provisionieren - der Aufwand und die Kosten sind nur nicht ganz gerechtfertigt ;\)
