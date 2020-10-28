@@ -17,7 +17,7 @@ ibmcloud ks cluster config --cluster <eure ClusterID>
 kubectl config current-context
 ```
 
-![](../../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2833%29%20%281%29.png)
 
 Dann könnt ihr leicht prüfen ob alles läuft:
 

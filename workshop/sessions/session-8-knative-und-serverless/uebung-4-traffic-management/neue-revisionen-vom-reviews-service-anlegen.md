@@ -2,7 +2,7 @@
 
 Der Reviews Service ruft den ratings Service mit einer ENABLE\_RATINGS und STAR\_COLOR Umgebungsvariable auf. Deshalb bietet es sich an, diesen zu nutzen, damit wir einen Effekt sehen.
 
-Die naheliegendste Option sind zwei Updates. 
+Die naheliegendste Option sind zwei Updates.
 
 1. [x] STAR\_COLOR: red
 2. [x] ENABLE\_RATINGS: false
@@ -17,11 +17,9 @@ value: <euer namespace bzw. Projektname>.svc.cluster.local
 ```
 {% endhint %}
 
-Sobald ihr die rote Version deployed `oc apply -f reviews-kn-red.yaml` habt und auf den gestrichelten Kasten in der Topologie-Sicht klickt seht ihr jetzt 2 Revisionen und sobald ihr `oc apply -f reviews-kn-nostars.yaml` deployed taucht auch die dritte auf. 
+Sobald ihr die rote Version deployed `oc apply -f reviews-kn-red.yaml` habt und auf den gestrichelten Kasten in der Topologie-Sicht klickt seht ihr jetzt 2 Revisionen und sobald ihr `oc apply -f reviews-kn-nostars.yaml` deployed taucht auch die dritte auf.
 
 ![](../../../.gitbook/assets/image%20%28137%29.png)
-
-
 
 ```text
 apiVersion: serving.knative.dev/v1

@@ -1,6 +1,6 @@
 # optional: Applikationsmonitoring & Auto-Skalierung
 
-### Monitor application health
+## Monitor application health
 
 1. To check the health of your application, navigate to [clusters](https://{DomainName}/kubernetes/clusters) to see a list of clusters and click on your cluster.
 2. Click **Kubernetes Dashboard** to launch the dashboard in a new tab.
@@ -12,7 +12,7 @@
    kubectl exec -it <pod-name> -- bash
    ```
 
-### Scale Kubernetes pods
+## Scale Kubernetes pods
 
 As load increases on your application, you can manually increase the number of pod replicas in your deployment. Replicas are managed by a [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/). To scale the application to two replicas, run the following command:
 
@@ -34,7 +34,7 @@ Once the autoscaler is successfully created, you should see `horizontalpodautosc
 
 Refer to [scaling apps](https://{DomainName}/docs/containers?topic=containers-app#app_scaling) for prerequisites and additional info.
 
-### Remove resources
+## Remove resources
 
 * Delete the Kubernetes artifacts created for this application:
 

@@ -1,7 +1,5 @@
 # CLI konfigurieren - kubeconfig
 
-
-
 Um über eure CLI mit dem Cluster zu kommunizieren, müsst ihr eine kubeconfig erstellen. Das ist mit der ibmcloud cli automatisiert:
 
 * [https://cloud.ibm.com/kubernetes/clusters](https://cloud.ibm.com/kubernetes/clusters) 

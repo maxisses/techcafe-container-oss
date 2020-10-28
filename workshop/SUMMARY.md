@@ -1,6 +1,6 @@
 # Table of contents
 
-* [TechCafé der DRV Bund](README.md)
+* [TechCafé](README.md)
 * [Pre-work](pre-work.md)
 
 ## Sessions

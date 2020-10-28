@@ -19,5 +19,3 @@ npm start
 Mit Strg-C bzw. Ctrl-C könnt ihr sie beenden \(was notwendig ist, wenn ihr lokal comitten wollt, da die Anwendung für test-driven-development vorbereitet ist und vor jedem git commit standardmäßig tests ausgeführt werden; dazu wird die Anwendung erneut gestartet - was nicht funktioniert wenn Port 3000 bereits belegt ist\)
 {% endhint %}
 
-
-

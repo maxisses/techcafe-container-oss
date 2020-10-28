@@ -14,5 +14,3 @@ cd /deployment-scripts/
 ./details.sh
 ```
 
-
-

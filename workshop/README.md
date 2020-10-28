@@ -2,11 +2,11 @@
 description: 'Hands-On Sessions zu Containertechnologie, Microservices & Kubernetes'
 ---
 
-# TechCafé der DRV Bund
+# TechCafé
 
 ## About
 
-Das virtuelle Techcafé DRV Bund soll IT-Administratoren & Entwicklern der DRV Bund helfen OpenSource Technologien schnell kennenzulernen, anzuwenden und einzuschätzen welche Rolle sie im Kontext der eigenen Arbeit spielen.
+Das virtuelle Techcafé soll DevOps Teams \(oder IT-Administratoren & Entwicklern :\) \) helfen OpenSource Technologien schnell kennenzulernen, anzuwenden und einzuschätzen welche Rolle sie im Kontext der eigenen Arbeit spielen.
 
 Diese Einleitung ist folgendermaßen aufgebaut:
 
@@ -60,7 +60,5 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 | Einführung zur Theorie und Inhalt des Labs | 10 Minuten | IBM Coaches |
 | Code & Work Along | 60 Minuten | Alle |
 | Wrap-Up: Was haben wir heute gemacht? Welche Relevanz hat es? | 10 Minuten | Alle |
-| Feedback | 5 Minuten | DRV Techies |
-
-
+| Feedback | 5 Minuten | Teilnehmer Techies |
 

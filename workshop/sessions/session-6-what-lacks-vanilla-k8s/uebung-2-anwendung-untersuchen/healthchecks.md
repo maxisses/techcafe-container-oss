@@ -8,7 +8,7 @@ Wir haben das hier schonmal gemacht:
 
 ## Readiness & Liveness Probe via YAML einrichten
 
-In der Topology Ansicht seht ihr alle Deployments und könnt diese via "Actions" editieren. Nach und nach werden für immer weitere Funktionen auch Web Formulare erstellt. Readiness & Liveness Probes sind eines dieser Features, aber erst in der Version 4.5 von OpenShift.   
+In der Topology Ansicht seht ihr alle Deployments und könnt diese via "Actions" editieren. Nach und nach werden für immer weitere Funktionen auch Web Formulare erstellt. Readiness & Liveness Probes sind eines dieser Features, aber erst in der Version 4.5 von OpenShift.  
 Aber in OpenShift geht es trotzdem deutlich einfacher als mit native Kubernetes - Actions "Edit Deployment"
 
 ![](../../../.gitbook/assets/image%20%2876%29.png)
@@ -59,7 +59,7 @@ Wir können beobachten, dass der neu deployte Pod niemals ready wird, da der Pfa
 
 ## Liveness Probe
 
-Wir legen nun eine Liveness Probe an. Hierfür wählen wir wieder Productpage auf und editieren die Health Checks ein weiteres Mal  \(rechte Maustaste Edit Health Checks\). In dem Formular für die Liveness Probe hinterlegen wir folgende Werte:
+Wir legen nun eine Liveness Probe an. Hierfür wählen wir wieder Productpage auf und editieren die Health Checks ein weiteres Mal \(rechte Maustaste Edit Health Checks\). In dem Formular für die Liveness Probe hinterlegen wir folgende Werte:
 
 * Path
   * auf /test
@@ -71,6 +71,4 @@ Wir sehen nun, dass der Pod nach ca. 40sec neu gestartet wird. Was hier genau pa
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-17.58.16.png)
 
 Wir beheben die fehlerhafte Probe idem wir den Path wieder auf / setzen.
-
-
 

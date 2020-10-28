@@ -14,5 +14,3 @@ cd /deployment-scripts/
 ./productpage.sh
 ```
 
-
-

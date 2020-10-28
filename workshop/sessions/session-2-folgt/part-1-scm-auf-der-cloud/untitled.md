@@ -1,7 +1,5 @@
 # optional: Team für die Arbeit am Code aufsetzen
 
-
-
 * geht in euer git Projekt Überblich auf der Cloud
 
 ![](../../../.gitbook/assets/image%20%2835%29.png)
@@ -32,6 +30,4 @@ Das geht noch nicht, da der erzeugte Branch nur lokal existiert, deshalb:
 ```text
 git push --set-upstream origin neuesfeaturebranch_euername
 ```
-
-
 

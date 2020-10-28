@@ -1,7 +1,5 @@
 # Euer Projekt bzw. Namespace
 
-
-
 Normalerweise müsstet ihr im ersten Schritt müsstet ihr ein neues Projekt bzw. Namespace erstellen. Der Einfachheit halber haben wir das schon gemacht und zwar mit euren Initialien gefolt von -bookinfo.
 
 {% hint style="warning" %}

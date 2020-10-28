@@ -1,8 +1,6 @@
 # GitHook & Code Änderung
 
-
-
-In this task, you modify the application and redeploy it. You can see how your Tekton-based delivery pipeline automatically picks up the changes in the application on commit and redeploys the app. 
+In this task, you modify the application and redeploy it. You can see how your Tekton-based delivery pipeline automatically picks up the changes in the application on commit and redeploys the app.
 
 1. On the toolchain's Overview page, click the Git tile for your application.
 
@@ -12,13 +10,13 @@ In this task, you modify the application and redeploy it. You can see how your T
 
    ![File browser](https://www.ibm.com/cloud/architecture/images/tutorials/toolchains/develop-kubernetes-app-using-tekton-delivery-pipelines/Tekton_Files.png)
 
-3. Edit the text message code to change the welcome message. 
+3. Edit the text message code to change the welcome message.
 
    ![Edit file](https://www.ibm.com/cloud/architecture/images/tutorials/toolchains/develop-kubernetes-app-using-tekton-delivery-pipelines/Tekton_Commit.png)
 
-4. Commit the updated file by typing a commit message and clicking **Commit changes** to push the change to the project's remote repository. 
+4. Commit the updated file by typing a commit message and clicking **Commit changes** to push the change to the project's remote repository.
 5. Return to the toolchain's Overview page by clicking the back arrow.
-6. Click **Delivery Pipeline**. The pipeline is running because the commit automatically started a build. Over the next few minutes, watch your change as it is built, tested, and deployed. 
+6. Click **Delivery Pipeline**. The pipeline is running because the commit automatically started a build. Over the next few minutes, watch your change as it is built, tested, and deployed.
 
    ![Dashboard redeployment](https://www.ibm.com/cloud/architecture/images/tutorials/toolchains/develop-kubernetes-app-using-tekton-delivery-pipelines/Tekton_Redeploy.png)
 

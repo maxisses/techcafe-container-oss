@@ -14,8 +14,6 @@ resources:
 
 ![](../../../.gitbook/assets/image%20%2838%29.png)
 
-
-
 * wenn ihr 5 oder mehr replicas gewählt habt, stellt ihr fest \(**nur** wenn ihr den Free Cluster gewählt habt\), dass nicht alle pods im status running sind \(kubectl get pods\) weil eurer Knoten mit diesem groß gewählten ressource request ausgelastet ist; hättet ihr mehr als einen Worker würde natürlich auf verschiedenen Knoten gescheduled; die details zur auslatung eures knotes findet ihr mit:
 
 ```text
@@ -34,11 +32,11 @@ fügt eurem deployment.yaml folgendes unten hinzu \(auf einrückung achten\) und
 
 ```text
 livenessProbe:
-          httpGet:
-            path: /health
-            port: 3000
-          initialDelaySeconds: 60
-          periodSeconds: 60
+          httpGet:
+            path: /health
+            port: 3000
+          initialDelaySeconds: 60
+          periodSeconds: 60
 ```
 
 * sobald der healthcheck nicht erfolgreich ist wird er Pod neu gestartet

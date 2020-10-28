@@ -5,5 +5,3 @@
 * Infrastructure-as-a-Service
 * Cloud Shell
 
-
-

@@ -12,5 +12,3 @@ Legt einen gemeinsamen Workspace für unsere Pipeline-Files \(git Repo & Builds 
 oc apply -f generic-pipeline/pvc/source-pvc.yaml
 ```
 
-
-

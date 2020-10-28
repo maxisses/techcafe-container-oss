@@ -5,14 +5,14 @@ Jetzt ist alles vorbereitet und ihr könnt den Code lokal entwickeln und die Än
 Um sie ins SCM auf der Cloud zu pushen müssen wir:
 
 ```text
-git add . 
+git add .
 ```
 
 * fügt alles geänderte hinzu, dafür ist der PUNKT\)
   * oder git add public/index.html \(fügt nur diese datei hinzu\)
 
 ```text
-git commit -m "kleiner change" 
+git commit -m "kleiner change"
 ```
 
 * loggt die änderung in eurer lokalen versionsverwaltung verbindlich ein

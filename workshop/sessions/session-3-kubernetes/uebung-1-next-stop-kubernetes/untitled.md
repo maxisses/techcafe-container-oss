@@ -19,16 +19,14 @@ kubectl get nodes -o wide
 * jetzt läuft eure WebApp in Kubernetes und ist erreichbar
 
 {% hint style="info" %}
-NodePort Lösung; normalerweise dient der "Service" nicht dazu die App über das Internet erreichbar zu machen; sondern um mit anderen Services bzw. dann Apps\(Deployments\) im Cluster zu kommunizieren --&gt; Verfügbarkeit im Netz stellt eine weitere Kubernetes Ressource, nämlich der "Ingress" zur Verfügung         
-   
-  internet            
-        \|     
-\[ Ingress \]     
-   --\|-----\|--     
+NodePort Lösung; normalerweise dient der "Service" nicht dazu die App über das Internet erreichbar zu machen; sondern um mit anderen Services bzw. dann Apps\(Deployments\) im Cluster zu kommunizieren --&gt; Verfügbarkeit im Netz stellt eine weitere Kubernetes Ressource, nämlich der "Ingress" zur Verfügung
+
+internet  
+\|  
+\[ Ingress \]  
+--\|-----\|--  
 \[ Services \]  
 --\|---\|---\|---\|---  
-   \[Pods\]
+\[Pods\]
 {% endhint %}
-
-
 

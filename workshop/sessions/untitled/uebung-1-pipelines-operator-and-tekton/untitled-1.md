@@ -4,5 +4,3 @@ Tekton wird in OpenShift mittel des OpenShift Pipeline Operators definiert. Nebe
 
 ![](../../../.gitbook/assets/image%20%28159%29.png)
 
-
-

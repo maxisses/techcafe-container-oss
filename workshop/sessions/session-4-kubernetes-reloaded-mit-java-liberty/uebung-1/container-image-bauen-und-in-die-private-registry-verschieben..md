@@ -1,6 +1,6 @@
 # Container Image bauen und in die private Registry verschieben.
 
-#### Build the container image
+## Build the container image
 
 1. Define an environment variable named `MYPROJECT` set with the name of the application you generated in the previous section:
 

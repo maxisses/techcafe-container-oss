@@ -8,5 +8,3 @@ Hier nochmal die Original-Definition:
 
 ![](../../../.gitbook/assets/image%20%28141%29.png)
 
-
-

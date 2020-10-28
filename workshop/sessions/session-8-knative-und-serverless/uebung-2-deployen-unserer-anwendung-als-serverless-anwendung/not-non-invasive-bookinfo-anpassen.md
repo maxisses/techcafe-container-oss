@@ -4,7 +4,7 @@ Bei der Implementierung von Anwendungen gilt es etwas aufzupassen. ServiceMesh h
 
 Beispiel:
 
-Wir erinnern uns, dass die reviews den ratings Service rufen müssen um die Anzahl Sternchen anzuzeigen. Das tut sie mit normalen Kubernetes Services mit Namen und Port, im Code sieht das so aus: http://ratings:9080
+Wir erinnern uns, dass die reviews den ratings Service rufen müssen um die Anzahl Sternchen anzuzeigen. Das tut sie mit normalen Kubernetes Services mit Namen und Port, im Code sieht das so aus: [http://ratings:9080](http://ratings:9080)
 
 ![](../../../.gitbook/assets/image%20%28129%29.png)
 
@@ -20,7 +20,7 @@ Wer sich jetzt denkt - ein Projekt oder Namespace wird man doch als Umgebungsvar
 
 [https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/](https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/)
 
-Und es gäbe noch eine zweite charmante Methode - da wir den Wert an 4 Stellen ändern müssen bietet sich ein Helm Chart ebenfalls an. 
+Und es gäbe noch eine zweite charmante Methode - da wir den Wert an 4 Stellen ändern müssen bietet sich ein Helm Chart ebenfalls an.
 {% endhint %}
 
 ![](../../../.gitbook/assets/image%20%28127%29.png)

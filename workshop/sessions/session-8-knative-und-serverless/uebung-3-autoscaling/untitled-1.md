@@ -2,9 +2,9 @@
 
 Ein kleinen Fehler habe ich drin gelassen ... weil er mir selbst unterlaufen ist. Wenn ihr jetzt auf die productpage geht, lädt sie - ABER die Services sind nicht erreichbar.
 
-Der einfachste Weg zu debuggen sind die Logs. 
+Der einfachste Weg zu debuggen sind die Logs.
 
-Und jetzt muss man aufmerksam schauen um den Fehler zu finden - In den FQDNs hat sich ein Fehler eingeschlichen und es fehlt das **.svc**.cluster.local. Das habe ich in dem yaml  in Zeile 31 unten angepasst den gesamten Service gelöscht und neu deployed.
+Und jetzt muss man aufmerksam schauen um den Fehler zu finden - In den FQDNs hat sich ein Fehler eingeschlichen und es fehlt das **.svc**.cluster.local. Das habe ich in dem yaml in Zeile 31 unten angepasst den gesamten Service gelöscht und neu deployed.
 
 ![](../../../.gitbook/assets/image%20%28131%29.png)
 
@@ -47,6 +47,5 @@ spec:
           - name: SERVICES_DOMAIN
             value: <euer namespace bzw. Projektname>.svc.cluster.local
       serviceAccountName: bookinfo-productpage
-
 ```
 

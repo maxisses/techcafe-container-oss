@@ -16,5 +16,3 @@ while true; do curl -H "user-agent: darkrelease" -s http://istio-ingressgateway-
 
 ![](../../../.gitbook/assets/image%20%2895%29.png)
 
-
-

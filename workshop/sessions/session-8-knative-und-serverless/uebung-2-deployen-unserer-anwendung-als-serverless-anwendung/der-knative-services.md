@@ -2,9 +2,7 @@
 
 Wie man im yaml unten für den ersten Service - den ratings Service unserer Bookinfo-Anwendung - an der apiVersion sieht implementiert KNative seine eigenen Ressourcen. Eine wesentliche, auf die wir uns heute fokussieren, ist der KNative Service. Es ist **nicht** das gleiche wie ein Kubernetes Service!
 
-Ein KNative Service macht uns einiges leichter, denn er macht das Kubernetes Deployment, einen Kubernetes Services und, wenn nicht anders spezifiziert, sogar eine extern verfügbar Route für unser Deployment. Er verwaltet darüber hinaus Updates am Workload \(z.B. wenn man ein neues Image spezifiziert\) in Revisions, was einem auch wieder Traffic Mgmt Funktionalitäten ermöglicht. 
-
-
+Ein KNative Service macht uns einiges leichter, denn er macht das Kubernetes Deployment, einen Kubernetes Services und, wenn nicht anders spezifiziert, sogar eine extern verfügbar Route für unser Deployment. Er verwaltet darüber hinaus Updates am Workload \(z.B. wenn man ein neues Image spezifiziert\) in Revisions, was einem auch wieder Traffic Mgmt Funktionalitäten ermöglicht.
 
 ![](../../../.gitbook/assets/image%20%28125%29.png)
 
@@ -55,6 +53,4 @@ Und es sollte uns noch etwas bekannt vorkommen, wenn wir auf den Pod clicken und
 Wir sehen auch schnell den "scale-to-zero", welcher per Default eingestellt ist, siehe Pod im Status "Terminating"
 
 ![](../../../.gitbook/assets/image%20%28132%29.png)
-
-
 

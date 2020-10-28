@@ -63,6 +63,5 @@ spec:
           - name: SERVICES_DOMAIN
             value: <euer namespace bzw. Projektname>.cluster.local
       serviceAccountName: bookinfo-productpage
-
 ```
 

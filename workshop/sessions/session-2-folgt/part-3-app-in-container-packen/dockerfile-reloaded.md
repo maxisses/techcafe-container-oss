@@ -1,7 +1,5 @@
 # Dockerfile reloaded
 
-
-
 * benennt das aktuelle "Dockerfile" diesmal in zB Dockerfilelinuxonly um:
 * erstellt eine neue Datei mit Namen Dockerfile und packt folgendes rein:
 

@@ -14,12 +14,12 @@ In diesem Ordner liegt eine Textdatei "GoT\_textonly.txt", welche das gesamte Ga
 
 ![](../../.gitbook/assets/image%20%28178%29.png)
 
-Das Notebook um das Skript als \*.csv Datei von der Website zu scrapen liegt auch im repo. Das ist aber Out-of-Scope an dieser Stelle. Wir schauen uns jetzt erstmal an wie das python Skript zum Training bzw. Finetunen des Modells aussieht. 
+Das Notebook um das Skript als \*.csv Datei von der Website zu scrapen liegt auch im repo. Das ist aber Out-of-Scope an dieser Stelle. Wir schauen uns jetzt erstmal an wie das python Skript zum Training bzw. Finetunen des Modells aussieht.
 
 [https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/fb1412c3-a906-4ab1-a7a0-5745de86ce0e/view?access\_token=2c233034fd88fe01e1506ce7b6bcdcfffe86dedb9e8b055b92417c195ed23bda](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/fb1412c3-a906-4ab1-a7a0-5745de86ce0e/view?access_token=2c233034fd88fe01e1506ce7b6bcdcfffe86dedb9e8b055b92417c195ed23bda)
 
 {% hint style="info" %}
-Was ihr hier seht ist Transfer Learning, d.h. wir nutzen das bereits mit Tonnen von \(englischen\) Textdaten \(Wikipedia & Co.\)von OpenAI trainierte GPT2 Netz und "finetunen" es nun mit unserem eigenen Netz. 
+Was ihr hier seht ist Transfer Learning, d.h. wir nutzen das bereits mit Tonnen von \(englischen\) Textdaten \(Wikipedia & Co.\)von OpenAI trainierte GPT2 Netz und "finetunen" es nun mit unserem eigenen Netz.
 {% endhint %}
 
 ![](../../.gitbook/assets/image%20%28162%29.png)
@@ -28,7 +28,7 @@ Hier seht ihr einmal wie das Training inklusive voll ausgelasteter GPU abläuft.
 
 ![](../../.gitbook/assets/image%20%28176%29.png)
 
-Getreu unserem bisherigen Motto arbeiten wir natürlich mit Containern. 
+Getreu unserem bisherigen Motto arbeiten wir natürlich mit Containern.
 
 Wer möchte kann gerne in die Details schauen. Wir wollen uns hier auf das Dockerfile konzentrieren.
 
@@ -75,7 +75,7 @@ docker build --file Dockerfile-GPU -t gpugpt2builder .
 docker run -v $PWD/checkpoint:/checkpoint gpugpt2builder
 ```
 
-Wer hat, der kann es natürlich mit GPU ausführen. Das führt je nach Einstellung auf dem eigenen System aber doch immer wieder zu Inkompatibilitäten, deshalb habe ich ein cpu-only Dockerfile daneben gelegt, welches man ebenfalls nutzen kann. Training dauert dann aber einige ... Stunden!!. :\) 
+Wer hat, der kann es natürlich mit GPU ausführen. Das führt je nach Einstellung auf dem eigenen System aber doch immer wieder zu Inkompatibilitäten, deshalb habe ich ein cpu-only Dockerfile daneben gelegt, welches man ebenfalls nutzen kann. Training dauert dann aber einige ... Stunden!!. :\)
 
 ```text
 docker run --gpus all -v $PWD/checkpoint:/checkpoint gpugpt2builder

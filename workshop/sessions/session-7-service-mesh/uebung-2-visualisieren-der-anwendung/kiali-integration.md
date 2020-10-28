@@ -12,7 +12,7 @@ Daneben laufen in diesem Namespace eine Reihe weiterer Istio Komponenten zB der 
 
 ![](../../../.gitbook/assets/image%20%2899%29.png)
 
-Dort können wir uns unsere Anwendung anschauen. 
+Dort können wir uns unsere Anwendung anschauen.
 
 {% hint style="info" %}
 Damit Kiali sinnvollen Output liefert ist Traffic notwendig! Also nicht wundern wenn das bei euch noch nicht so aussieht.

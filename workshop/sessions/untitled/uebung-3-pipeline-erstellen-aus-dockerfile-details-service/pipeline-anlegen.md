@@ -6,5 +6,3 @@ Mit folgendem YAML bringen wir unsere Tasks in eine Reihenfolge und legen entspr
 oc apply -f generic-pipeline/build-and-deploy.yaml
 ```
 
-
-
