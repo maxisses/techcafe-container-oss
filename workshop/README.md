@@ -34,7 +34,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 * Neugier, Engagement, Motivation
 * grundlegende IT-Kenntnisse \(z.B. Umgang mit Terminal, Betriebssystemen\)
 * grundlegende Erfahrungen mit einer oder mehr Programmiersprachen
-* BYOD 
+* BYOD \(bzw. ihr braucht ein Gerät auf dem man auch docker bzw. das eine oder andere CLI Tool installieren kann\)
 
 ## Sessions
 
