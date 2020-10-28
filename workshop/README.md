@@ -20,9 +20,8 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 ## Coaches
 
-[Rene Meyer ](https://www.linkedin.com/in/ren%C3%A9-meyer-6271308/)  
 [Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/)  
-[Benjamin Schmeling](https://www.linkedin.com/in/benjamin-schmeling-101/?originalSubdomain=de)
+[Rene Meyer ](https://www.linkedin.com/in/ren%C3%A9-meyer-6271308/)
 
 ## **Eckdaten**
 
