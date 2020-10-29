@@ -1,6 +1,6 @@
 # Euer heutiger Cluster
 
-Geht auf diese Website: [https://drvtechcafe.eu-de.mybluemix.net/](https://drvtechcafe.eu-de.mybluemix.net/) und loggt euch mit eurer eMail Adresse, mit der ihr euch auf cloud.ibm.com registriert habt ein.
+Geht auf diese Website: [https://invite.eu-de.mybluemix.net/](https://drvtechcafe.eu-de.mybluemix.net/) und loggt euch mit eurer eMail Adresse, mit der ihr euch auf cloud.ibm.com registriert habt ein.
 
 Folgt den angegeben Schritten auf der Website:
 

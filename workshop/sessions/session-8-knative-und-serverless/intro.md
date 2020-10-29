@@ -1,4 +1,5 @@
 # Intro
 
-[https://ibm.box.com/v/ibm-drvtechcafe](https://ibm.box.com/v/ibm-drvtechcafe)
+Session 8 Unterlage:  
+&lt; folgt &gt;
 

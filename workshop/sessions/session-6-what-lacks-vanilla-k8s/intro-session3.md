@@ -1,5 +1,5 @@
 # Intro
 
 Session 6 Unterlage:  
-[https://ibm.box.com/v/ibm-drvtechcafe](https://ibm.box.com/v/ibm-drvtechcafe)
+[&lt;](https://ibm.box.com/v/ibm-drvtechcafe) fit to session &gt;
 
