@@ -1,4 +1,4 @@
 # Intro
 
-Intro: [https://ibm.box.com/v/ibm-drvtechcafe](https://ibm.box.com/v/ibm-drvtechcafe)
+Intro: &lt; fit link to session &gt;
 
