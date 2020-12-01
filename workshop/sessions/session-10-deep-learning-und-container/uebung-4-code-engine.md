@@ -16,8 +16,11 @@ Hier könnt ihr euch dann unseren Backend-Service anlegen: [https://cloud.ibm.co
 Falls ihr mein Docker Image verwenden möchtet:
 
 ```text
-docker.io/maxisses/maxgpt2starter
+docker.io/maxisses/gpt2inferencing:small
 ```
+
+Das könntet ihr ebenfalls **from Dockerfile** bzw. **from Source** bauen lassen: [https://github.com/maxisses/GoT-Mining](https://github.com/maxisses/GoT-Mining-UI)  
+sub-directory: /[gpt2-got](https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got)/**gpt2-model-inferencing**/
 
 Und für das Frontend liegt das Docker Image hier:
 
@@ -25,7 +28,7 @@ Und für das Frontend liegt das Docker Image hier:
 docker.io/maxisses/gotminingui
 ```
 
-Das könntet ihr auch **from Dockerfile** bzw. **from Source** bauen lassen: [https://github.com/maxisses/GoT-Mining-UI](https://github.com/maxisses/GoT-Mining-UI)
+Das könntet ihr ebenfalls **from Dockerfile** bzw. **from Source** bauen lassen: [https://github.com/maxisses/GoT-Mining-UI](https://github.com/maxisses/GoT-Mining-UI)
 
 {% hint style="success" %}
 Wichtig: Ihr müsst wieder die Umgebungsvariable GPT2SERVICEURL auf die URL des Backend-Services setzen, die euch die GUI von CodeEngine anzeigt.

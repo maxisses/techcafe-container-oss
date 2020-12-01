@@ -13,7 +13,7 @@ Da wir das nicht gemacht haben wählen wir einfach die Container Image Strategie
 Falls ihr mein Docker Image verwenden möchtet:
 
 ```text
-docker.io/maxisses/maxgpt2starter
+docker.io/maxisses/gpt2inferencing:small
 ```
 
 Die UI können wir hingegen auch über den eingebauten build Service von OpenShift deployen mit der "from Dockerfile" Strategie unter diesem git Repo: [https://github.com/maxisses/GoT-Mining-UI.git](https://github.com/maxisses/GoT-Mining-UI.git)
