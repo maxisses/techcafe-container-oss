@@ -9,19 +9,19 @@ Und danach kann man auch schon wieder mit Docker weitermachen.
 Build:
 
 ```text
-docker build -t yourgpt2starter .
+docker build -t gpt2inferencing:small .
 ```
 
 Run:
 
 ```text
-docker run -p 8080:8080 yourgpt2starter
+docker run -p 8080:8080 gpt2inferencing:small
 ```
 
 Und wenn man eine GPU hat kann man auch das probieren:
 
 ```text
-docker run -p 8081:8080 --gpus all yourgpt2starter
+docker run -p 8081:8080 --gpus all gpt2inferencing:small
 ```
 
 Depending on your GPU the difference for inferencing is **tremendous** - for me it was 12x faster with 1 Geforce RTX2080 Super. The logs show you whether a GPU had been used an how long one request took.
