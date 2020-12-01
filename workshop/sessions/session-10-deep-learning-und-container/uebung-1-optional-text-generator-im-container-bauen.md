@@ -2,9 +2,9 @@
 
 In Übung 1 geht es darum mit einer GPT2 Library, welche Tensorflow nutzt ein Deep Learning Modell zu erstellen.
 
-Der Code, welcher uns ein Neuronales Netz baut das selbstständig, neuartige und ..eigenwillige :\) Game of Thrones Skripte schreiben kann, liegt hier: [https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got/gpt2-build](https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got/gpt2-build)
+Der Code, welcher uns ein Neuronales Netz baut das selbstständig, neuartige und ..eigenwillige :\) Game of Thrones Skripte schreiben kann, liegt hier: [https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got/gpt2-model-training](https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got/gpt2-model-training) 
 
-Klont euch gerne das ganze Repo - und geht dann in den entsprechenden Unterordern gpt2-got/gpt2-build
+Klont euch gerne das ganze Repo - und geht dann in den entsprechenden Unterordern [gpt2-got/gpt2-model-training](https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got/gpt2-model-training) 
 
 ```text
 git clone https://github.com/maxisses/GoT-Mining.git
