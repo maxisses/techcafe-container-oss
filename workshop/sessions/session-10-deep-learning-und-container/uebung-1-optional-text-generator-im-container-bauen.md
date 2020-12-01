@@ -55,15 +55,15 @@ RUN pip install -r requirements.txt
 
 WORKDIR /
 COPY GoT_textonly.txt /GoT_textonly.txt
-##models will be downloaded by the running container according to below modelsize
-COPY models /models
+## models will be downloaded by the running container 
+## according to below modelsize, if not copied into directly
+# COPY models /models
 COPY app.py /
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ENV MODELSIZE="124M"
 
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-ENTRYPOINT ["python3", "-X", "utf8", "app.py"]
+ENTRYPOINT ["python3", "-X", "utf8", "-u", "app.py"]
 ```
 
 Um jetzt loszulegen auf der eigenen Maschine reichen 2 Befehle:
@@ -71,13 +71,13 @@ Um jetzt loszulegen auf der eigenen Maschine reichen 2 Befehle:
 Repo wie oben beschrieben clonen, docker image bauen und ausführen. Wichtig ist darauf zu achten den checkpoint folder lokal zu mounten, denn das python Program schreibt das Modell in diesen Ordner und wir brauchen ihn später bei der Ausführung bzw. Anwendung \("Inferencing"\).
 
 ```text
-docker build --file Dockerfile-GPU -t gpugpt2builder .
-docker run -v $PWD/checkpoint:/checkpoint gpugpt2builder
+docker build --file Dockerfile-GPU -t gpt2trainmodel .
+docker run -v $PWD/checkpoint:/checkpoint gpt2trainmodel
 ```
 
 Wer hat, der kann es natürlich mit GPU ausführen. Das führt je nach Einstellung auf dem eigenen System aber doch immer wieder zu Inkompatibilitäten, deshalb habe ich ein cpu-only Dockerfile daneben gelegt, welches man ebenfalls nutzen kann. Training dauert dann aber einige ... Stunden!!. :\)
 
 ```text
-docker run --gpus all -v $PWD/checkpoint:/checkpoint gpugpt2builder
+docker run --gpus all -v $PWD/checkpoint:/checkpoint gpt2trainmodel
 ```
 
