@@ -21,7 +21,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 ## Coaches
 
 [Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/)  
-[Rene Meyer ](https://www.linkedin.com/in/ren%C3%A9-meyer-6271308/)
+[Max Wurzer](https://www.linkedin.com/in/maximilian-wurzer?originalSubdomain=de)
 
 ## **Eckdaten**
 
