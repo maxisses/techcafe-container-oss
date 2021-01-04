@@ -2,7 +2,7 @@
 
 Ein Circuit Breaker wird dann aktiviert wenn der angesprochene Pod nicht antwortet bzw. fehlerhaft antwortet.
 
-Die aktuelle Anwendung läuft ziemlich fehlerfrei. Deshalb lasst uns einen fehlerhaften Details Service einbauen. Ich habe dazu den ruby Code ein bisschen verschwandelt und ein neues Image gebaut. Das Image liegt hier: docker.io/maxisses/bookinfo-details-v2
+Die aktuelle Anwendung läuft ziemlich fehlerfrei. Deshalb lasst uns einen fehlerhaften Details Service einbauen. Ich habe dazu den ruby Code ein bisschen verschandelt und ein neues Image gebaut. Das Image liegt hier: docker.io/maxisses/bookinfo-details-v2
 
 Mit folgendem Befehl wird nur ein Update auf das aktuelle details-Deployment gemacht und das Image durch das fehlerhafte getauscht.
 
