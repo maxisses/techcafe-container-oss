@@ -1,8 +1,7 @@
 ---
 description: 'Hands-On Sessions zu Containertechnologie, Microservices & Kubernetes'
 ---
-
-# TechCafé
+# TechCafé!
 
 ## About
 
@@ -20,7 +19,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 ## Coaches
 
-[Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/)  
+[Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/)
 [Max Wurzer](https://www.linkedin.com/in/maximilian-wurzer?originalSubdomain=de)
 
 ## **Eckdaten**
@@ -38,8 +37,9 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 ## Sessions
 
+
 | ID | Titel |
-| :--- | :--- |
+| :- | :- |
 | Session 1 | [Cloud-Native, Container & Public Cloud](sessions/app-entwicklung-auf-der-cloud/) |
 | Session 2 | [Flyover Cloud, Container, CI/CD, PaaS](sessions/session-2-folgt/) |
 | Session 3 | [Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-kubernetes/) |
@@ -53,11 +53,11 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 ## Agenda der Sessions
 
+
 | Titel | Dauer | Wer? |
-| :--- | :--- | :--- |
+| :- | :- | :- |
 | Intro & Quiz | 5 Minuten | IBM Coaches |
 | Einführung zur Theorie und Inhalt des Labs | 10 Minuten | IBM Coaches |
 | Code & Work Along | 60 Minuten | Alle |
 | Wrap-Up: Was haben wir heute gemacht? Welche Relevanz hat es? | 10 Minuten | Alle |
 | Feedback | 5 Minuten | Teilnehmer Techies |
-
