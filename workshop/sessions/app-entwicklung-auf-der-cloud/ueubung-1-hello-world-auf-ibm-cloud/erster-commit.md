@@ -4,9 +4,9 @@ schaut euch die Files an, insbesondere "manifest.yaml" und findet eure Applikati
 
 ![](../../../.gitbook/assets/image%20%284%29.png)
 
-Öffnet einen neuen Tab 
+Öffnet einen neuen Tab
 
-{% embed url="https://cloud.ibm.com" %}
+{% embed url="https://cloud.ibm.com" caption="" %}
 
 und geht auf eure "Ressource List" und findet unter cloud foundry Apps eure App, clickt drauf und schaut euch an was eine PaaS out-of-the box kann \(zB CI/CD Integration, Logs, Connections & Runtime Monitoring & AutoScaling\).
 

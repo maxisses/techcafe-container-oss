@@ -4,7 +4,7 @@ Im Ergebniss haben wir in Session 8 die Bookinfo Anwendung vollständig als KNat
 
 ![](../../.gitbook/assets/image%20%28145%29.png)
 
-Wichtig ist, dass die Anwendung auch dazu passen muss. Ein Blick in die Logs eines der Pods des reviews Deployments zeigt, dass dies beim initialen Aufruf bzw. einem Aufruf nach einer gewissen Pause für bookinfo und den ratings-Service nicht gegeben ist. Er startet nicht schnell genug und der http-Request schlägt fehl. Je nach Typ der Anwendung müsste man mindestens eines der beiden Probleme lösen. 
+Wichtig ist, dass die Anwendung auch dazu passen muss. Ein Blick in die Logs eines der Pods des reviews Deployments zeigt, dass dies beim initialen Aufruf bzw. einem Aufruf nach einer gewissen Pause für bookinfo und den ratings-Service nicht gegeben ist. Er startet nicht schnell genug und der http-Request schlägt fehl. Je nach Typ der Anwendung müsste man mindestens eines der beiden Probleme lösen.
 
 ![](../../.gitbook/assets/image%20%28155%29.png)
 

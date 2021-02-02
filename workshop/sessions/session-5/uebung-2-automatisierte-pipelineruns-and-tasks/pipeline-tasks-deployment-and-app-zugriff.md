@@ -1,7 +1,5 @@
 # Pipeline Tasks, Deployment & App Zugriff
 
-
-
 1. Review the pipeline-build-task. The task consists of a git clone of the repository followed by two steps:
    * pre-build-check: This step checks for the mandatory Dockerfile and runs a lint tool. It then checks the registry current plan and quota before it creates the image registry namespace if needed.
    * build-docker-image: This step creates the Docker image by using the IBM Cloud Container Registry build service through the `ibmcloud cr build` CLI script. The script stores the output image into the private IBM Cloud Container Registry and copies other app scripts with the build results into the `ARCHIVE_DIR` folder.

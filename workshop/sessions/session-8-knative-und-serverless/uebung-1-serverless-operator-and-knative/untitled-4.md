@@ -6,9 +6,7 @@ In dem erstgenannten seht ihr die Komponenten, welche auch schon auf die Funktio
 
 ![](../../../.gitbook/assets/image%20%28139%29.png)
 
-Darüber hinaus gibt es wieder einen speziellen Ingress, welcher den eingehenden Traffic empfangen muss und das Networking der KNative Services steuert. Diesen findet ihr im "knative-serving-ingress" Projekt und seht dort den 3scale Kourier indem alle "Routen", also public URLs unserer KNative Anwendungen zu sehen sind. Kourier ist tatsächlich ein leichtgewichtiger Ersatz für den Istio Ingress den wir in der letzten Session gesehen haben. 
+Darüber hinaus gibt es wieder einen speziellen Ingress, welcher den eingehenden Traffic empfangen muss und das Networking der KNative Services steuert. Diesen findet ihr im "knative-serving-ingress" Projekt und seht dort den 3scale Kourier indem alle "Routen", also public URLs unserer KNative Anwendungen zu sehen sind. Kourier ist tatsächlich ein leichtgewichtiger Ersatz für den Istio Ingress den wir in der letzten Session gesehen haben.
 
 ![](../../../.gitbook/assets/image%20%28133%29.png)
-
-
 

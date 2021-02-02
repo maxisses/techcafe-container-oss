@@ -12,10 +12,8 @@ Geht jetzt in eure Delivery Pipeline um das Ergebnis zu überprüfen. Nämlich e
 
 ![](../../../.gitbook/assets/image%20%2814%29.png)
 
-
-
 {% hint style="info" %}
-Wichtig ist zu verstehen das nun ein neues Deployment der Webanwendung gemacht wird. Wenn ihr in dem Deployment \(unter Resource List -&gt; CF Apps\) Änderungen gemacht habt werden diese jetzt gänzlich überschrieben. Die Wahrheit liegt im SCM bzw. git. Normalerweise würde diese Änderung nicht direkt auf dem Server im git erfolgen, das ist hier nur so um es zu vereinfachen. 
+Wichtig ist zu verstehen das nun ein neues Deployment der Webanwendung gemacht wird. Wenn ihr in dem Deployment \(unter Resource List -&gt; CF Apps\) Änderungen gemacht habt werden diese jetzt gänzlich überschrieben. Die Wahrheit liegt im SCM bzw. git. Normalerweise würde diese Änderung nicht direkt auf dem Server im git erfolgen, das ist hier nur so um es zu vereinfachen.
 {% endhint %}
 
 {% hint style="info" %}

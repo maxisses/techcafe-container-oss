@@ -1,7 +1,5 @@
 # Session 2: Flyover Cloud, Container, CI/CD, PaaS
 
-
-
 <table>
   <thead>
     <tr>
@@ -28,7 +26,7 @@
             in den Arbeitsalltag eingebunden</li>
         </ul>
       </td>
-      <td style="text-align:left"><a href="https://cloud.ibm.com/developer/appservice/starter-kits">https://cloud.ibm.com/developer/appservice/starter-kits</a> 
+      <td style="text-align:left"><a href="https://cloud.ibm.com/developer/appservice/starter-kits">https://cloud.ibm.com/developer/appservice/starter-kits</a>
       </td>
     </tr>
   </tbody>

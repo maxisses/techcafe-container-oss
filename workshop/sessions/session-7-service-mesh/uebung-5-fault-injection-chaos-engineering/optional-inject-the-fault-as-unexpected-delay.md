@@ -1,8 +1,6 @@
 # Fault injection durch Service Delay
 
-
-
-### 2. Delay
+## 2. Delay
 
 ```text
 oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/master/02-fault-injection/fault-injection_delay.yaml

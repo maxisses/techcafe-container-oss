@@ -62,5 +62,3 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 | Wrap-Up: Was haben wir heute gemacht? Welche Relevanz hat es? | 10 Minuten | Alle |
 | Feedback | 5 Minuten | DRV Techies |
 
-
-

@@ -9,6 +9,5 @@ Wer wir sind?
 Wer ihr seid?  
 Was ist eure Erwartungshaltung  
 Wie arbeiten wir zusammen?  
-Wo sind alle wichtigen Links?  
-
+Wo sind alle wichtigen Links?
 

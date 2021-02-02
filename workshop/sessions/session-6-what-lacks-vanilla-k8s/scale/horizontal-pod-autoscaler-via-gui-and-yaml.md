@@ -14,7 +14,6 @@ Alternativ kann auch per OC automatisch skaliert werden:
 oc autoscale deployment productpage --min=1 --max=3 --cpu-percent=50   
 
 horizontalpodautoscaler.autoscaling/productpage autoscaled
-
 ```
 
 Der Status des Autoscalers kann abgefragt werden, um zu checken, ob dieser ordnungsgemäß funktioniert:

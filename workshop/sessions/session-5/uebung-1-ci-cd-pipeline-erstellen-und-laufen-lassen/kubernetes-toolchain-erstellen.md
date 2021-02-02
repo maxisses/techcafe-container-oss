@@ -1,12 +1,10 @@
 # Kubernetes Toolchain erstellen - Pipeline Konfiguration
 
-
-
 1. Click **Add a Tool** and click **Delivery Pipeline**.
 
    a. Type a name for your new pipeline.
 
-   b. Click **Tekton**. 
+   b. Click **Tekton**.
 
    ![Pipeline type](https://www.ibm.com/cloud/architecture/images/tutorials/toolchains/develop-kubernetes-app-using-tekton-delivery-pipelines/Tekton_Select.png)
 
@@ -36,7 +34,7 @@
 
    b. Save your changes.
 
-4. On the left, click **Triggers** &gt; **Add trigger** &gt; **Git Repository**. Associate the trigger with an event listener: 
+4. On the left, click **Triggers** &gt; **Add trigger** &gt; **Git Repository**. Associate the trigger with an event listener:
 
    a. From the **Repository** list, select your repo.
 
@@ -54,7 +52,7 @@
 
    b. Click **Save**.
 
-   **Note:** Manual triggers run when you click **Run pipeline** and select the trigger. Git repository triggers run when the specified Git event type occurs for the specified Git repo and branch. The list of available event listeners is populated with the listeners that are defined in the pipeline code repo. 
+   **Note:** Manual triggers run when you click **Run pipeline** and select the trigger. Git repository triggers run when the specified Git event type occurs for the specified Git repo and branch. The list of available event listeners is populated with the listeners that are defined in the pipeline code repo.
 
 6. On the left, click **Environment properties**, and define the environment properties for this tutorial. To add each property, click **Add property** and click **Text property**, except for apiKey, which is a secured property. Add these properties:
 

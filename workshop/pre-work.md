@@ -7,7 +7,7 @@
 
 Mach euch einen IBM Cloud Account:
 
-{% embed url="https://cloud.ibm.com" %}
+{% embed url="https://cloud.ibm.com" caption="" %}
 
 ![Cloud Sign up](.gitbook/assets/ibm-cloud-sign-up.png)
 

@@ -1,7 +1,5 @@
 # manuell Skalieren
 
-
-
 * Ändert die anzahl "replicas" in der datei "deployment.yaml" auf eine euch genehme Zahl, zB 5; speichert und
 * führt den Befehl erneut aus:
 

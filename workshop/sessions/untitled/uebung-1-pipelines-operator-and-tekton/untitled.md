@@ -10,13 +10,13 @@ Die Ressource Project ist eine OpenShift spezifische Erweiterung von Kubernetes.
 
 Damit wir unsere neue Applikation Bookinfo bauen und deployen können müssen wir uns zunächst ein neues Projekt anlegen.
 
-### OC CLI
+## OC CLI
 
 ```text
 oc new-project <initialien>-bookinfo-tekton
 ```
 
-### **OpenShift Console / GUI**
+## **OpenShift Console / GUI**
 
 ![](../../../.gitbook/assets/image%20%28151%29.png)
 

@@ -21,5 +21,3 @@ spec:
     app: maxpubliceduapp-selector
 ```
 
-
-

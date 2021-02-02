@@ -10,7 +10,7 @@ Jetzt das File folgendermaßen befüllen
 
 ```text
 ###alpine ist eine super abgespeckte LinuxVersion optimiert für container, hier wird also ein linux "installiert"
-FROM alpine 
+FROM alpine 
 
 
 ## jetzt wird auf dem linux node.js und npm installiert

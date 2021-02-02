@@ -1,7 +1,5 @@
 # optional: Merge Request \(Pull Request\)
 
-
-
 Öffnet wieder das gitlab Project Overview im Browser und geht links bei Repository auf Branches. Klickt drauf, dort könnt ihr euren Branch sehen, auswählen, und "compare" oder "merge request" machen
 
 ![](../../../.gitbook/assets/image%20%2831%29.png)
@@ -15,8 +13,6 @@ Da ihr einem anderen projekt hinzugefügt wurdet könnt ihr oben den "projects" 
 ![](../../../.gitbook/assets/image%20%2840%29.png)
 
 Per Default wird die Delivery Pipeline durch den master Branch getriggered - deshalb:
-
-  
 
 ![](../../../.gitbook/assets/image%20%2842%29.png)
 

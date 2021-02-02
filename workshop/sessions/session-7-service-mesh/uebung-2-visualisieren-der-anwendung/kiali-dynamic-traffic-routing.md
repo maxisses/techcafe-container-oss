@@ -12,10 +12,10 @@ Hier können wir die gleiche Funktionalität problemlos konfigurieren, ohne daf�
 
 ![](../../../.gitbook/assets/image%20%28104%29.png)
 
-Wenn man in Kiali runterscrolled sieht man, dass wieder sowohl ein VirtualService und eine DestinationRule erstellt wurden. In den YAML Files erkennt man die Einstellungen wieder und kann sie entsprechend anpassen. Die DestinationRule selektiert in diesem Fall, welche Pods herangezogen werden mittels des labels "version". Man kann also so granular selektieren wie man will und nicht auf Deployment Ebene wie in diesem Fall geschehen. 
+Wenn man in Kiali runterscrolled sieht man, dass wieder sowohl ein VirtualService und eine DestinationRule erstellt wurden. In den YAML Files erkennt man die Einstellungen wieder und kann sie entsprechend anpassen. Die DestinationRule selektiert in diesem Fall, welche Pods herangezogen werden mittels des labels "version". Man kann also so granular selektieren wie man will und nicht auf Deployment Ebene wie in diesem Fall geschehen.
 
 {% hint style="info" %}
-Kiali Actions ist ein super Startpunkt um schnell Templates für Gateways\(siehe "Advanced Options" oben\), VirtualServices und DestinationRules zu erstellen. Danach sollte man die YAMLs aber exportieren und in Version Control packen. 
+Kiali Actions ist ein super Startpunkt um schnell Templates für Gateways\(siehe "Advanced Options" oben\), VirtualServices und DestinationRules zu erstellen. Danach sollte man die YAMLs aber exportieren und in Version Control packen.
 {% endhint %}
 
 Zu guter letzt löschen wir das Routing erstmal.

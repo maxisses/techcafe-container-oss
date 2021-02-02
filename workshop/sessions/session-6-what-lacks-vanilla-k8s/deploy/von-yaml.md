@@ -1,6 +1,6 @@
 # Yaml Deployment via Web Console
 
-Alternativ können Yaml Manifeste auch per Web Console deployt werden. Hierzu wechseln wir in die Developers View und klicken links oben im Menü auf +Add. Hier sehen wir dann die verschiedenen Deployment Optionen und wählen YAML aus. 
+Alternativ können Yaml Manifeste auch per Web Console deployt werden. Hierzu wechseln wir in die Developers View und klicken links oben im Menü auf +Add. Hier sehen wir dann die verschiedenen Deployment Optionen und wählen YAML aus.
 
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-13.23.55.png)
 

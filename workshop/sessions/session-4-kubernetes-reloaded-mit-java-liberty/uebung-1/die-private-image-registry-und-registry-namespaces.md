@@ -2,9 +2,9 @@
 
 In this section, you push the Docker image to the IBM Cloud private container registry.
 
-#### Prepare the access to the private image registry.
+## Prepare the access to the private image registry.
 
-1. To identify your  URL, run
+1. To identify your URL, run
 
    ```bash
    ibmcloud cr region
@@ -23,8 +23,6 @@ In this section, you push the Docker image to the IBM Cloud private container re
    ```
 
 {% hint style="info" %}
-
-
 Not required but to create a new namespace you would use \(on your own account\):
 
 ```bash

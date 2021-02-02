@@ -14,5 +14,3 @@ Oder unter "Last commit by IBM Cloud" --&gt; clone from zip
 
 ![](../../../.gitbook/assets/image%20%2818%29.png)
 
-
-

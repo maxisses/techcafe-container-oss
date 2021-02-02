@@ -10,13 +10,13 @@ Die Ressource Project ist eine OpenShift spezifische Erweiterung von Kubernetes.
 
 Damit wir unsere neue Applikation Bookinfo bauen und deployen können müssen wir uns zunächst ein neues Projekt anlegen.
 
-### OC CLI
+## OC CLI
 
 ```text
 oc new-project bookinfo
 ```
 
-### Web UI
+## Web UI
 
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-13.07.02.png)
 

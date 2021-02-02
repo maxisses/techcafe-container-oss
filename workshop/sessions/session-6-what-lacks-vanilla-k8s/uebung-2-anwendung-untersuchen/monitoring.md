@@ -14,5 +14,3 @@ Wenn über die Linke Hauptnavigation in der Developer View auf das Monitoring Ta
 
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-17.26.12.png)
 
-
-

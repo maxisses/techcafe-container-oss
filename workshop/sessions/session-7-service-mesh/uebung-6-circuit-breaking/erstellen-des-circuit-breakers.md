@@ -1,6 +1,6 @@
 # Fehler einbauen
 
-Ein Circuit Breaker wird dann aktiviert wenn der angesprochene Pod nicht antwortet bzw. fehlerhaft antwortet. 
+Ein Circuit Breaker wird dann aktiviert wenn der angesprochene Pod nicht antwortet bzw. fehlerhaft antwortet.
 
 Die aktuelle Anwendung läuft ziemlich fehlerfrei. Deshalb lasst uns einen fehlerhaften Details Service einbauen. Ich habe dazu den ruby Code ein bisschen verschwandelt und ein neues Image gebaut. Das Image liegt hier: docker.io/maxisses/bookinfo-details-v2
 
@@ -21,6 +21,4 @@ while true; do curl -s http://istio-ingressgateway-istio-system.openshift-for-te
 ```
 
 ![](../../../.gitbook/assets/image%20%28108%29.png)
-
-
 

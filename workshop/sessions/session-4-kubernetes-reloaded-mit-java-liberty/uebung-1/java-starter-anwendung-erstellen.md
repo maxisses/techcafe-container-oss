@@ -23,15 +23,11 @@ The `ibmcloud dev` tooling greatly cuts down on development time by generating a
 
 This generates a starter application complete with the code and all the necessary configuration files for local development and deployment to cloud on Cloud Foundry or Kubernetes.
 
-
-
 \_\_\_\_\_\_\_\_\_\_\_ **NOT REQUIRED** but if you want to check where the code comes from\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-We dont use automation features \(integration with ci/cd; direct deployment to kubernetes / openshift\) "ibmcloud dev" provides, alternatively we could just do a git clone , which gets the repo that is behind the scaffold application we would build with the ibmcloud dev command. But it 
+We dont use automation features \(integration with ci/cd; direct deployment to kubernetes / openshift\) "ibmcloud dev" provides, alternatively we could just do a git clone , which gets the repo that is behind the scaffold application we would build with the ibmcloud dev command. But it
 
 ```text
 git clone https://github.com/IBM/java-liberty-app
 ```
-
-
 

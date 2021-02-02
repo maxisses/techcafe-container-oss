@@ -1,7 +1,5 @@
 # DarkRelease durch custom http-Header einbauen
 
-
-
 Wir tun für unser dark Release so als wären unsere roten Sternchen ein neues Feature in v3 der reviews Anwendung und wir möchten diese v3 versteckt testen.
 
 Anbei der Befehl den nötigen VirtualService und die DestinationRule welche via Label Selector Pods segmentiert. Hier in die Subsets risky und safe. Wir nutzen um das DarkRelease durchzuführen http-Header Modifikation. Mehr auf der nächsten Seite.

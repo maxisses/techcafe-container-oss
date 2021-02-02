@@ -16,11 +16,9 @@ https://Domain eurer App/
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
 
-- Clicke auf "Add Stage" rechts oben, ersetze MyStage durch "Health Check"
-
-- Clicke auf Jobs - Add Job - Test
-
-- füge folgendes in das Test Script Feld ein, ersetzt die URL eurer applikation:
+* Clicke auf "Add Stage" rechts oben, ersetze MyStage durch "Health Check"
+* Clicke auf Jobs - Add Job - Test
+* füge folgendes in das Test Script Feld ein, ersetzt die URL eurer applikation:
 
 ```text
 export appstatus=`curl -s 'https://staging-<eure url>/health' |     python3 -c "import sys, json; print(json.load(sys.stdin)['status'])"`

@@ -8,5 +8,3 @@ oc new-project <initialien>-bookinfo-kn
 
 Das kn soll in diesem Falle für KNative stehen.
 
-
-
