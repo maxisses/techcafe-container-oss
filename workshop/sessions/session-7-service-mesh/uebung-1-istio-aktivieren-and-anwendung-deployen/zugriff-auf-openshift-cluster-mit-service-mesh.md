@@ -12,5 +12,5 @@ Geht auf cloud.ibm.com und findet euren OpenShift Cluster in der Ressource Liste
 
 Kopiert den ganzen Befehl und loggt euch auf der CLI entsprechend ein:
 
-![](../../../.gitbook/assets/image%20%2888%29.png)
+![](../../../.gitbook/assets/image%20%28143%29%20%281%29.png)
 

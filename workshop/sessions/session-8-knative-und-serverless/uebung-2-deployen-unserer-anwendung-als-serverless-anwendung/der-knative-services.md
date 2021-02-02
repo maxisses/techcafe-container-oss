@@ -4,7 +4,7 @@ Wie man im yaml unten für den ersten Service - den ratings Service unserer Book
 
 Ein KNative Service macht uns einiges leichter, denn er macht das Kubernetes Deployment, einen Kubernetes Services und, wenn nicht anders spezifiziert, sogar eine extern verfügbar Route für unser Deployment. Er verwaltet darüber hinaus Updates am Workload \(z.B. wenn man ein neues Image spezifiziert\) in Revisions, was einem auch wieder Traffic Mgmt Funktionalitäten ermöglicht.
 
-![](../../../.gitbook/assets/image%20%28125%29.png)
+![](../../../.gitbook/assets/image%20%28125%29%20%281%29.png)
 
 Hier ist das yaml-File um ratings als KNative Service zu deployen.
 

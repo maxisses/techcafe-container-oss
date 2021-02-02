@@ -6,7 +6,7 @@
    1. runterscrollen bis Version v3.3.0 und für euer OS runterladen [https://github.com/helm/helm/releases](https://github.com/helm/helm/releases) Linux directlink: _wget_ [https://get.helm.sh/helm-v3.3.0-linux-amd64.tar.gz](https://get.helm.sh/helm-v3.3.0-linux-amd64.tar.gz)
    2. install Guide: [https://helm.sh/docs/intro/install/](https://helm.sh/docs/intro/install/)
 
-![](../../.gitbook/assets/image%20%2859%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%2859%29%20%282%29.png)
 
 Überprüfen das es da ist:
 
