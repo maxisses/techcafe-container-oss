@@ -6,7 +6,7 @@ description: 'Hands-On Sessions zu Containertechnologie, Microservices & Kuberne
 
 ## About
 
-Das virtuelle Techcafé soll DevOps Teams \(oder IT-Administratoren & Entwicklern :\) \) helfen OpenSource Technologien schnell kennenzulernen, anzuwenden und einzuschätzen welche Rolle sie im Kontext der eigenen Arbeit spielen.
+Das virtuelle Techcafé des BAMF soll DevOps Teams \(oder IT-Administratoren & Entwicklern :\) \) helfen OpenSource Technologien schnell kennenzulernen, anzuwenden und einzuschätzen welche Rolle sie im Kontext der eigenen Arbeit spielen.
 
 Diese Einleitung ist folgendermaßen aufgebaut:
 
@@ -26,7 +26,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 ## **Eckdaten**
 
 * 10 Sessions á 1,5h
-* 5 bis 8 Teilnehmer
+* 8 bis 12 Teilnehmer
 * remote mit eigenen Endgeräten
 
 ## **Vorkenntnisse & Was sollte man mitbringen:**
