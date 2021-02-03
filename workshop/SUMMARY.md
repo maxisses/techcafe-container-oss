@@ -184,8 +184,7 @@
 * [IBM Cloud](https://cloud.ibm.com)
 * [IBM Kubernetes Cluster Inviter](https://drvtechcafe.eu-de.mybluemix.net/)
 * [WebEx Login](https://ibm.webex.com/meet/max.dargatz)
-* [WebEx Login - Breakout](https://ibm.webex.com/meet/rene.meyer)
-* [Slack Channel](https://ibmpublicdach.slack.com/archives/G017Z3RB762)
+* [WebEx Login - Breakout](https://ibm.webex.com/meet/maximilian.wurzer)
 * [IBM CLI Guide](https://cloud.ibm.com/docs/cli/index.html)
 * [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 * [Kubernetes Cheat Sheet](https://kubernetes.io/de/docs/reference/kubectl/cheatsheet/)
@@ -194,6 +193,7 @@
 ---
 
 * [off-content](off-content/README.md)
+  * [Untitled](off-content/untitled.md)
   * [Übung 1: - under construction - Continous Integration / Continous Delivery für eure App anpassen](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/README.md)
     * [Definition der Infrastruktur](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/definition-der-infrastruktur.md)
     * [Staging Phase zur Delivery Pipe hinzufügen](off-content/part-2-continous-integration-continous-delivery-fuer-eure-app-anpassen/untitled-2.md)
