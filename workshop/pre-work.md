@@ -13,7 +13,6 @@ Macht euch einen IBM Cloud Account:
 
 ## 2. Überlegt euch wie ihr teilnehmt
 
-* [x] Slack Channel beigetreten \( [&lt;](https://ibmpublicdach.slack.com/archives/G017Z3RB762) fit to session &gt; \)
 * [x] Device mit offenem Zugang verfügbar
 * [x] gut zu haben, aber kein Muss: 2 Screens
 * [x] schön zu haben, absolut kein Muss: Kamera
