@@ -5,7 +5,7 @@
 
 ## 1. Sign up for IBM Cloud
 
-Mach euch einen IBM Cloud Account:
+Macht euch einen IBM Cloud Account:
 
 {% embed url="https://cloud.ibm.com" caption="" %}
 
