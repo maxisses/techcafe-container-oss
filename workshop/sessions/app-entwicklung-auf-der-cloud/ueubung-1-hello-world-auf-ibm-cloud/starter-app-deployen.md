@@ -7,7 +7,7 @@ description: Eure Node.JS Express App auf der IBM Cloud
 Navigiere zu App Development, Starter Kits, Node.js und wähle **Node.js Express**
 
 {% hint style="info" %}
-Express ist ein populäres Web Framework. Wir könnten auch ein anderes Starter-Kit nutzen und im weiteren Verlauf werden wir das auch tun.
+[Express](https://expressjs.com/) ist ein populäres Web Framework. Wir könnten auch ein anderes Starter-Kit nutzen und im weiteren Verlauf werden wir das auch tun.
 {% endhint %}
 
 ![](../../../.gitbook/assets/image%20%289%29.png)

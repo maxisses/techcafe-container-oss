@@ -1,6 +1,6 @@
 # Eure App im git und als Webanwendung
 
-schaut euch die Files an, insbesondere "manifest.yaml" und findet eure Applikationsdetails wieder:
+Schaut euch die Files an, insbesondere "manifest.yaml" und findet eure Applikationsdetails wieder:
 
 ![](../../../.gitbook/assets/image%20%284%29.png)
 
