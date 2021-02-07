@@ -21,7 +21,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 ## Coaches
 
 [Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/)  
-[Max Wurzer](https://www.linkedin.com/in/maximilian-wurzer?originalSubdomain=de)
+[Max Wurzer](https://de.linkedin.com/in/maximilian-wurzer) - [Github](https://github.com/wumaxd)
 
 ## **Eckdaten**
 
