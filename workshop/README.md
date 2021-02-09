@@ -20,7 +20,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 ## Coaches
 
-[Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/)  
+[Max Dargatz](https://www.linkedin.com/in/max-dargatz-04851239/) - [Github](https://github.com/maxisses)  
 [Max Wurzer](https://de.linkedin.com/in/maximilian-wurzer) - [Github](https://github.com/wumaxd)
 
 ## **Eckdaten**
