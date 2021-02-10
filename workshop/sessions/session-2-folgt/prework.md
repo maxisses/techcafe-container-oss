@@ -1,9 +1,14 @@
 # Prework
 
-1. Code Editor installieren - z.B. [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
-2. GIT-SCM installieren - [https://git-scm.com/downloads](https://git-scm.com/downloads)
-3. node.js runtime installieren   - [https://nodejs.org/de/download/](https://nodejs.org/de/download/)
-4. Docker installieren - [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+Docker installieren - [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+
+optional wenn man Übung 1 machen möchte, weil Themen wie ssh-keys hinterlegen bzw. der Umgang mit git noch neu ist:
+
+1. für optionale Übung 1: Code Editor installieren - z.B. [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+2. für optionale Übung 1: GIT-SCM installieren - [https://git-scm.com/downloads](https://git-scm.com/downloads)
+3. für optionale Übung 1: node.js runtime installieren   - [https://nodejs.org/de/download/](https://nodejs.org/de/download/)
+
+
 
 {% hint style="info" %}
 Wir verwenden primär VS Code für alle weiteren Demos. Es steht jedem frei den Code Editor / IDE seiner Wahl zu verwenden.
