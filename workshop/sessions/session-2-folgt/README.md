@@ -1,4 +1,4 @@
-# Session 2: Flyover Cloud, Container, CI/CD, PaaS
+# Session 2: Git, Containerisieren & Container Registries
 
 <table>
   <thead>
