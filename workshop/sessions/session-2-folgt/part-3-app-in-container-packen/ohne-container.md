@@ -1,4 +1,4 @@
-# Ohne Container?
+# optional: Ohne Container?
 
 **Wie war das nochmal ohne container lokal auszuführen?**
 
