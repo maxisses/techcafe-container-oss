@@ -33,6 +33,7 @@
     * [optional: Merge Request \(Pull Request\)](sessions/session-2-folgt/part-1-scm-auf-der-cloud/merge-request-pull-request.md)
   * [Übung 2: App in Container packen](sessions/session-2-folgt/part-3-app-in-container-packen/README.md)
     * [Docker](sessions/session-2-folgt/part-3-app-in-container-packen/docker.md)
+    * [ShortCut](sessions/session-2-folgt/part-3-app-in-container-packen/shortcut.md)
     * [optional: Ohne Container?](sessions/session-2-folgt/part-3-app-in-container-packen/ohne-container.md)
     * [Mit Container und eigenem Dockerfile](sessions/session-2-folgt/part-3-app-in-container-packen/mit-container-und-eigenem-dockerfile.md)
     * [Dockerfile reloaded](sessions/session-2-folgt/part-3-app-in-container-packen/dockerfile-reloaded.md)
