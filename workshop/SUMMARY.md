@@ -42,7 +42,7 @@
     * [.dockerignore](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/.dockerignore.md)
     * [Anzahl der Layer](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/anzahl-der-layer.md)
     * [Multi-stage Builds](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/multi-stage-builds.md)
-    * [UID und OpenShift](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/uid-und-openshift.md)
+    * [UID, unprivileged und OpenShift](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/uid-und-openshift.md)
     * [podman](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/podman.md)
 * [Session 3: Kubernetes Basics für eure App](sessions/session-3-kubernetes/README.md)
   * [Prework](sessions/session-3-kubernetes/prework.md)
