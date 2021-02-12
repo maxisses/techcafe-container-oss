@@ -1,7 +1,7 @@
 # Prework
 
 1. Docker installieren - [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
-2. Code Editor installieren - z.B. [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+2. Code Editor installieren, falls nicht schon vorhanden - z.B. [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 3. GIT-SCM installieren - [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 **Optional**: node.js runtime installieren   - [https://nodejs.org/de/download/](https://nodejs.org/de/download/)
