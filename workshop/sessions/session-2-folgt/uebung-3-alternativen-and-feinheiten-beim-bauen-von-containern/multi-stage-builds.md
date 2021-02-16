@@ -27,5 +27,5 @@ Und starte den Container
 docker run --rm -p 8080:80 multi-stage:latest
 ```
 
-Rufe jetzt im Browser [http://localhost:8080](http://localhost:8080) auf.
+Rufe jetzt im Browser [http://localhost:8080/index.html](http://localhost:8080/index.html) auf.
 
