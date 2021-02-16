@@ -1,4 +1,4 @@
-# Code lokal ausführen & testen
+# optional: Code lokal ausführen & testen
 
 * öffnet euren Editor \(in unserem Falle VS Code\)
 * hilfreich: fügt links den Ordner mit eurem Code zum Workspace hinzu "Add workspace folder..."
