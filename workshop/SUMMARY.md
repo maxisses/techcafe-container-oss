@@ -45,6 +45,7 @@
     * [Multi-stage Builds](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/multi-stage-builds.md)
     * [UID, unprivileged und OpenShift](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/uid-und-openshift.md)
     * [optional: podman](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/podman.md)
+    * [optional: Red Hat Catalog](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/optional-red-hat-catalog.md)
     * [Nützliche Docker Befehle](sessions/session-2-folgt/uebung-3-alternativen-and-feinheiten-beim-bauen-von-containern/nuetzliche-docker-befehle.md)
 * [Session 3: Kubernetes Basics für eure App](sessions/session-3-kubernetes/README.md)
   * [Prework](sessions/session-3-kubernetes/prework.md)
