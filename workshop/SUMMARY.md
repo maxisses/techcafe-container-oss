@@ -64,7 +64,6 @@
   * [Prework](sessions/session-4-kubernetes-reloaded-mit-java-liberty/prework.md)
   * [Intro](sessions/session-4-kubernetes-reloaded-mit-java-liberty/intro.md)
   * [Übung 1: Kubernetes Vertiefung mit Beispiel-Java Anwendung](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/README.md)
-    * [Euer Trainingscluster](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/euer-trainingscluster.md)
     * [CLI konfigurieren - kubeconfig](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/cli-konfigurieren-kubeconfig.md)
     * [Java Starter Anwendung erstellen](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/java-starter-anwendung-erstellen.md)
     * [Die private Image Registry und Registry Namespaces](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/die-private-image-registry-und-registry-namespaces.md)
