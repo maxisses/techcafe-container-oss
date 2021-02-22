@@ -8,7 +8,8 @@ Für nutzen wir noch nicht den vorinstallierten Loadbalancer, welchen man üblic
 kubectl get services -n <eure-initialien>-projekt
 ```
 
-* notiert euch das port mapping; wichtig ist nicht die 3000, sondern die zweite Zahl, der nodePort, also der geöffnete Port eures Kubernetes Worker Knotens: 32555
+* notiert euch das port mapping; wichtig ist nicht die 3000, sondern die zweite Zahl, der nodePort, also der geöffnete Port eures Kubernetes Worker Knotens: 
+  * &lt;3-Tag eures Geburtstags-Monat&gt;
 * den Port habt ihr, jetzt braucht ihr noch die öffentliche IP des Workers, die erfahrt ihr mit:
 
 ```text
