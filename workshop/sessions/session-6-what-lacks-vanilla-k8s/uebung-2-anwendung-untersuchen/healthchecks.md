@@ -4,7 +4,7 @@ OpenShift \(bzw. Kubernetes ebenfalls\) überwacht den Zustand der Pods über so
 
 Wir haben das hier schonmal gemacht:
 
-{% page-ref page="../../session-3-kubernetes/uebung-1-next-stop-kubernetes/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md" %}
+{% page-ref page="../../session-3-kubernetes/uebung-2-ressourcenverbrauch-and-skalierung/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md" %}
 
 ## Readiness & Liveness Probe via YAML einrichten
 

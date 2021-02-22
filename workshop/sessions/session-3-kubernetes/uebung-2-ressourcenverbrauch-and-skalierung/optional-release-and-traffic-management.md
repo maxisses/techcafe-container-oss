@@ -14,7 +14,7 @@ while true; do curl http://<ip eures nodes>:<nodeport>/; done
 
 ... sondern es braucht einen http load generator wie zB hey \([https://github.com/rakyll/hey](https://github.com/rakyll/hey)\). Nodeport und IP zu finden ist hier beschrieben:
 
-{% page-ref page="service-fuer-die-app-erstellen.md" %}
+{% page-ref page="../uebung-1-next-stop-kubernetes/service-fuer-die-app-erstellen.md" %}
 
 Danach könnt ihr dann starten:
 
