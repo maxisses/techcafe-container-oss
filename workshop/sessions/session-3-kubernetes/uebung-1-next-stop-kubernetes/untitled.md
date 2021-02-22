@@ -5,7 +5,7 @@ Für nutzen wir noch nicht den vorinstallierten Loadbalancer, welchen man üblic
 * führt den Befehl aus:
 
 ```text
-kubectl get services
+kubectl get services -n <eure-initialien>-projekt
 ```
 
 * notiert euch das port mapping; wichtig ist nicht die 3000, sondern die zweite Zahl, der nodePort, also der geöffnete Port eures Kubernetes Worker Knotens: 32555

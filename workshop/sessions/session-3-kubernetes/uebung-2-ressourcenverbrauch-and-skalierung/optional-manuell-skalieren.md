@@ -4,13 +4,13 @@
 * führt den Befehl erneut aus:
 
 ```text
-kubectl apply -f deployment.yaml
+kubectl apply -f deployment.yaml -n <eure-initialien>-projekt
 ```
 
 * prüft mit 
 
 ```text
-kubectl get pods
+kubectl get pods -n <eure-initialien>-projekt
 ```
 
 oder in der GUI ob es funktioniert hat

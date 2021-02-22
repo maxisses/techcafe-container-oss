@@ -33,7 +33,7 @@ spec:
 führt im Terminal den Befehl aus:
 
 ```text
-kubectl apply -f deployment.yaml
+kubectl apply -f deployment.yaml -n <eure-initialien>-projekt
 ```
 
 --&gt; Output ungefähr so: deployment.apps/maxpubliceduapp-deployment created

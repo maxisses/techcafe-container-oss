@@ -52,6 +52,7 @@
   * [Intro](sessions/session-3-kubernetes/intro-kubernetes.md)
   * [Übung 1: next stop - Kubernetes Basics](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/README.md)
     * [CLI konfigurieren - kubeconfig](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/cli-konfigurieren-kubeconfig.md)
+    * [Namespace erstellen](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/namespace-erstellen.md)
     * [Deployment der Anwendung erstellen](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/deployment-der-anwendung-erstellen.md)
     * [Service für die App erstellen](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/service-fuer-die-app-erstellen.md)
     * [App erreichen aus dem Web](sessions/session-3-kubernetes/uebung-1-next-stop-kubernetes/untitled.md)

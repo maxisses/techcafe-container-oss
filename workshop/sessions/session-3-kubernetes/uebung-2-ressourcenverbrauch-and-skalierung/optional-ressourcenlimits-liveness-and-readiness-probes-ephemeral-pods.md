@@ -46,11 +46,11 @@ livenessProbe:
 * VSCode bietet auch die möglichkeit zwei terminals nebeneinander zu haben mit dem button neben dem +, dann kann man sich das mit
 
 ```text
-watch kubectl get pods
+watch kubectl get pods -n <eure-initialien>-projekt
 ```
 
 ```text
-kubectl delete --all pods --namespace=default
+kubectl delete --all pods -n <eure-initialien>-projekt
 ```
 
 {% hint style="info" %}

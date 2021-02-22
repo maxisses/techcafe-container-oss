@@ -16,7 +16,7 @@ spec:
   ports:
     - name: http
       port: 3000
-      nodePort: 32555
+      nodePort: <3 - tag eures geburtstags - monat eures geburtstags> (zB 30511)
   selector:
     app: maxpubliceduapp-selector
 ```
@@ -26,6 +26,6 @@ spec:
 führt im Terminal den Befehl aus:
 
 ```text
-kubectl apply -f service.yaml
+kubectl apply -f service.yaml -n <eure-initialien>-projekt
 ```
 
