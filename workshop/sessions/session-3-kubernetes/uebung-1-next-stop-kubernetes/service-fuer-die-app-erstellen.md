@@ -21,3 +21,11 @@ spec:
     app: maxpubliceduapp-selector
 ```
 
+
+
+führt im Terminal den Befehl aus:
+
+```text
+kubectl apply -f service.yaml
+```
+

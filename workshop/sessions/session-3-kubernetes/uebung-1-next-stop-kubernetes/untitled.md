@@ -1,6 +1,6 @@
 # App erreichen aus dem Web
 
-Der freetier von IBM Kubernetes Services hat keinen built-in Ingress, welchen man üblicherweise nutzen würde um die App mit einer Domain im Netz verfügbar zu machen. Man müsste zB nginx extra aufsetzen. Das kommt später. Jetzt nutzen wir die Funktion den Service ebenfalls per NodePort verfügbar zu machen.
+Für nutzen wir noch nicht den vorinstallierten Loadbalancer, welchen man üblicherweise nutzen würde um die App mit einer Domain im Netz verfügbar zu machen. Das würde man einen Ingress nennen und das kommt später. Jetzt nutzen wir die Funktion den Service ebenfalls per NodePort verfügbar zu machen.
 
 * führt den Befehl aus:
 
@@ -22,11 +22,11 @@ kubectl get nodes -o wide
 NodePort Lösung; normalerweise dient der "Service" nicht dazu die App über das Internet erreichbar zu machen; sondern um mit anderen Services bzw. dann Apps\(Deployments\) im Cluster zu kommunizieren --&gt; Verfügbarkeit im Netz stellt eine weitere Kubernetes Ressource, nämlich der "Ingress" zur Verfügung
 
 internet  
-\|  
+       \|  
 \[ Ingress \]  
---\|-----\|--  
+   --\|-----\|--  
 \[ Services \]  
---\|---\|---\|---\|---  
-\[Pods\]
+ --\|---\|---\|---\|---  
+    \[Pods\]
 {% endhint %}
 

@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: maxpubliceduapp
-        image: maxisses/maxpubliceduapp:latest
+        image: maxisses/maxbamfanwendung:latest
         ports:
             - containerPort: 3000
 ```
