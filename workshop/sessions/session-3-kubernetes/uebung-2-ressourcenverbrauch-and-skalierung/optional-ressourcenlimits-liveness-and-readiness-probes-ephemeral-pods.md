@@ -43,7 +43,7 @@ livenessProbe:
 * schaut euch mit kubectl get pods eure X \(zB 5\) pods an \(mit kubectl get pods -o wide seht ihr auch noch etwas mehr\) 
 * killt einen mit kubectl delete pod &lt;NAME eines pods&gt; 
 * mit kubectl get pods direkt danach seht ihr das ein neuer pod als ersatz gestartet wurde, weil pods durch das replicaset gemonitored werden und sobald einer crashed/stirbt/gekillt wird, wird ein neuer gestartet
-* VSCode bietet auch die möglichkeit zwei terminals nebeneinander zu haben mit dem button neben dem +, dann kann man sich das mit
+* VSCode bietet auch die möglichkeit zwei terminals nebeneinander zu haben mit dem button neben dem +, dann kann man es sich parallel anschauen
 
 ```text
 watch kubectl get pods -n <eure-initialien>-projekt
