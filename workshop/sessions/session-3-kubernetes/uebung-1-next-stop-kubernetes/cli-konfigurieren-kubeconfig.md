@@ -2,7 +2,7 @@
 
 Loggt euch auf [www.cloud.ibm.com](https://cloud.ibm.com) ein.
 
-* Wählt rechts oben bei eurem Account den für neuen, für euch bereitgestellten Account aus über das Dropdown.
+* Wählt rechts oben bei eurem Account den neuen, für euch bereitgestellten Account aus über das Dropdown.
 
 ![](../../../.gitbook/assets/image%20%2865%29.png)
 
