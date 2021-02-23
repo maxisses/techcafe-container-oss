@@ -12,9 +12,9 @@ resources:
               cpu: "250m"
 ```
 
-![](../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../.gitbook/assets/image%20%2861%29.png)
 
-* wenn ihr 5 oder mehr replicas gewählt habt, stellt ihr fest \(**nur** wenn ihr den Free Cluster gewählt habt\), dass nicht alle pods im status running sind \(kubectl get pods\) weil eurer Knoten mit diesem groß gewählten ressource request ausgelastet ist; hättet ihr mehr als einen Worker würde natürlich auf verschiedenen Knoten gescheduled; die details zur auslatung eures knotes findet ihr mit:
+* ist die Summe aus Requests und Anzahl der Replikas größer als die verfügbaren Ressourcen verbleiben die Pods im Status "Pending" 
 
 ```text
 kubectl get nodes
