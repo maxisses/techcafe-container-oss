@@ -1,6 +1,6 @@
 # Deployment, Service & Namespace YAML parametrisieren mit HELM
 
-Wenn man viele Kubernetes-YAML Dateien erstellt wiederholen sich einige Werte häufig. Außerdem möchte man häufig alle Updates auf die Konfigurationsdateien auf einmal in einem Release verpacken. Dazu kann man HELM verwenden.
+Wenn man viele Kubernetes-YAML Dateien erstellt wiederholen sich einige Werte häufig. Außerdem möchte man oft alle Updates auf die Konfigurationsdateien auf einmal in einem Release verpacken. Dazu kann man HELM verwenden.
 
 Am deutlichsten wird das am Beispiel. Hier ist ein Helm Chart für die Beispielanwendung von eben:
 
