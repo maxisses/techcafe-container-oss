@@ -4,7 +4,7 @@
 * öffnet zB in VSCode einen Terminal \(rechte Maustaste links auf den Ordner eurer -&gt; Open Terminal\) 
 * rechte Maustaste links auf den Ordner eurer App --&gt; New File; nennt es "deployment.yaml"
 * fügt folgenden content ein
-* ersetzt die Zeichenkette "maxpubliceduapp" durch einen Namen eurer Wahl
+* ersetzt die Zeichenkette "maxtechcafeapp" durch einen Namen eurer Wahl
 * ersetzt, wenn ihr es habt, nach dem image tag "maxisses/maxapp:latest" in dieser form dockernutzername/nameeuresimage:latest
 
 ```text
