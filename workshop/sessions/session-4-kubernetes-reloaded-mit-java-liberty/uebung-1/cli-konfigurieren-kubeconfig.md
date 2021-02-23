@@ -12,7 +12,7 @@ Wichtig: Wählt nach Eingabe eures Logins nicht euren Account aus, sondern den d
 {% endhint %}
 
 ```text
-ibmcloud login -a cloud.ibm.com -r eu-de -g labinaboxdrvresgroup
+ibmcloud login -a cloud.ibm.com -r eu-de -g BAMFTechcafeSessions
 ibmcloud ks cluster config --cluster <eure ClusterID>
 kubectl config current-context
 ```
