@@ -17,7 +17,21 @@ Mit einem einfach Befehl kann man dann ausrollen
 
 ```text
 helm install <zB name der Applikation> .
+##anzeige & Status mit:
+helm list
 ```
 
-Nach einem Update 
+Danach laufen die Ressourcen wie gewohnt im Cluster und sind mit den bekannten Befehlen abrufbar.
+
+```text
+kubectl get deployments -n <im helm chart eingetragener namespace>
+kubectl get pods -n <im helm chart eingetragener namespace>
+kubectl get services -n <im helm chart eingetragener namespace>
+```
+
+Nach einem Update von Werten kann man ein neues Helm Release mit:
+
+```text
+helm upgrade <zB name der Applikation> .
+```
 
