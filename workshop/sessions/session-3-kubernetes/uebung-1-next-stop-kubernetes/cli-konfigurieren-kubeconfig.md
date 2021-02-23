@@ -10,6 +10,7 @@ Um über eure CLI mit dem Cluster zu kommunizieren, müsst ihr eine kubeconfig e
 
 ```text
 ibmcloud login -a cloud.ibm.com -r eu-de -g BAMFTechcafeSessions
+##nicht den eigenen Account auswählen und "eu-de" als Region
 ibmcloud plugin install container-service
 ibmcloud ks cluster config --cluster <eure ClusterID>
 kubectl config current-context
