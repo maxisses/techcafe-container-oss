@@ -60,6 +60,8 @@
     * [manuell Skalieren](sessions/session-3-kubernetes/uebung-2-ressourcenverbrauch-and-skalierung/optional-manuell-skalieren.md)
     * [Ressourcenlimits Liveness & Readiness Probes // ephemeral Pods](sessions/session-3-kubernetes/uebung-2-ressourcenverbrauch-and-skalierung/optional-ressourcenlimits-liveness-and-readiness-probes-ephemeral-pods.md)
     * [Horizontal Pod Autoscaling](sessions/session-3-kubernetes/uebung-2-ressourcenverbrauch-and-skalierung/optional-release-and-traffic-management.md)
+  * [optional: Deployen mit Helm-Chart](sessions/session-3-kubernetes/optional-deployen-mit-helm-chart/README.md)
+    * [Deployment, Service & Namespace YAML parametrisieren mit HELM](sessions/session-3-kubernetes/optional-deployen-mit-helm-chart/deployment-service-and-namespace-yaml-parametrisieren-mit-helm.md)
 * [Session 4: Kubernetes Reloaded mit Java Liberty, Helm & private Registry](sessions/session-4-kubernetes-reloaded-mit-java-liberty/README.md)
   * [Prework](sessions/session-4-kubernetes-reloaded-mit-java-liberty/prework.md)
   * [Intro](sessions/session-4-kubernetes-reloaded-mit-java-liberty/intro.md)
