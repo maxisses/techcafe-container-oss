@@ -12,7 +12,7 @@
 
 ```text
 ibmcloud --version
-kubectl --version
+kubectl version
 helm version
 ```
 
