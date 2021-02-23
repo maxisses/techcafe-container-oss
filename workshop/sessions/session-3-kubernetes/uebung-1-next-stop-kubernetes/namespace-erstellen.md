@@ -9,3 +9,9 @@ metadata:
   name: <eure-initialien>-projekt
 ```
 
+Erstellt den Namespace mit
+
+```text
+kubectl apply -f namespace.yaml
+```
+
