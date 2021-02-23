@@ -11,20 +11,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: maxpubliceduapp-deployment
+  name: maxtechcafeapp-deployment
 spec:
   # anpassen auf mehrere instanzen wenn gewünscht
   replicas: 1
   selector: 
     matchLabels:
-      app: maxpubliceduapp-selector
+      app: maxtechcafeapp-selector
   template:
     metadata:
       labels:
-        app: maxpubliceduapp-selector
+        app: maxtechcafeapp-selector
     spec:
       containers:
-      - name: maxpubliceduapp
+      - name: maxtechcafeapp
         image: maxisses/maxbamfanwendung:latest
         ports:
             - containerPort: 3000

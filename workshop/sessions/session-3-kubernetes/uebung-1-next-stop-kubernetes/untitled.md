@@ -16,7 +16,7 @@ kubectl get services -n <eure-initialien>-projekt
 kubectl get nodes -o wide
 ```
 
-* kopiert die "EXTERNAL IP" und fügt den port an, bei mir so 173.193.85.173:&lt;3-Tag eures Geburtstags-Monat&gt;
+* kopiert die "EXTERNAL IP" und fügt den port an, bei mir so 169.50.45.211:&lt;3-Tag eures Geburtstags-Monat&gt;
 * jetzt läuft eure WebApp in Kubernetes und ist erreichbar
 
 {% hint style="info" %}
