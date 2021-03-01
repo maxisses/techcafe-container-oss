@@ -198,6 +198,13 @@
 
 * [Glossar](glossar.md)
 
+## Entwicklungsumgebung im Container
+
+* [Einstellungen](entwicklungsumgebung-im-container/einstellungen/README.md)
+  * [Liste an installierten Tools](entwicklungsumgebung-im-container/einstellungen/liste-an-installierten-tools.md)
+  * [Deployment](entwicklungsumgebung-im-container/einstellungen/deployment.md)
+  * [VS Code Extension](entwicklungsumgebung-im-container/einstellungen/vs-code-extension.md)
+
 ## Resources
 
 * [IBM Cloud](https://cloud.ibm.com)
