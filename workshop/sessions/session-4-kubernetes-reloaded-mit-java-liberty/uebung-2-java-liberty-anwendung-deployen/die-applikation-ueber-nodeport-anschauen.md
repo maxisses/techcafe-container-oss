@@ -1,6 +1,6 @@
 # Die Applikation über NodePort anschauen
 
-## View the application
+
 
 1. List the Kubernetes services in the namespace:
 
