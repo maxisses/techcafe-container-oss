@@ -29,6 +29,13 @@ spec:
               cpu: "500m"
           ports:
             - containerPort: 22
+          securityContext:
+            privileged: true
+          env:
+            - name: SSH_USER
+              value: <your-user>
+            - name: SSH_PASSWORD
+              value: <your-password>
 ---
 apiVersion: v1
 kind: Service
