@@ -10,7 +10,7 @@
 For more information on gaining access to your cluster and to configure the CLI to run kubectl commands, check the [CLI configure](https://github.com/maxisses/firstgitbook/tree/5b5370a9d28ef3477285a814c57784ecc17465be/docs/containers?topic=containers-cs_cli_install/README.md#cs_cli_configure) section
 {% endhint %}
 
-1. Initialize the environment variable with the cluster name \(DRVTECHCAFE-X\) - X is your number-
+1. Initialize the environment variable with the cluster name \(TECHCAFE-X\) - X is your number-
 
    ```bash
    export MYCLUSTER=<CLUSTER_NAME>
