@@ -1,38 +1,47 @@
-# Die private Image Registry und Registry Namespaces
+# Zugriff auf eine private Container Registry einrichten
 
-In this section, you push the Docker image to the IBM Cloud private container registry.
+Der DockerHub ist natürlich nicht der ideale Ort für die eigenen Applikationen. Cloud Provider stellen üblicherweise eine Registry zur Verfügung. Bei IBM ist es die IBM Container Registry. Wir sehen sie gleich neben dem Kubernetes Cluster hier: [https://cloud.ibm.com/registry/namespaces](https://cloud.ibm.com/registry/namespaces)
 
-## Prepare the access to the private image registry.
+{% hint style="info" %}
+Nicht vergessen auf die richtige Region zu filtern \(Frankfurt\)
+{% endhint %}
 
-1. To identify your URL, run
+Die "universelle" Methode um mit Container Registries zu arbeiten ist docker oder podman zu nutzen
+
+1. 2. 3. Um mit der Registry arbeiten zu können müssen wir sie über die CLI erreichbar machen. Dafür wird die cr-Erweiterung des ibmcloud CLI Tools genutzt.
 
    ```bash
+   ibmcloud plugin install container-registry
    ibmcloud cr region
    ```
 
-2. Define an environment variable named `MYREGISTRY` pointing to the URL such as:
+4. Weil es später beim pushen einiges erleichtert, definiert eine Umgebungsvariable für die URL der IBM Container Registry: `MYREGISTRY`
 
    ```bash
    export MYREGISTRY=de.icr.io
    ```
 
-3. Pick one of your existing registry namespaces or create a new one. To list existing namespaces, use:
+5. Mit folgendem Befehl seht ihr die Verfügbaren "Bereiche" bzw. Namespaces in denen ihr Images ablegen könnt. Beim DockerHub entsprach der Namespace eurem Benutzernamen. 
 
-   ```bash
-   ibmcloud cr namespaces
-   ```
+{% hint style="warning" %}
+Diese Registry Namespaces sind nicht zu verwechseln mit Kubernetes Namespaces!
+{% endhint %}
+
+```bash
+ibmcloud cr namespaces
+```
 
 {% hint style="info" %}
-Not required but to create a new namespace you would use \(on your own account\):
+Ihr habt in dem Workshop-Account keine Rechte dazu, aber mit folgendem Befehl könntet ihr weitere Bereiche anlegen:
 
 ```bash
 ibmcloud cr namespace-add <REGISTRY_NAMESPACE>
 ```
 {% endhint %}
 
-1. Define an environment variable named `MYNAMESPACE` pointing to the registry namespace. Use the provided namespace: drvtechcaferegistry
+Zuletzt könnt ihr noch eine Umgebungsvariable `MYNAMESPACE` für den eben angegebenen Namespace definieren, damit ihr diese in späteren Befehlen verwenden könnt.
 
-   ```bash
-   export MYNAMESPACE=techcaferegistry
-   ```
+```bash
+export MYNAMESPACE=techcaferegistry
+```
 

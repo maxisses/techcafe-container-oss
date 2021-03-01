@@ -69,7 +69,7 @@
     * [CLI konfigurieren - kubeconfig](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/cli-konfigurieren-kubeconfig.md)
     * [Erstellt euch einen Namespace](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/erstellt-euch-einen-namespace.md)
     * [Java Starter Anwendung erstellen](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/java-starter-anwendung-erstellen.md)
-    * [Die private Image Registry und Registry Namespaces](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/die-private-image-registry-und-registry-namespaces.md)
+    * [Zugriff auf eine private Container Registry einrichten](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/die-private-image-registry-und-registry-namespaces.md)
     * [Container Image bauen und in die private Registry verschieben.](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/container-image-bauen-und-in-die-private-registry-verschieben..md)
   * [Übung 2: Java Liberty Anwendung deployen](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-2-java-liberty-anwendung-deployen/README.md)
     * [Deployment nach Kubernetes mit HELM](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-2-java-liberty-anwendung-deployen/deployment-nach-kubernetes-mit-helm.md)
