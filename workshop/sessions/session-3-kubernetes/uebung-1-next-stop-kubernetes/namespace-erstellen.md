@@ -15,3 +15,5 @@ Erstellt den Namespace mit
 kubectl apply -f namespace.yaml
 ```
 
+
+

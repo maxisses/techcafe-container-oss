@@ -67,6 +67,7 @@
   * [Intro](sessions/session-4-kubernetes-reloaded-mit-java-liberty/intro.md)
   * [Übung 1: Java Anwendung bauen & in eine private Registry pushen](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/README.md)
     * [CLI konfigurieren - kubeconfig](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/cli-konfigurieren-kubeconfig.md)
+    * [Erstellt euch einen Namespace](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/erstellt-euch-einen-namespace.md)
     * [Java Starter Anwendung erstellen](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/java-starter-anwendung-erstellen.md)
     * [Die private Image Registry und Registry Namespaces](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/die-private-image-registry-und-registry-namespaces.md)
     * [Container Image bauen und in die private Registry verschieben.](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/container-image-bauen-und-in-die-private-registry-verschieben..md)
