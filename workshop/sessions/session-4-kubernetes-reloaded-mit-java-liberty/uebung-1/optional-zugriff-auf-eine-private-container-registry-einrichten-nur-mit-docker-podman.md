@@ -12,7 +12,7 @@ Man muss dazu natürlich wissen, dass die Container Registry "de.icr.io" ist und
 
 ![](../../../.gitbook/assets/image%20%2863%29.png)
 
-![](../../../.gitbook/assets/image%20%2865%29.png)
+![](../../../.gitbook/assets/image%20%2873%29.png)
 
 
 

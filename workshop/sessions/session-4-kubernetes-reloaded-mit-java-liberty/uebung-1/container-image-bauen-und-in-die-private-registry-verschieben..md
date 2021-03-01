@@ -30,9 +30,13 @@
    ```
 
 {% hint style="danger" %}
-Habt ihr eine langsame Leitung und der docker push läuft noch dann nehmt in Übung 2 einfach ein anderes Image. Ihr findet alle bereits hochgeladenen hier:   
+Habt ihr eine langsame Leitung und der docker läuft sehr lange, dann nehmt in Übung 2 einfach ein anderes Image. Ihr findet alle bereits hochgeladenen hier:   
 [https://cloud.ibm.com/registry/repos](https://cloud.ibm.com/registry/repos)
 {% endhint %}
+
+Habt ihr nichts am Dockerfile und dem Code verändert, sollte es nach einem Push allerdings ungefähr so aussehen. Das liegt daran, dass in der Registry bereits verfügbare Schichte über einen Hash-Wert erkannt und nicht erneut gepushed werden.
+
+![](../../../.gitbook/assets/image%20%2865%29.png)
 
 
 

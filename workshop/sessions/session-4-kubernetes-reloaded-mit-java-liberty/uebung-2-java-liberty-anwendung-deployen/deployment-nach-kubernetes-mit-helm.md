@@ -14,6 +14,12 @@
 Habt ihr eine langsame Leitung und der docker push aus der letzten Session läuft noch dann nehmt ein einfach ein anderes Image. Ihr findet alle bereits hochgeladenen hier: [https://cloud.ibm.com/registry/namespaces](https://cloud.ibm.com/registry/repos)
 {% endhint %}
 
+
+
+{% hint style="danger" %}
+
+{% endhint %}
+
 ![](../../../.gitbook/assets/image%20%2862%29.png)
 
 ```bash
