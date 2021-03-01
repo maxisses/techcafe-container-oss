@@ -33,6 +33,6 @@ ibmcloud cr namespace-add <REGISTRY_NAMESPACE>
 1. Define an environment variable named `MYNAMESPACE` pointing to the registry namespace. Use the provided namespace: drvtechcaferegistry
 
    ```bash
-   export MYNAMESPACE=drvtechcaferegistry
+   export MYNAMESPACE=techcaferegistry
    ```
 
