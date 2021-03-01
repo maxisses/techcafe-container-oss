@@ -4,7 +4,7 @@ Loggt euch auf [www.cloud.ibm.com](https://cloud.ibm.com) ein.
 
 * Wählt rechts oben bei eurem Account den neuen, für euch bereitgestellten Account aus über das Dropdown.
 
-![](../../../.gitbook/assets/image%20%28112%29.png)
+![](../../../.gitbook/assets/image%20%2865%29%20%281%29.png)
 
 Entweder über Ressource List oder diesen Direktlink seht ihr einen Kubernetes Cluster: [https://cloud.ibm.com/kubernetes/clusters](https://cloud.ibm.com/kubernetes/clusters) 
 
@@ -16,7 +16,7 @@ Um über eure CLI mit dem Cluster zu kommunizieren, müsst ihr eine kubeconfig e
 
 ![](../../../.gitbook/assets/image%20%2861%29.png)
 
-![](../../../.gitbook/assets/image%20%28117%29.png)
+![](../../../.gitbook/assets/image%20%2873%29%20%281%29.png)
 
 ```text
 ibmcloud login -a cloud.ibm.com -r eu-de -g BAMFTechcafeSessions
@@ -26,7 +26,7 @@ ibmcloud ks cluster config --cluster <eure ClusterID>
 kubectl config current-context
 ```
 
-![](../../../.gitbook/assets/image%20%2885%29.png)
+![](../../../.gitbook/assets/image%20%2863%29%20%281%29.png)
 
 Dann könnt ihr leicht prüfen ob alles läuft:
 

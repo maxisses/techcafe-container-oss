@@ -1,42 +1,40 @@
 # optional: Applikationsmonitoring & Auto-Skalierung
 
-## Monitor application health
+## Monitor Application Health
 
-1. To check the health of your application, navigate to [clusters](https://{DomainName}/kubernetes/clusters) to see a list of clusters and click on your cluster.
-2. Click **Kubernetes Dashboard** to launch the dashboard in a new tab.
-3. Select **Nodes** on the left pane, click the **Name** of the nodes and see the **Allocation Resources** to see the health of your nodes.
-4. To review the application logs from the container, select **Pods**, **pod-name** and **Logs**.
-5. To **ssh** into the container, identify your pod name from the previous step and run
+1. Um den Health Status euerer Applikation zu überprüfen, wählt euer Cluster in der IBM Cloud Oberfläche aus.
+2. Klicke auf **Kubernetes Dashboard** um das Dashboard aufzurufen.
+3. Wählt auf der linken Seite **Nodes** aus und klickt einen der Nodes an. Über **Allocation Resources** könnt ihr den Health Status der Nodes sehen.
+4. Um die Logs euerer Applikationen zu sehen wählt **Pods**, &lt;**pod-name**&gt; \(dort klickt ihr auf die drei Punkte rechts\) und **Logs**.
+5. Um eine **ssh** Verbindung mit einem Container herzustellen, könnt ihr folgenden Befehl nutzen
 
    ```bash
    kubectl exec -it <pod-name> -- bash
    ```
 
-## Scale Kubernetes pods
+## Scale Kubernetes Pods
 
-As load increases on your application, you can manually increase the number of pod replicas in your deployment. Replicas are managed by a [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/). To scale the application to two replicas, run the following command:
+Mit zunehmender Last kann es nötig werden die Anzahl der Pod zu erhöhen. Es möglich die Anzahl der Pods von Hand zu erhöhen. Die Anzahl der Pods wird als Replicas bezeichnet und diese werden durch ein  [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) gesteuert. Um die Anzahl der Pods zu erhöhen kann man folgenden Befehl nutzen:
 
 ```bash
 kubectl scale deployment <deployment-name> --replicas=2
 ```
 
-After a shortwhile, you will see two pods for your application in the Kubernetes dashboard \(or with `kubectl get pods`\). The Ingress controller in the cluster will handles the load balancing between the two replicas.
+Nach kurzer Zeit, sind werden zwei Pods im Kubernetes Dashboard erscheinen \(oder mit `kubectl get pods`\). Das Load Balancing zwischen den beiden Pods über den Ingress Controller geregelt.
 
-With Kubernetes, you can enable [horizontal pod autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) to automatically increase or decrease the number of instances of your apps based on CPU.
+In Kubernetes gibt es die Möglichkeit den [horizontal pod autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) zu aktivieren um automatisiert die Anzahl der Pods zu erhöhen oder zu verringern. Mittels verschiedener Regeln kann dies z.B. basierend auf der CPU Auslastung erfolgen.
 
-To create an autoscaler and to define your policy, run the below command
+Um einen Autoscaler zu erzuegen und eine dazugehörige Regel anzulegen kann folgender Befehl genutzt werden
 
 ```bash
 kubectl autoscale deployment <deployment-name> --cpu-percent=<percentage> --min=<min_value> --max=<max_value>
 ```
 
-Once the autoscaler is successfully created, you should see `horizontalpodautoscaler.autoscaling/<deployment-name> autoscaled`
+Wenn der Befehl erfolgreich war, sieht man folgendes Ergebnis`horizontalpodautoscaler.autoscaling/<deployment-name> autoscaled`
 
-Refer to [scaling apps](https://{DomainName}/docs/containers?topic=containers-app#app_scaling) for prerequisites and additional info.
+## Löschen der Resourcen
 
-## Remove resources
-
-* Delete the Kubernetes artifacts created for this application:
+* Um alle erzeugten Resourcen zu löschen nutzt folgenden Befehl:
 
   ```bash
    helm delete ${MYPROJECT}

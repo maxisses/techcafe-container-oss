@@ -12,7 +12,7 @@ resources:
               cpu: "250m"
 ```
 
-![](../../../.gitbook/assets/image%20%2864%29.png)
+![](../../../.gitbook/assets/image%20%2862%29%20%281%29.png)
 
 * ist die Summe aus Requests und Anzahl der Replikas größer als die verfügbaren Ressourcen verbleiben die Pods im Status "Pending" 
 
