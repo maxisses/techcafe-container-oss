@@ -24,7 +24,15 @@
 
    ```bash
    docker build -t $MYREGISTRY/$MYNAMESPACE/$MYPROJECT:v1.0.0 .
+   ## habt ihr den vorigen optionalen Schritt gemacht, braucht ihr nicht nochmal den login
    ibmcloud cr login
    docker push $MYREGISTRY/$MYNAMESPACE/$MYPROJECT:v1.0.0
    ```
+
+{% hint style="danger" %}
+Habt ihr eine langsame Leitung und der docker push läuft noch dann nehmt in Übung 2 einfach ein anderes Image. Ihr findet alle bereits hochgeladenen hier:   
+[https://cloud.ibm.com/registry/repos](https://cloud.ibm.com/registry/repos)
+{% endhint %}
+
+
 

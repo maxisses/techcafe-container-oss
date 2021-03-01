@@ -10,9 +10,9 @@ docker login -u iamapikey de.icr.io
 
 Man muss dazu natürlich wissen, dass die Container Registry "de.icr.io" ist und man muss vorher einen API-Key anlegen, welchen man als Passwort verwendet: [https://cloud.ibm.com/iam/apikeys](https://cloud.ibm.com/iam/apikeys)
 
-![](../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
-![](../../../.gitbook/assets/image%20%2864%29.png)
+![](../../../.gitbook/assets/image%20%2865%29.png)
 
 
 
