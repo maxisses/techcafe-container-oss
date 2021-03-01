@@ -1,4 +1,4 @@
-# Session 5: Continuous Integration / Continuous Delivery mit Kubernetes & Tekton
+# Draft Session 5: Continuous Integration / Continuous Delivery mit Kubernetes & Tekton
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
 

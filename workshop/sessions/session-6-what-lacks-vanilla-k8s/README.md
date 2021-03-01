@@ -1,2 +1,2 @@
-# Session 6: Was fehlt “vanilla Kubernetes”?
+# Draft Session 6: Was fehlt “vanilla Kubernetes”?
 
