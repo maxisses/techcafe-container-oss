@@ -1,55 +1,57 @@
 # optional: Cloud Loadbalancer und Ingress \(Domain\) für die App
 
-In the previous step, the application was accessed with a not standard port. The service was exposed by way of Kubernetes NodePort feature.
+Im letzten Schritt haben wir die Applikation wie in der vorigen Session über "NodePort" angesprochen.
 
-Paid clusters come with an IBM-provided domain. This gives you a better option to expose applications with a proper URL and on standard HTTP/S ports.
+IBM Kubernetes Cluster werden per Default mit einer Domain ausgestattet, welche wir nutzen können um unsere Applikation mit einer URL und auf dem Standard HTTP/HTTPS \(80/443\) freizugeben.
 
-Use Ingress to set up the cluster inbound connection to the service.
+Dafür nutzen wir das Kubernetes Feature **Ingress:**
 
-1. Identify your IBM-provided **Ingress domain**
+\*\*\*\*
 
-   ```bash
-   ibmcloud ks cluster get --cluster ${MYCLUSTER}
-   ```
+Den Ingress kann man sich über die CLI anzeigen lassen:
 
-   or via your Cluster Overview in the Browser:
-
-![](../../../.gitbook/assets/image%20%2857%29.png)
-
-to find
-
-```yaml
-Ingress subdomain: mycluster.us-south.containers.appdomain.cloud
-Ingress secret:    mycluster
+```bash
+ibmcloud ks cluster get --cluster ${MYCLUSTER}
 ```
 
-1. Create an Ingress file `ingress-ibmdomain.yml` pointing to your domain with support for HTTP and HTTPS. Use the following file as a template, replacing all the values wrapped in &lt;&gt; with the appropriate values from the above output. **service-name** is the name under `==> v1/Service` in the above step. You can also use `kubectl get svc` to find the service name of type **NodePort**.
+oder über die GUI:
 
-   ```yaml
-   apiVersion: extensions/v1beta1
-   kind: Ingress
-   metadata:
-     name: ingress-for-ibmdomain-http-and-https
-   spec:
-     tls:
-     - hosts:
-       -  <nameofproject>.<ingress-sub-domain>
-       secretName: <ingress-secret>
-     rules:
-     - host: <nameofproject>.<ingress-sub-domain>
-       http:
-         paths:
-         - path: /
-           backend:
-             serviceName: <service-name>
-             servicePort: 9080
-   ```
+![](../../../.gitbook/assets/image%20%28130%29.png)
 
-2. Deploy the Ingress
 
-   ```bash
-   kubectl apply -f ingress-ibmdomain.yml
-   ```
 
-   Access your application at `https://<nameofproject>.<ingress-sub-domain>/`
+Erstellt eine Datei`ingress.yml` im Ordner **chart/&lt;name eurer app&gt;/templates**  
+Ersetzt alle Werte &lt;&gt; mit den Werten für die Subdomain.
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: <name-eurer-app>
+spec:
+  tls:
+  - hosts:
+    -  <app name>.bamftechcafek8scluster-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud
+    secretName: bamftechcafek8scluster-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000
+  rules:
+  - host: <app name>.bamftechcafek8scluster-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: <name eures Svc "kubectl get svc -n ...">
+            port:
+              number: 9080
+```
+
+Wechselt wieder in den Ordner /chart/&lt;name eurer App&gt;
+
+```bash
+cd /chart/<name eurer App>
+helm upgrade ${MYPROJECT} . --namespace ${K8SNAMESPACE} --set image.repository=${MYREGISTRY}/${MYNAMESPACE}/${MYPROJECT}
+```
+
+Eure Applikation erreicht ihr dann unter:`https://<nameofproject>.<ingress-sub-domain>/`
 
