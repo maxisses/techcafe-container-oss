@@ -14,15 +14,19 @@
 Habt ihr eine langsame Leitung und der docker push aus der letzten Session läuft noch dann nehmt ein einfach ein anderes Image. Ihr findet alle bereits hochgeladenen hier: [https://cloud.ibm.com/registry/namespaces](https://cloud.ibm.com/registry/repos)
 {% endhint %}
 
+![](../../../.gitbook/assets/image%20%2893%29.png)
 
-
-{% hint style="danger" %}
-
+{% hint style="info" %}
+Beim Security Status sehen wir, dass in unserem Container Image 37 Security-Issues existieren. Viele Container Registries bringen Out-of-the-Box einen Security Scan nach "Commom Vulnerabilites and Exposures" \(CVE\). CVE ist ein Industriestandard und ein Katalog bekannter Cybersicherheitslücken. Die 37 Lücken zeigen deutlich, dass man Updates für Basis-Images und Abhängigkeit immer aus einem durch Anbieter aktualisierte Kataloge abrufen sollte wie z.B. dem [https://catalog.redhat.com/](https://catalog.redhat.com/) Katalog.
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%2862%29.png)
+Wir deployen jetzt mal trotzdem .... :\)
 
 ```bash
 helm install ${MYPROJECT} . --set image.repository=${MYREGISTRY}/${MYNAMESPACE}/${MYPROJECT}
 ```
+
+Der Output sieht dann ungefähr so aus:
+
+![](../../../.gitbook/assets/image%20%28106%29.png)
 
