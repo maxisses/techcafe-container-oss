@@ -29,7 +29,7 @@ export K8SNAMESPACE=<euer Namespace>
 Wir deployen jetzt mal trotzdem .... :\) Installiert die Anwendung mit Helm in eurem Kubernetes Cluster. Mit dem --set Tag passt man in der Datei values.yaml die Variable Repository an, um aus der korrekten Registry zu pullen.
 
 ```bash
-helm install ${MYPROJECT} . --namespace --set image.repository=${MYREGISTRY}/${MYNAMESPACE}/${MYPROJECT}
+helm install ${MYPROJECT} . --namespace ${K8SNAMESPACE} --set image.repository=${MYREGISTRY}/${MYNAMESPACE}/${MYPROJECT}
 ```
 
 Der Output sieht dann ungefähr so aus:
