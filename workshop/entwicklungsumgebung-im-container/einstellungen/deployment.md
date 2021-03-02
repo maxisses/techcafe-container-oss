@@ -3,6 +3,12 @@
 Um das Image im Cluster zu deployen kann folgendes YAML genutzt werden
 
 ```text
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: <your-namespace>
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
