@@ -17,7 +17,7 @@
 Mit zunehmender Last kann es nötig werden die Anzahl der Pod zu erhöhen. Es möglich die Anzahl der Pods von Hand zu erhöhen. Die Anzahl der Pods wird als Replicas bezeichnet und diese werden durch ein  [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) gesteuert. Um die Anzahl der Pods zu erhöhen kann man folgenden Befehl nutzen:
 
 ```bash
-kubectl scale deployment <deployment-name> --replicas=2
+kubectl scale deployment <deployment-name> --replicas=2 -n ${K8SNAMESPACE}
 ```
 
 Nach kurzer Zeit, sind werden zwei Pods im Kubernetes Dashboard erscheinen \(oder mit `kubectl get pods`\). Das Load Balancing zwischen den beiden Pods über den Ingress Controller geregelt.
@@ -31,6 +31,12 @@ kubectl autoscale deployment <deployment-name> --cpu-percent=<percentage> --min=
 ```
 
 Wenn der Befehl erfolgreich war, sieht man folgendes Ergebnis`horizontalpodautoscaler.autoscaling/<deployment-name> autoscaled`
+
+### **Testen**
+
+```text
+while true; do curl https://<name eurer app>.bamftechcafek8scluster-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/; done
+```
 
 ## Löschen der Resourcen
 
