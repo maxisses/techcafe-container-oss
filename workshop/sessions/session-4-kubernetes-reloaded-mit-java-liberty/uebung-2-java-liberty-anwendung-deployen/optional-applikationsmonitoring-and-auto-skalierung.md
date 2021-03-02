@@ -45,6 +45,6 @@ while true; do curl https://<name eurer app>.bamftechcafek8scluster-39df0ed7a3c2
 * Um alle erzeugten Resourcen zu löschen nutzt folgenden Befehl:
 
   ```bash
-   helm delete ${MYPROJECT}
+   helm uninstall ${MYPROJECT}
   ```
 
