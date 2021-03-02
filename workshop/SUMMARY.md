@@ -62,7 +62,7 @@
     * [Horizontal Pod Autoscaling](sessions/session-3-kubernetes/uebung-2-ressourcenverbrauch-and-skalierung/optional-release-and-traffic-management.md)
   * [optional: Übung 3: Deployen mit Helm-Chart](sessions/session-3-kubernetes/optional-deployen-mit-helm-chart/README.md)
     * [Deployment, Service & Namespace YAML parametrisieren mit HELM](sessions/session-3-kubernetes/optional-deployen-mit-helm-chart/deployment-service-and-namespace-yaml-parametrisieren-mit-helm.md)
-* [Draft Session 4: Kubernetes Reloaded mit Java Liberty, Helm & private Registry](sessions/session-4-kubernetes-reloaded-mit-java-liberty/README.md)
+* [Session 4: Kubernetes Reloaded mit Java Liberty, Helm & private Registry](sessions/session-4-kubernetes-reloaded-mit-java-liberty/README.md)
   * [Prework](sessions/session-4-kubernetes-reloaded-mit-java-liberty/prework.md)
   * [Intro](sessions/session-4-kubernetes-reloaded-mit-java-liberty/intro.md)
   * [Übung 1: Java Anwendung bauen & in eine private Registry pushen](sessions/session-4-kubernetes-reloaded-mit-java-liberty/uebung-1/README.md)
