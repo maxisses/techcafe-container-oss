@@ -13,6 +13,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: terminal-deployment
+  namespace: <your-namespace>
 spec:
   replicas: 1
   selector:
@@ -47,6 +48,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: terminal-service
+  namespace: <your-namespace>
 spec:
   type: LoadBalancer
   ports:
