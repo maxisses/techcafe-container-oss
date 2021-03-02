@@ -5,12 +5,14 @@
 1. Um den Health Status euerer Applikation zu überprüfen, wählt euer Cluster in der IBM Cloud Oberfläche aus.
 2. Klicke auf **Kubernetes Dashboard** um das Dashboard aufzurufen.
 3. Wählt auf der linken Seite **Nodes** aus und klickt einen der Nodes an. Über **Allocation Resources** könnt ihr den Health Status der Nodes sehen.
-4. Um die Logs euerer Applikationen zu sehen wählt **Pods**, &lt;**pod-name**&gt; \(dort klickt ihr auf die drei Punkte rechts\) und **Logs**.
+4. Um die Logs euerer Applikationen zu sehen wählt **Pods**, &lt;**pod-name**&gt; \(dort klickt ihr auf die drei Punkte rechts\) und **Logs**. Oben in der
 5. Um eine **ssh** Verbindung mit einem Container herzustellen, könnt ihr folgenden Befehl nutzen
 
    ```bash
    kubectl exec -it <pod-name> -- bash
    ```
+
+![](../../../.gitbook/assets/image%20%2885%29.png)
 
 ## Scale Kubernetes Pods
 
