@@ -3,7 +3,7 @@
 Passt euer deployment.yaml wieder auf 1 Replica an. Dann, diesmal ausnahmsweise imperativ, deployed ihr direkt in Kubernetes einen horizontal autoscaler \(vertical wäre nodes hinzufügen\). In diesem Falle ist die Cpu percentage bezogen auf den resource request bewusst gering gewählt da wir ja eine Miniwebanwendung haben. min/max bezieht sich auf die Pods.
 
 ```text
-kubectl autoscale deployment <name eures deployments> --cpu-percent=3 --min=1 --max=5 -n <eure-initialien>-projekt
+kubectl autoscale deployment <name eures deployments> --cpu-percent=5 --min=1 --max=3 -n <eure-initialien>-projekt
 ```
 
 Um den in Aktion zu sehen muss man ihn ein bisschen pushen und das schafft ihr wahrscheinlich nicht mit einem einfach curl...
