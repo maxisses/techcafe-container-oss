@@ -44,11 +44,11 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 | Session 2 | [Flyover Cloud, Container, CI/CD, PaaS](sessions/session-2-folgt/) |
 | Session 3 | [Kubernetes & Container am Beispiel einer Java Anwendung](sessions/session-3-kubernetes/) |
 | Session 4 | [Kubernetes Reloaded mit Java Liberty, Helm & private Registry](sessions/session-4-kubernetes-reloaded-mit-java-liberty/) |
-| Session 5 | [Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](off-content/session-5/) |
-| Session 6 | [Was fehlt "vanilla" Kubernetes?](sessions/session-6-what-lacks-vanilla-k8s/) |
-| Session 7 | [Service Mesh mit Istio und OpenShift](sessions/session-7-service-mesh/) |
-| Session 8 | [Serverless - OpenShift Operator & KNative](sessions/session-8-knative-und-serverless/) |
-| Session 9 | [Continuous Integration / Continuous Delivery mit Tekton in OpenShift](sessions/untitled/) |
+| Session 5 | [Was fehlt "vanilla" Kubernetes?](sessions/session-6-what-lacks-vanilla-k8s/) |
+| Session 6 | [Service Mesh mit Istio und OpenShift](sessions/session-7-service-mesh/) |
+| Session 7 | [Serverless - OpenShift Operator & KNative](sessions/session-8-knative-und-serverless/) |
+| Session 8 | [Continuous Integration / Continuous Delivery mit Tekton in OpenShift](sessions/untitled/) |
+| Session 9 | CI/CD Vertiefung |
 | Session 10 | [Machine Learning & Container Technologie - TextGen im Container](sessions/session-10-deep-learning-und-container/) |
 
 ## Agenda der Sessions
