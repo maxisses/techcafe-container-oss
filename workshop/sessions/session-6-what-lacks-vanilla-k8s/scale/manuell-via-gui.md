@@ -9,8 +9,12 @@ Alternativ können wir auch OC nutzen:
 ```text
 oc scale deployment productpage --replicas=2
 
-deployment.apps/productpage scaled
+deployment.apps/productpage scaledW
 ```
+
+{% hint style="info" %}
+Wenn das Deployment über [https://raw.githubusercontent.com/istio/istio/master/samples/bookinfo/platform/kube/bookinfo.yaml](https://raw.githubusercontent.com/istio/istio/master/samples/bookinfo/platform/kube/bookinfo.yaml) angestoßen wurde, heißt das Deployment "productpage-v1" statt "productpage".
+{% endhint %}
 
 Die Anzahl der Pods ändert sich nun in der Web Console / Topology.
 
