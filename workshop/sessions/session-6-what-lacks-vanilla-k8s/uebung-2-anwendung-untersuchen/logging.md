@@ -3,14 +3,28 @@
 In OpenShift werden die Ausgaben der Container auf stdout und stderr automatisch eingesammelt und zentral abgelegt. Diese Logs können dann über OC oder die Web Console ausgewertet werden. Dazu muss immer ein konkreter Pod \(und ggf.. ein Container, wenn sich mehrere in einem Pod befinden\) ausgewählt werden. Für die productpage könt ihr euch zunächst die Pods listen lassen und dann den namen des Pods kopieren \(hier: productpage-676d4ffff9-ct9zx\).
 
 ```text
-oc get pods|grep productpage
+oc get pods | grep productpage
 
-productpage-1-build            0/1     Completed   0          29m
-productpage-676d4ffff9-ct9zx   1/1     Running     0          25m
+productpage-v1-6b746f74dc-mlkcp   1/1     Running   0          3m29s
 
-oc logs productpage-676d4ffff9-ct9zx -f
+oc logs productpage-v1-6b746f74dc-mlkcp -f
 
-INFO:werkzeug:0.0.0.0 - - [14/Sep/2020 14:37:28] "GET / HTTP/1.1" 200 -
+INFO:root:start at port 9080
+ * Serving Flask app "productpage" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+INFO:werkzeug: * Running on http://0.0.0.0:9080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:start at port 9080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 984-112-128
+INFO:werkzeug:172.30.182.196 - - [08/Mar/2021 20:33:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.30.182.196 - - [08/Mar/2021 20:33:31] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:172.30.182.196 - - [08/Mar/2021 20:33:31] "GET /static/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:172.30.18.38 - - [08/Mar/2021 20:33:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:172.30.18.38 - - [08/Mar/2021 20:33:31] "GET /static/bootstrap/css/bootstrap-theme.min.css HTTP/1.1" 200 -
 ```
 
 Immer wenn ihr die productpage aufruft wird ein neuer Eintrag geloggt.
@@ -34,7 +48,7 @@ Im Terminal vollziehen wir folgende Dinge nach:
 * Ob die Environment Variable auslesbar ist:
 
 ```text
-env|grep TEST_KEY
+env | grep TEST_KEY
 TEST_KEY=TEST_VALUE
 ```
 
