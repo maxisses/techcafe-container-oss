@@ -4,8 +4,6 @@ Geht auf cloud.ibm.com und wählt euren Cluster aus. Um über eure CLI mit dem C
 
 ![](../../../.gitbook/assets/image%20%2872%29.png)
 
-![](../../../.gitbook/assets/image%20%2881%29.png)
-
 Rechts oben findet ihr ein Dropdown mit eurem Nutzernamen. Geht auf "copy login command" und kopiert euch den gesamten Befehl, wie unten in dem Bild dargestellt.
 
 ![](../../../.gitbook/assets/image%20%2875%29.png)
