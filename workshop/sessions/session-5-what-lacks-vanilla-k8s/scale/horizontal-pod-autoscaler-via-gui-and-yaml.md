@@ -19,7 +19,7 @@ Um ein automatisches Skalieren zu erwirken, müssen wir einen HorizontalPodAutos
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-21.51.24.png)
 
-Es öffnet sich der OpenShift Editor. Dort tragen wir die CPU Utilization von 5% ein und klicken auf "Save".
+Es öffnet sich der OpenShift Editor. Dort tragen wir die CPU Utilization von 1% ein und klicken auf "Save".
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-22.06.26.png)
 
