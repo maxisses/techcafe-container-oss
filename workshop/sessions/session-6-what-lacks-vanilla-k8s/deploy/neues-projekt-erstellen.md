@@ -13,7 +13,7 @@ Damit wir unsere neue Applikation Bookinfo bauen und deployen können müssen wi
 ## OC CLI
 
 ```text
-oc new-project bookinfo
+oc new-project bookinfo-<eure initialien> (klein geschrieben)
 ```
 
 ## Web UI

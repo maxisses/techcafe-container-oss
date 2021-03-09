@@ -10,7 +10,7 @@ Rechts oben findet ihr ein Dropdown mit eurem Nutzernamen. Geht auf "copy login 
 
 ![](../../../.gitbook/assets/image%20%2871%29.png)
 
-Jetzt habt ihr die Wahl - entweder ihr habt das oc CLI Tool lokal oder im lokalen Docker Container installiert. Alternativ könnt ihr die IBM Cloud CLI verwenden. Ihr findet sie auf der Startseite [www.cloud.ibm.com ](https://cloud.ibm.com/)rechts oben. Im Bild das Symbol ganz links, welches euch einen Terminal öffnet wo "oc", "kubectl" usw. schon vorinstalliert ist.
+Jetzt habt ihr die Wahl - entweder ihr habt das oc CLI Tool lokal. Alternativ könnt ihr die IBM Cloud CLI verwenden. Ihr findet sie auf der Startseite [www.cloud.ibm.com ](https://cloud.ibm.com/)rechts oben. Im Bild das Symbol ganz links, welches euch einen Terminal öffnet wo "oc", "kubectl" usw. schon vorinstalliert ist.
 
 ![](../../../.gitbook/assets/image%20%2879%29.png)
 
