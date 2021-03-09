@@ -3,7 +3,7 @@
 Wir werden nun den Ratings Service per YAML deployen. Das YAML File liegt in diesem Fall in einem GitHub Repo, kann aber genauso auch lokal referenziert werden.
 
 ```text
-oc create -f https://raw.githubusercontent.com/Javatar81/istio-examples/master/bookinfo/ratings.yaml
+oc apply -f https://raw.githubusercontent.com/Javatar81/istio-examples/master/bookinfo/ratings.yaml
 
 service/ratings created
 serviceaccount/bookinfo-ratings created
