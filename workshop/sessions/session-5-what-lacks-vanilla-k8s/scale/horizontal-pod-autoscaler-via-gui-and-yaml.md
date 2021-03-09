@@ -1,5 +1,19 @@
 # Horizontal Pod Autoscaler via GUI & YAML
 
+Um den Pod zu skalieren müssen die Resourcen Limits gesetzt sein. Dafür öffnen wir das Deployment und klicken auf YAML. Dort suchen wir nach "resources:"
+
+![](../../../.gitbook/assets/screenshot-2021-03-08-at-21.56.45.png)
+
+Anstelle von "{}" tragen wir folgende Limits ein und klicken auf "Save":
+
+```text
+              cpu: 50m
+              memory: 128Mi
+            requests:
+              cpu: 50m
+              memory: 128Mi
+```
+
 Um ein automatisches Skalieren zu erwirken, müssen wir einen HorizontalPodAutoscaler erstellen. Hierzu klicken wir auf "Add Horizontal Pod Autoscaler"
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-21.51.24.png)
