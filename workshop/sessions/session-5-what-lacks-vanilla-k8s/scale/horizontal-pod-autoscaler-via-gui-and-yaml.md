@@ -7,6 +7,7 @@ Um den Pod zu skalieren müssen die Resourcen Limits gesetzt sein. Dafür öffne
 Anstelle von "{}" tragen wir folgende Limits ein und klicken auf "Save":
 
 ```text
+            limits: 
               cpu: 50m
               memory: 128Mi
             requests:
@@ -18,14 +19,14 @@ Um ein automatisches Skalieren zu erwirken, müssen wir einen HorizontalPodAutos
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-21.51.24.png)
 
-Es öffnet sich der OpenShift Editor. Dort tragen wir die CPU Utilization von 50% ein und klicken auf "Save".
+Es öffnet sich der OpenShift Editor. Dort tragen wir die CPU Utilization von 5% ein und klicken auf "Save".
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-22.06.26.png)
 
 Alternativ kann auch per OC automatisch skaliert werden:
 
 ```text
-oc autoscale deployment productpage --min=1 --max=3 --cpu-percent=50   
+oc autoscale deployment productpage --min=1 --max=3 --cpu-percent=5   
 
 horizontalpodautoscaler.autoscaling/productpage autoscaled
 ```
