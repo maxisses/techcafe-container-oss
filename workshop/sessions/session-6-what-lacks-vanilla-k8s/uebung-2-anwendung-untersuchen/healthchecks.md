@@ -1,6 +1,6 @@
 # optional: Health Checks - Readiness & Liveness Probes
 
-OpenShift \(bzw. Kubernetes ebenfalls\) überwacht den Zustand der Pods über sogenannte Readiness und Liveness Probes. Eine Readiness Probe checkt, ob der Prozess innerhalb des Pods erfogreich gestartet ist und bereit ist Anfragen entgegenzunehmen. Die Lifeness Probe überwacht, ob der Pod immer noch auf Anfragen reagiert und startet ihn ggf. neu.
+OpenShift \(bzw. Kubernetes ebenfalls\) überwacht den Zustand der Pods über aus Kubernetes bereits bekannten Readiness und Liveness Probes. Eine Readiness Probe checkt, ob der Prozess innerhalb des Pods erfogreich gestartet ist und bereit ist Anfragen entgegenzunehmen. Die Lifeness Probe überwacht, ob der Pod immer noch auf Anfragen reagiert und startet ihn ggf. neu.
 
 Wir haben das hier schonmal gemacht:
 

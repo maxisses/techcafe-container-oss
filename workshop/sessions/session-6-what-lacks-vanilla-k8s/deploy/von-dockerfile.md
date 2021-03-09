@@ -1,6 +1,6 @@
 # Dockerfile Build & Deployment via Web Console
 
-Nicht immer liegen Applikationen schon als fertige Images vor. Will man z. B. eine eigene Applikation entwickeln und diese in OpenShift deployen muss hierfür zunächst das Docker Image gebaut werden. Ein üblicher Mechansimus ist hierfür ein Dockerfile zu schreiben und den Image Build auszuführen.
+Häufig müssen wir die Applikationen erst noch bauen. Will man z. B. eine eigene Applikation entwickeln und diese in OpenShift deployen muss hierfür zunächst das Docker Image gebaut werden. Ein üblicher Mechansimus ist hierfür ein Dockerfile zu schreiben und den Image Build auszuführen.
 
 OpenShift kann diese Image Builds selbst durchführen. Hierfür wird ein neues Konzept namens _BuildConfig_ eingeführt die mehrere _Builds_ erzeugen kann. Es gibt unterschiedliche Build Strategien die durch die _BuildConfig_ durchgeführt werden können. Hier wählen wir die Dockerfile Strategy. Dazu müssen wir wieder auf +Add klicken und Import from Dockerfile auswählen:
 
