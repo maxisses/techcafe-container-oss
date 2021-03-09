@@ -19,7 +19,7 @@ Um ein automatisches Skalieren zu erwirken, müssen wir einen HorizontalPodAutos
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-21.51.24.png)
 
-Es öffnet sich der OpenShift Editor. Dort tragen wir die CPU Utilization von 1% ein und klicken auf "Save".
+Es öffnet sich der OpenShift Editor. Dort tragen wir die CPU Utilization von 45% ein und die Memory Utilization von ebenfalls **45%** und klicken auf "Save".
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-22.06.26.png)
 
@@ -38,5 +38,11 @@ oc get horizontalpodautoscaler
 
 NAME      REFERENCE                   TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
 example   Deployment/productpage-v1   32%/50%   1         3         1          2m29s
+```
+
+Wer noch einen http Load Generator wie in Session 4 und 3 zur Verfügung hat, kann auch versuchen den Autoscaler zu triggern:
+
+```text
+hey -c 100 -z 10s "http://<name-eurer-route>.techcafeocpcluster-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/productpage"
 ```
 
