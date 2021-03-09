@@ -18,5 +18,9 @@ oc new-project bookinfo-<eure initialien> (klein geschrieben)
 
 ## Web UI
 
+{% hint style="info" %}
+Projekte anlegen ist beim Administrator angesiedelt.
+{% endhint %}
+
 ![](../../../.gitbook/assets/screenshot-2020-09-14-at-13.07.02.png)
 
