@@ -1,4 +1,4 @@
-# Source2Image \(S2I\) Build & Deployment via WebConsole
+# Source2Image \(S2I\) Build & Deployment via WebConsole - productpage service
 
 Die letzte Komponente, die wir nun bauen und deployen ist die ProductPage. Diese wollen wir ohne Dockerfile direkt aus dem Sourcecode bauen und deployen. Dazu wählen wir **+Add** und **From Git** aus.
 

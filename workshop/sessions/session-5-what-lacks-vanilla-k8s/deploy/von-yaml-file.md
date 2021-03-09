@@ -1,4 +1,4 @@
-# Yaml Deployment über oc
+# Yaml Deployment über oc - ratings Service
 
 Wir werden nun den Ratings Service per YAML deployen. Das YAML File liegt in diesem Fall in einem GitHub Repo, kann aber genauso auch lokal referenziert werden.
 

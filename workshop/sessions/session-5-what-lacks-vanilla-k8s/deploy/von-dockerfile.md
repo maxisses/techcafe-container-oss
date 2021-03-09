@@ -1,4 +1,4 @@
-# Dockerfile Build & Deployment via Web Console
+# Dockerfile Build & Deployment via Web Console - details service
 
 Häufig müssen wir die Applikationen erst noch bauen. Will man z. B. eine eigene Applikation entwickeln und diese in OpenShift deployen muss hierfür zunächst das Docker Image gebaut werden. Ein üblicher Mechansimus ist hierfür ein Dockerfile zu schreiben und den Image Build auszuführen.
 
