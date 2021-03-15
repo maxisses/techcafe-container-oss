@@ -21,7 +21,7 @@ Damit Kiali sinnvollen Output liefert ist Traffic notwendig! Also nicht wundern 
 Mit dieser Schleife könnt ihr ein bisschen Traffic erzeugen. Die Endung des Links auf eure Initialien ändern nicht vergessen
 
 ```text
-while true; do curl -s http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/max | grep "font color" | head -n 1; sleep 0.5; done
+while true; do curl -s http://istio-ingressgateway-istio-system.ocpclusterpub-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/maxdargatz | grep "font color" | head -n 1; sleep 0.5; done
 ```
 
 ![](../../../.gitbook/assets/image%20%28123%29.png)
