@@ -1,6 +1,6 @@
 # Euer Projekt bzw. Namespace
 
-Normalerweise müsstet ihr im ersten Schritt müsstet ihr ein neues Projekt bzw. Namespace erstellen. Der Einfachheit halber haben wir das schon gemacht und zwar mit euren Initialien gefolt von -bookinfo.
+Normalerweise müsstet ihr im ersten Schritt müsstet ihr ein neues Projekt bzw. Namespace erstellen. Der Einfachheit halber haben wir das schon gemacht und zwar mit euren Initialien gefolgt von -bookinfo.
 
 {% hint style="warning" %}
 Ansonsten wäre das der Befehl folgender. Der Hintergrund dafür, dass wir es schon erstellt haben ist, dass jeder neue Namespace für Istio Service Mesh aktiviert werden muss. Das dauert manchmal einen kleinen Moment, deshalb haben wir dem vorgegriffen.
