@@ -60,6 +60,6 @@ Der VirtualService ist eine wesentliche Istio Ressource zum Traffic Management u
 Eure Anwendung ist dann unter folgendem link und eurer entsprechenden Endung erreichbar. Die Endung Bitte auf Eure Initialien anpassen.
 
 ```text
-http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/maxdargatz
+http://istio-ingressgateway-istio-system.ocpclusterpub-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/maxdargatz
 ```
 
