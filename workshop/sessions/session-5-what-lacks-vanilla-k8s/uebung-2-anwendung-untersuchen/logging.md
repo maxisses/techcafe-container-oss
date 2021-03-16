@@ -5,9 +5,11 @@ In OpenShift werden die Ausgaben der Container auf stdout und stderr automatisch
 ```text
 oc get pods | grep productpage
 
-productpage-v1-6b746f74dc-mlkcp   1/1     Running   0          3m29s
+productpage-1-build           0/1     Completed   0          5m3s
+productpage-1-deploy          0/1     Completed   0          64s
+productpage-1-rdtv5           1/1     Running     0          60s
 
-oc logs productpage-v1-6b746f74dc-mlkcp -f
+oc logs productpage-1-rdtv5 -f
 
 INFO:root:start at port 9080
  * Serving Flask app "productpage" (lazy loading)
