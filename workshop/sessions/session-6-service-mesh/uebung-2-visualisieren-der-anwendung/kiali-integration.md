@@ -8,7 +8,7 @@ Es läuft bereits mit Pod, Service und Route in unserem Cluster und lässt sich 
 Daneben laufen in diesem Namespace eine Reihe weiterer Istio Komponenten zB der Sidecar Injector und der Gateway, den wir schon benutzen.
 {% endhint %}
 
-[https://kiali-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/](https://kiali-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/)
+[https://kiali-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/](https://kiali-istio-system.ocpclusterpub-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/)
 
 ![](../../../.gitbook/assets/image%20%2899%29.png)
 
