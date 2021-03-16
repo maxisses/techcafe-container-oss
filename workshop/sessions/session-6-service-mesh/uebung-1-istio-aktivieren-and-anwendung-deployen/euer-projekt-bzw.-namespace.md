@@ -6,14 +6,14 @@ Normalerweise müsstet ihr im ersten Schritt müsstet ihr ein neues Projekt bzw.
 Ansonsten wäre das der Befehl folgender. Der Hintergrund dafür, dass wir es schon erstellt haben ist, dass jeder neue Namespace für Istio Service Mesh aktiviert werden muss. Das dauert manchmal einen kleinen Moment, deshalb haben wir dem vorgegriffen.
 
 ```text
-oc new-project <initialien>-bookinfo
+oc new-project <initialien>-bookinfo-servicemesh
 ```
 {% endhint %}
 
 Um in eurer Konsole in das Projekt zu wechseln tut ihr folgendes:
 
 ```text
-oc project <initialien>-bookinfo
+oc project <initialien>-bookinfo-servicemesh
 ```
 
 Jetzt deployed ihr eure Anwendung wie in der letzten Session mit 4 Services.
