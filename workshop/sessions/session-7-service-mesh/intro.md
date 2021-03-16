@@ -1,5 +1,5 @@
 # Intro
 
-Session 7 Unterlage:  
-&lt; folgt &gt;
+Session 6 Unterlage:  
+[https://ibm.box.com/v/bamf-techcafe](https://ibm.box.com/v/bamf-techcafe)
 
