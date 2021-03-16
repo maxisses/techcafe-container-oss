@@ -9,3 +9,5 @@ OpenShift hat diese Verbindung bereits aus dem ServiceMesh extrahiert.
 
 ![](../../../.gitbook/assets/image%20%28122%29.png)
 
+
+

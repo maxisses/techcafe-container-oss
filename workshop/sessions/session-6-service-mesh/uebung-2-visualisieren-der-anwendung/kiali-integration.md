@@ -2,7 +2,11 @@
 
 Kiali kommt mit Istio und ist ein hervorragendes Werkzeug für die Analyse von Microservices, Traffic und Release Management.
 
-Es läuft bereits mit Pod, Service und Route in unserem Cluster und lässt sich leicht im Istio-system namespace finden und mittels des Pfeils direkt öffnen \(das blaue Symbol mit schwarzem Kreis\).
+Es lässt sich direkt aus unserem Projekt heraus öffnen \(siehe URL\):
+
+![](../../../.gitbook/assets/image%20%28112%29.png)
+
+Es läuft außerdem ein Deployment mit Service und Route in unserem Cluster und lässt sich im "istio-system" namespace finden und mittels des Pfeils direkt öffnen \(das blaue Symbol mit schwarzem Kreis\).
 
 {% hint style="info" %}
 Daneben laufen in diesem Namespace eine Reihe weiterer Istio Komponenten zB der Sidecar Injector und der Gateway, den wir schon benutzen.
