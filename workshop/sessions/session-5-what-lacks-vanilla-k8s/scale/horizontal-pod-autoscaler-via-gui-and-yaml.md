@@ -4,6 +4,10 @@ Um den Pod zu skalieren müssen die Resourcen Limits gesetzt sein. Dafür öffne
 
 ![](../../../.gitbook/assets/screenshot-2021-03-08-at-21.56.45.png)
 
+{% hint style="info" %}
+Hier die "resources" innerhalb der Sektion "containers" anpassen!
+{% endhint %}
+
 Anstelle von "{}" tragen wir folgende Limits ein und klicken auf "Save":
 
 ```text
