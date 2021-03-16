@@ -9,7 +9,7 @@ Alternativ können wir auch OC nutzen:
 ```text
 oc scale deployment productpage --replicas=2
 
-deployment.apps/productpage scaledW
+deployment.apps/productpage scaled
 ```
 
 {% hint style="info" %}
