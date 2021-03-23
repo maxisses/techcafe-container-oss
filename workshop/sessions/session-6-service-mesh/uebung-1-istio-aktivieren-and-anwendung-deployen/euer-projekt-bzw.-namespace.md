@@ -48,7 +48,7 @@ Dieser Gateway läuft als pod in der istio controlplane in seinem eigenen Namesp
 
 1. Geht in der OpenShift Console links oben auf Administrator
 2. öffnet darunter Home und geht auf Explore
-3. Sucht in der Liste nach "VirtualService", geht dann auf Instances und wählt den einzigen Eintrag aus
+3. Sucht in der Liste nach "VirtualService", wählt den in der Version v1alpha3 aus und geht dann auf "Instances" und wählt den einzigen Eintrag aus, der im Yaml angelegte Default Name ist **bookinfo**
 4. ändert im yaml File dort wo bei mir /maxdargatz steht auf euren Namen bzw am besten eure Initialien
 
 ![](../../../.gitbook/assets/image%20%2883%29.png)

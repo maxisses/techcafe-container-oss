@@ -5,8 +5,10 @@ Das Service Mesh wurde in diesem Falle für euch aktiviert. Ihr könntet das auc
 
 Dort muss man die entsprechenden Namespaces im YAML der Service Mesh Member Roll hinzufügen.
 
-Bei Interesse: [https://docs.openshift.com/container-platform/4.4/service\_mesh/service\_mesh\_install/preparing-ossm-installation.html](https://docs.openshift.com/container-platform/4.4/service_mesh/service_mesh_install/preparing-ossm-installation.html)
+Bei Interesse: [https://docs.openshift.com/container-platform/4.4/service\_mesh/service\_mesh\_install/preparing-ossm-installation.html](https://docs.openshift.com/container-platform/4.6/service_mesh/v1x/preparing-ossm-installation.html)
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%2887%29.png)
+![](../../../.gitbook/assets/image%20%28117%29.png)
+
+
 
