@@ -10,5 +10,5 @@ Stellt erstmal sicher, dass ihr kein Traffic Routing mehr auf dem reviews Servic
 
 ![](../../../.gitbook/assets/image%20%28114%29.png)
 
-Wir tun für unser DarkRelease mal so als wären die roten Sternchen unser neues risky Feature. Das risky
+Wir tun für unser DarkRelease mal so als wären die roten Sternchen unser neues risky Feature.
 

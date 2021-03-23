@@ -6,7 +6,7 @@ Das könnt ihr sowohl im Browser, als auch mit curl testen.
 Als erstes ohne einen User zu spezifizieren.
 
 ```text
-while true; do curl -s http://istio-ingressgateway-istio-system.openshift-for-techcafe-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/max | grep "font color" | head -n 1; sleep 0.5; done
+while true; do curl -s http://istio-ingressgateway-istio-system.ocpclusterpub-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/max | grep "font color" | head -n 1; sleep 0.5; done
 ```
 
 Und danach mit entsprechendem User:
