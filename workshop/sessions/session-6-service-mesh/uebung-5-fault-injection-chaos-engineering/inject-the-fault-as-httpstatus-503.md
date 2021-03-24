@@ -4,8 +4,6 @@
 
 Das YAML aus Kiali liegt hier für euch erweitert schon vor. 
 
-
-
 ```text
 oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/master/02-fault-injection/fault-injection_abort.yaml
 ```
