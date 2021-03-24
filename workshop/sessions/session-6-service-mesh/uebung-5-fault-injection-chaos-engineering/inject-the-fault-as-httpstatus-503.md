@@ -9,7 +9,7 @@ oc apply -f https://raw.githubusercontent.com/maxisses/openshiftservicemesh/mast
 ```
 
 Es gibt im wesentlichen zwei Möglichkeiten für Fault Injection: abort und delay. Beide könnt ihr nacheinander anwenden. Wenn ihr genau reinschaut erkennt ihr was ich mit "User Ärgern" meinte. Wenn man sich einloggt, hier zB als "max" \(ohne Passwort\), dann werden die faults erst aktiviert.  
-Das könnt ihr dann im Browser testen.
+Das könnt ihr dann im Browser testen und seht als "max" die roten Sterne und in 50% aller Request seht ihr gar nichts weil der Service fehlerhaft bzw. mit Statuscode 500.
 
 ```text
 kind: VirtualService
