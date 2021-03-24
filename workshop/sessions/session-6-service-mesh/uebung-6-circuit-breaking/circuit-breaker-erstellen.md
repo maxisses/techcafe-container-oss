@@ -34,6 +34,6 @@ spec:
 ```
 
 {% hint style="info" %}
-Dieser CircuitBreaker triggered nach 2 Errors infolge die innerhalb von 2 Sekunden aufgetreten sein müssen und nimmt den Service für 3 Sekunden raus mit 100% seiner pods.
+Dieser CircuitBreaker triggered nach 2 Errors in Folge die innerhalb von 2 Sekunden aufgetreten sein müssen und nimmt den Service für 3 Sekunden raus mit 100% seiner pods.
 {% endhint %}
 
