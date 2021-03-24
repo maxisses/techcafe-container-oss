@@ -120,7 +120,7 @@
   * [Übung 5: Fault Injection / Chaos Engineering](sessions/session-6-service-mesh/uebung-5-fault-injection-chaos-engineering/README.md)
     * [Traffic suspension mit Kiali](sessions/session-6-service-mesh/uebung-5-fault-injection-chaos-engineering/traffic-suspension-mit-kiali.md)
     * [YAML des Kiali-generierten VirtualService inspizieren](sessions/session-6-service-mesh/uebung-5-fault-injection-chaos-engineering/yaml-exportieren.md)
-    * [Fault Injection mit httpStatus Codes](sessions/session-6-service-mesh/uebung-5-fault-injection-chaos-engineering/inject-the-fault-as-httpstatus-503.md)
+    * [Fault Injection mit httpStatus Codes auf Basis bestimmter User](sessions/session-6-service-mesh/uebung-5-fault-injection-chaos-engineering/inject-the-fault-as-httpstatus-503.md)
     * [Fault injection durch Service Delay](sessions/session-6-service-mesh/uebung-5-fault-injection-chaos-engineering/optional-inject-the-fault-as-unexpected-delay.md)
     * [Finde die fehlerhaften Traces mit Jaeger](sessions/session-6-service-mesh/uebung-5-fault-injection-chaos-engineering/finde-die-fehlerhaften-traces-mit-jaeger.md)
   * [Übung 6: Circuit Breaking](sessions/session-6-service-mesh/uebung-6-circuit-breaking/README.md)
