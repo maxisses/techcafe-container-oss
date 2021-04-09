@@ -136,7 +136,7 @@
     * [Projekt erstellen](sessions/session-8-knative-und-serverless/uebung-1-serverless-operator-and-knative/untitled-5.md)
     * [KNative Komponenten](sessions/session-8-knative-und-serverless/uebung-1-serverless-operator-and-knative/untitled-4.md)
   * [Übung 2: Deployen unserer Anwendung als "Serverless" Anwendung](sessions/session-8-knative-und-serverless/uebung-2-deployen-unserer-anwendung-als-serverless-anwendung/README.md)
-    * [Der KNative Services - am Bespiel des ratings Svc](sessions/session-8-knative-und-serverless/uebung-2-deployen-unserer-anwendung-als-serverless-anwendung/der-knative-services.md)
+    * [Der KNative Service - am Bespiel des ratings Svc](sessions/session-8-knative-und-serverless/uebung-2-deployen-unserer-anwendung-als-serverless-anwendung/der-knative-services.md)
     * ["not non-invasive" - Bookinfo anpassen](sessions/session-8-knative-und-serverless/uebung-2-deployen-unserer-anwendung-als-serverless-anwendung/not-non-invasive-bookinfo-anpassen.md)
     * [Details Service deployen](sessions/session-8-knative-und-serverless/uebung-2-deployen-unserer-anwendung-als-serverless-anwendung/knative-routes.md)
   * [Übung 3: Autoscaling](sessions/session-8-knative-und-serverless/uebung-3-autoscaling/README.md)

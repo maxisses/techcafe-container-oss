@@ -1,4 +1,4 @@
-# Der KNative Services - am Bespiel des ratings Svc
+# Der KNative Service - am Bespiel des ratings Svc
 
 Wie man im yaml unten für den ersten Service - den ratings Service unserer Bookinfo-Anwendung - an der apiVersion sieht implementiert KNative seine eigenen Ressourcen. Eine wesentliche, auf die wir uns heute fokussieren, ist der KNative Service. Es ist **nicht** das gleiche wie ein Kubernetes Service!
 
