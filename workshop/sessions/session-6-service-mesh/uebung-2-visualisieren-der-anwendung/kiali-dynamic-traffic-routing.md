@@ -18,7 +18,7 @@ Wenn man in Kiali runterscrolled und auf den "Istio Config" Tab geht, sieht man,
 Kiali Actions ist ein super Startpunkt um schnell Templates für Gateways\(siehe "Advanced Options" oben\), VirtualServices und DestinationRules zu erstellen. Danach sollte man die YAMLs aber exportieren und in Version Control packen.
 {% endhint %}
 
-Zu guter letzt löschen wir das Routing erstmal.
+Zu guter Letzt löschen wir das Routing erstmal.
 
 ![](../../../.gitbook/assets/image%20%28105%29.png)
 
