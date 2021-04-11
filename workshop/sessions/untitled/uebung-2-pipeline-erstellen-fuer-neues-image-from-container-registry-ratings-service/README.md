@@ -1,2 +1,2 @@
-# Übung 2: Image Stream - "Reviews Service"
+# \[Archive\] Übung 2: Image Stream - "Reviews Service"
 
