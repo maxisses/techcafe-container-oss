@@ -8,15 +8,11 @@ Die Ressource Project ist eine OpenShift spezifische Erweiterung von Kubernetes.
 * Definition von Resource Quotas auf Projektebene.
 * nicht zuletzt kann durch die Kombination der oberen Punkte eine komplette Mandantentrennung vollzogen werden.
 
-Damit wir unsere neue Applikation Bookinfo bauen und deployen können müssen wir uns zunächst ein neues Projekt anlegen.
+Damit wir unsere neue Applikation bauen können müssen wir uns zunächst ein neues Projekt anlegen.
 
 ## OC CLI
 
 ```text
-oc new-project <initialien>-bookinfo-tekton
+oc new-project <initialien>-hello-world-pipeline
 ```
-
-## **OpenShift Console / GUI**
-
-![](../../../.gitbook/assets/image%20%28151%29.png)
 

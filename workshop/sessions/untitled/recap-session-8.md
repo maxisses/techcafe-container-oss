@@ -1,4 +1,4 @@
-# ReCap Session 8
+# \[Archive\] ReCap Session 8
 
 Im Ergebniss haben wir in Session 8 die Bookinfo Anwendung vollständig als KNative bzw. Serverless Anwendung deployed. Damit könnten wir Traffic Management/Roll Backs / Roll Forwards zwischen Updates in Deployments machen und könnten außerdem die Autoscaling Features nach Requests-per-Second und Concurrent Requests sowie die Scale to Zero Features \(haben wir nur für ratings konfiguriert\) nutzen.
 

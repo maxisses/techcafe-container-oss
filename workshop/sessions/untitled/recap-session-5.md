@@ -1,4 +1,4 @@
-# Recap Session 5
+# \[Archive\] Recap Session 5
 
 Wir sehen hier unsere Pipeline aus Session 5 mit Ihren 3 Tasks. Jeder Task besteht aus mehreren Steps, welche unsere fetch, build & deployment Skripte im Container ausführen.
 
