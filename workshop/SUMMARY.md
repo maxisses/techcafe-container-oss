@@ -150,7 +150,7 @@
     * [Canary Reloaded](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/canary-reloaded.md)
   * [Übung 5: Administratorensicht](sessions/session-8-knative-und-serverless/untitled/README.md)
     * [OpenShift Console - Serverless Administration](sessions/session-8-knative-und-serverless/untitled/openshift-console-serverless-administration.md)
-* [Draft Session 8: CI / CD mit Tekton in OpenShift](sessions/untitled/README.md)
+* [Draft Session 8: CI / CD mit OpenShift Pipelines und OpenShift GitOps](sessions/untitled/README.md)
   * [ReCap Session 8](sessions/untitled/recap-session-8.md)
   * [Recap Session 5](sessions/untitled/recap-session-5.md)
   * [Prework](sessions/untitled/prework.md)
