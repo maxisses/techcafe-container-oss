@@ -7,6 +7,7 @@ Die Applikation basiert auf [Go\(lang\)](https://golang.org) und erzeugt einen s
 Wir werden im folgenden eine Pipeline bauen welche:
 
 * Das Repository cloned
+* Linting des Codes
 * Unit Tests ausführt
 * Ein Container Image erzeugt
 * Das Container Image in die interene Registry pushed

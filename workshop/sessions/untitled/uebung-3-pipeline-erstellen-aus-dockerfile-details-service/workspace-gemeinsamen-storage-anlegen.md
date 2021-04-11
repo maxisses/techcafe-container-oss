@@ -1,4 +1,4 @@
-# Workspace - gemeinsamen Storage anlegen
+# \[Archive\] Workspace - gemeinsamen Storage anlegen
 
 Klont euch das Repo für den heutigen Tag.
 
@@ -11,4 +11,6 @@ Legt einen gemeinsamen Workspace für unsere Pipeline-Files \(git Repo & Builds 
 ```text
 oc apply -f generic-pipeline/pvc/source-pvc.yaml
 ```
+
+
 
