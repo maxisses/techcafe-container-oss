@@ -11,6 +11,6 @@ In der Topologie-Sicht kann ich über Set Traffic Distribution das Canary steuer
 ![](../../../.gitbook/assets/image%20%28144%29.png)
 
 ```text
-while true; do curl -s http://productpage-kn-test.ocpclusterpub-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/productpage | grep "font color" | head -n 1; sleep 0.5; done
+while true; do curl -s http://productpage-<namespace bzw. project>.ocpclusterpub-39df0ed7a3c2ec1b2ad7d1247807cc2f-0000.eu-de.containers.appdomain.cloud/productpage | grep "font color" | head -n 1; sleep 0.5; done
 ```
 
