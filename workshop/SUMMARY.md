@@ -128,7 +128,7 @@
     * [Circuit Breaker erstellen](sessions/session-6-service-mesh/uebung-6-circuit-breaking/circuit-breaker-erstellen.md)
     * [Funktioniert er?](sessions/session-6-service-mesh/uebung-6-circuit-breaking/funktioniert-er.md)
   * [left out: External Service & mTLS](sessions/session-6-service-mesh/uebung-6-mtls-im-cluster.md)
-* [Draft Session 7: KNative und Serverless](sessions/session-8-knative-und-serverless/README.md)
+* [Session 7: KNative und Serverless](sessions/session-8-knative-und-serverless/README.md)
   * [Prework](sessions/session-8-knative-und-serverless/prework.md)
   * [Intro](sessions/session-8-knative-und-serverless/intro.md)
   * [Übung 1: Serverless Operator & KNative](sessions/session-8-knative-und-serverless/uebung-1-serverless-operator-and-knative/README.md)

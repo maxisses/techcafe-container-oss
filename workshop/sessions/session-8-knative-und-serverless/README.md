@@ -1,2 +1,2 @@
-# Draft Session 7: KNative und Serverless
+# Session 7: KNative und Serverless
 
