@@ -162,7 +162,7 @@
     * [Storage in OpenShift / Kubernetes](sessions/untitled/uebung-1-pipelines-operator-and-tekton/storage-in-openshift-kubernetes.md)
   * [Übung 2: generische Pipeline erstellen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/README.md)
     * [Applikation HelloWorldAPI](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/applikation-helloworldapi.md)
-    * [\[Archive\] Workspace - gemeinsamen Storage anlegen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/workspace-gemeinsamen-storage-anlegen.md)
+    * [Workspace - gemeinsamen Storage anlegen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/workspace-gemeinsamen-storage-anlegen.md)
     * [Tasks anlegen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/tasks-anlegen.md)
     * [Pipeline anlegen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/pipeline-anlegen.md)
   * [Übung 3: Pipeline starten](sessions/untitled/uebung-3-pipeline-starten/README.md)
