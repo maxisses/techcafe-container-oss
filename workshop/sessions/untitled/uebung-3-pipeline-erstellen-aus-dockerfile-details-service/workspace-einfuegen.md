@@ -29,8 +29,7 @@ Als Alternative könnt ihr auch einfach das den `spec` Teil des YMLs ersetzen:
 ```text
 spec:
   params:
-    - default: 'https://github.com/wumaxd/golang-presentation'
-      name: git-url
+    - name: git-url
       type: string
     - name: package
       type: string
