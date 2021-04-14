@@ -168,6 +168,8 @@
     * [Workspace einfügen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/workspace-einfuegen.md)
   * [Übung 3: Pipeline starten](sessions/untitled/uebung-3-pipeline-starten/README.md)
     * [Pipeline ausführen](sessions/untitled/uebung-3-pipeline-starten/untitled.md)
+    * [Pipeline Fortschritt](sessions/untitled/uebung-3-pipeline-starten/pipeline-fortschritt.md)
+    * [Pipeline Ergebnis](sessions/untitled/uebung-3-pipeline-starten/pipeline-ergebnis.md)
   * [Übung 4: Details & Ratings deployen](sessions/untitled/uebung-4-pipeline-erstellen-aus-git-from-source-productpage-service/README.md)
     * [Details PipelineRun anlegen](sessions/untitled/uebung-4-pipeline-erstellen-aus-git-from-source-productpage-service/details-anlegen.md)
     * [Ratings PipelineRun anlegen](sessions/untitled/uebung-4-pipeline-erstellen-aus-git-from-source-productpage-service/untitled.md)
