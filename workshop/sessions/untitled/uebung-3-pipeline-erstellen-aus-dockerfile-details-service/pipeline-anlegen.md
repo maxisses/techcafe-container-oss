@@ -48,5 +48,9 @@ Fügt den Parameter `image` und `context` im Buildah Task ein.
 
 ![](../../../.gitbook/assets/screenshot-2021-04-11-at-13.43.38.png)
 
+Da wir die interne Registry nutzen werden, müssen wir die TLS Verifikation ausschalten.
+
+![](../../../.gitbook/assets/screenshot-2021-04-14-at-22.16.53.png)
+
 Klickt auf "Save".
 
