@@ -168,6 +168,7 @@
     * [Pipeline ausführen](sessions/untitled/uebung-3-pipeline-starten/untitled.md)
     * [Pipeline Fortschritt](sessions/untitled/uebung-3-pipeline-starten/pipeline-fortschritt.md)
     * [Pipeline Ergebnis](sessions/untitled/uebung-3-pipeline-starten/pipeline-ergebnis.md)
+    * [\[Optional\] Image testen](sessions/untitled/uebung-3-pipeline-starten/optional-image-testen.md)
   * [Weitere Informationen zu Tekton](sessions/untitled/weitere-informationen-zu-tekton.md)
   * [Übung 4: OpenShift GitOps & ArgoCD](sessions/untitled/uebung-4-openshift-gitops-and-argocd.md)
 * [Draft Session 9: Deep Learning und Container](sessions/session-10-deep-learning-und-container/README.md)
