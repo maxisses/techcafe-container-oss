@@ -165,6 +165,7 @@
     * [Workspace - gemeinsamen Storage anlegen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/workspace-gemeinsamen-storage-anlegen.md)
     * [Tasks anlegen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/tasks-anlegen.md)
     * [Pipeline anlegen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/pipeline-anlegen.md)
+    * [Workspace einfügen](sessions/untitled/uebung-3-pipeline-erstellen-aus-dockerfile-details-service/workspace-einfuegen.md)
   * [Übung 3: Pipeline starten](sessions/untitled/uebung-3-pipeline-starten/README.md)
     * [Untitled](sessions/untitled/uebung-3-pipeline-starten/untitled.md)
   * [Übung 4: Details & Ratings deployen](sessions/untitled/uebung-4-pipeline-erstellen-aus-git-from-source-productpage-service/README.md)
