@@ -20,3 +20,11 @@ Damit sehen wir die ArgoCD Übersicht. Wir nutzen für die restlichen Sessions a
 Alle Informationen zu ArgoCD findet ihr [hier](https://argoproj.github.io/argo-cd/).
 {% endhint %}
 
+{% hint style="info" %}
+Um in der aktuellen Variante ArgoCD vollen Zugriff auf das Cluster zu geben muss folgender Befehl ausgeführt werden. In unserem Fall wurde die Policy schon angepasst.
+{% endhint %}
+
+```text
+oc adm policy add-cluster-role-to-user cluster-admin -z argocd-cluster-argocd-application-controller -n openshift-gitops
+```
+

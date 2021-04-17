@@ -172,6 +172,8 @@
   * [Weitere Informationen zu Tekton](sessions/untitled/weitere-informationen-zu-tekton.md)
   * [Übung 4: OpenShift GitOps & ArgoCD](sessions/untitled/uebung-4-openshift-gitops-and-argocd/README.md)
     * [ArgoCD GUI](sessions/untitled/uebung-4-openshift-gitops-and-argocd/argocd-gui.md)
+    * [API Deployment](sessions/untitled/uebung-4-openshift-gitops-and-argocd/api-deployment.md)
+    * [ArgoCD Sync](sessions/untitled/uebung-4-openshift-gitops-and-argocd/argocd-sync.md)
 * [Draft Session 9: Deep Learning und Container](sessions/session-10-deep-learning-und-container/README.md)
   * [Intro: Deep Learning & Data Science für NLP](sessions/session-10-deep-learning-und-container/intro-deep-learning-and-data-science.md)
   * [Übung 1: \(optional\)Text Generator im Container bauen](sessions/session-10-deep-learning-und-container/uebung-1-optional-text-generator-im-container-bauen.md)
