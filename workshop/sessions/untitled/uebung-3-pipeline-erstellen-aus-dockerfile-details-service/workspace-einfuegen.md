@@ -24,6 +24,15 @@ Für die Tasks golangci-lint, golang-test und buildah fügen wir den Workspace s
           workspace: shared-data
 ```
 
+Zuletzt muss man den workspace noch im yaml definieren und zwar ganz am Ende:
+
+![](../../../.gitbook/assets/image%20%28171%29.png)
+
+```text
+workspaces:
+    - name: shared-data
+```
+
 Als Alternative könnt ihr auch einfach das den `spec` Teil des YMLs ersetzen:
 
 ```text
