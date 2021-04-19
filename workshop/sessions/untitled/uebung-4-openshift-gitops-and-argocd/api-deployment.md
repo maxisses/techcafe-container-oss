@@ -21,7 +21,7 @@ Da ArgoCD erkannt hat, das wir das Deployment mittels eines Helm Charts machen w
 ![](../../../.gitbook/assets/screenshot-2021-04-17-at-16.06.39.png)
 
 {% hint style="info" %}
-Wäre bereits mit Helm tiefer gearbeitet hat wird hier erkennen, das ArgoCD eine schöne Möglichkeit bietet die [Parameter](https://helm.sh/docs/topics/charts/#templates-and-values) eines [Charts](https://helm.sh/docs/topics/charts/) anzupassen.
+Wer bereits mit Helm tiefer gearbeitet hat wird hier erkennen, das ArgoCD eine schöne Möglichkeit bietet die [Parameter](https://helm.sh/docs/topics/charts/#templates-and-values) eines [Charts](https://helm.sh/docs/topics/charts/) anzupassen.
 {% endhint %}
 
 Dann klicken links oben wir auf "Create".

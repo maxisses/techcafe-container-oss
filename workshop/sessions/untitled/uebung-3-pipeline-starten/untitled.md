@@ -11,7 +11,7 @@ Wir fügen die folgenden Parameter ein
 * context: ./exercises/helloWorldAPI
 
 {% hint style="danger" %}
-Ins Image unten euren Namespace einsetzen
+In das Image unten euren Namespace einsetzen
 {% endhint %}
 
 * image: image-registry.openshift-image-registry.svc:5000/**&lt;namespace bzw. project&gt;**/go-test-image:latest
