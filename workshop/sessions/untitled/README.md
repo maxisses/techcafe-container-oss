@@ -1,2 +1,2 @@
-# Session 8: CI / CD mit OpenShift Pipelines und OpenShift GitOps
+# Session 7: CI / CD mit OpenShift Pipelines und OpenShift GitOps
 

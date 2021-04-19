@@ -1,2 +1,2 @@
-# Session 7: KNative und Serverless
+# Session 8: KNative und Serverless
 
