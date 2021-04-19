@@ -10,7 +10,7 @@ Wir werden im folgenden eine Pipeline bauen welche:
 * Linting des Codes
 * Unit Tests ausführt
 * Ein Container Image erzeugt
-* Das Container Image in die interene Registry pushed
+* Das Container Image in die interne Registry pushed
 
 ![](../../../.gitbook/assets/screenshot-2021-04-17-at-14.16.39.png)
 
