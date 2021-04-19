@@ -9,7 +9,12 @@ Wir fügen die folgenden Parameter ein
 * git-url: [https://github.com/wumaxd/golang-presentation](https://github.com/wumaxd/golang-presentation)
 * package: api
 * context: ./exercises/helloWorldAPI
-* image: image-registry.openshift-image-registry.svc:5000/&lt;namespace bzw. project&gt;/go-test-image:latest
+
+{% hint style="danger" %}
+Ins Image unten euren Namespace einsetzen
+{% endhint %}
+
+* image: image-registry.openshift-image-registry.svc:5000/**&lt;namespace bzw. project&gt;**/go-test-image:latest
 
 und wählen den Workspace aus \(PVC - tekton-pvc\).
 
