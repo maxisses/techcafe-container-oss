@@ -176,16 +176,6 @@
     * [Canary Reloaded](sessions/session-8-knative-und-serverless/uebung-4-traffic-management/canary-reloaded.md)
   * [Übung 5: Administratorensicht](sessions/session-8-knative-und-serverless/untitled/README.md)
     * [OpenShift Console - Serverless Administration](sessions/session-8-knative-und-serverless/untitled/openshift-console-serverless-administration.md)
-* [Draft Session 9: Deep Learning und Container](sessions/session-10-deep-learning-und-container/README.md)
-  * [Intro: Deep Learning & Data Science für NLP](sessions/session-10-deep-learning-und-container/intro-deep-learning-and-data-science.md)
-  * [Übung 1: \(optional\)Text Generator im Container bauen](sessions/session-10-deep-learning-und-container/uebung-1-optional-text-generator-im-container-bauen.md)
-  * [Übung 2: Text Generator im Container ausführen](sessions/session-10-deep-learning-und-container/gpt2-and-got.md)
-  * [Übung 3: \(optional\) UI und Backend auf OpenShift bringen und skalieren lassen \(non-GPU :\( \)](sessions/session-10-deep-learning-und-container/uebung-3-ui-und-backend-auf-openshift-bringen-und-skalieren-lassen-non-gpu.md)
-  * [Übung 4: Die Cloud zur \(halben\) Rettung - Code Engine](sessions/session-10-deep-learning-und-container/uebung-4-code-engine.md)
-  * [some Fun Stuff](sessions/session-10-deep-learning-und-container/some-fun-stuff/README.md)
-    * [KubeInvader](sessions/session-10-deep-learning-und-container/some-fun-stuff/kubeinvader.md)
-    * [Wild West](sessions/session-10-deep-learning-und-container/some-fun-stuff/wild-west.md)
-  * [Abschluß: kleine Umfrage](sessions/session-10-deep-learning-und-container/abschluss-kleine-umfrage.md)
 
 ---
 
@@ -212,6 +202,16 @@
 ---
 
 * [off-content](off-content/README.md)
+  * [Draft Session 9: Deep Learning und Container](off-content/session-10-deep-learning-und-container/README.md)
+    * [Intro: Deep Learning & Data Science für NLP](off-content/session-10-deep-learning-und-container/intro-deep-learning-and-data-science.md)
+    * [Übung 1: \(optional\)Text Generator im Container bauen](off-content/session-10-deep-learning-und-container/uebung-1-optional-text-generator-im-container-bauen.md)
+    * [Übung 2: Text Generator im Container ausführen](off-content/session-10-deep-learning-und-container/gpt2-and-got.md)
+    * [Übung 3: \(optional\) UI und Backend auf OpenShift bringen und skalieren lassen \(non-GPU :\( \)](off-content/session-10-deep-learning-und-container/uebung-3-ui-und-backend-auf-openshift-bringen-und-skalieren-lassen-non-gpu.md)
+    * [Übung 4: Die Cloud zur \(halben\) Rettung - Code Engine](off-content/session-10-deep-learning-und-container/uebung-4-code-engine.md)
+    * [some Fun Stuff](off-content/session-10-deep-learning-und-container/some-fun-stuff/README.md)
+      * [KubeInvader](off-content/session-10-deep-learning-und-container/some-fun-stuff/kubeinvader.md)
+      * [Wild West](off-content/session-10-deep-learning-und-container/some-fun-stuff/wild-west.md)
+    * [Abschluß: kleine Umfrage](off-content/session-10-deep-learning-und-container/abschluss-kleine-umfrage.md)
   * [Draft Session 5: Continuous Integration / Continuous Delivery mit Kubernetes & Tekton](off-content/session-5/README.md)
     * [Prework](off-content/session-5/prework.md)
     * [Intro zu CI/CD & Tekton im speziellen](off-content/session-5/intro-zu-ci-cd-and-tekton-im-speziellen.md)

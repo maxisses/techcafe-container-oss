@@ -49,7 +49,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 | Session 7 | [Serverless - OpenShift Operator & KNative](sessions/session-8-knative-und-serverless/) |
 | Session 8 | [Continuous Integration / Continuous Delivery mit Tekton in OpenShift](sessions/session-7/) |
 | Session 9 | CI/CD Vertiefung |
-| Session 10 | [Machine Learning & Container Technologie - TextGen im Container](sessions/session-10-deep-learning-und-container/) |
+| Session 10 | [Machine Learning & Container Technologie - TextGen im Container](off-content/session-10-deep-learning-und-container/) |
 
 ## Agenda der Sessions
 
