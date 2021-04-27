@@ -45,7 +45,7 @@ spec:
         autoscaling.knative.dev/minScale: "1"
         # maximum an erlaubten pods
         autoscaling.knative.dev/maxScale: "15"
-        # handle 10 requests auf einmal pro pod
+        # handle 2 requests auf einmal pro pod
         autoscaling.knative.dev/target: "2"
         # Alternative zum default "concurrency" ist requests per second
         autoscaling.knative.dev/metric: "rps"
