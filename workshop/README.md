@@ -53,7 +53,7 @@ Diese Einleitung ist folgendermaßen aufgebaut:
 
 | Titel | Dauer | Wer? |
 | :--- | :--- | :--- |
-| Intro & Quiz | 5 Minuten | IBM Coaches |
+| Intro | 5 Minuten | IBM Coaches |
 | Einführung zur Theorie und Inhalt des Labs | 10 Minuten | IBM Coaches |
 | Code & Work Along | 60 Minuten | Alle |
 | Wrap-Up: Was haben wir heute gemacht? Welche Relevanz hat es? | 10 Minuten | Alle |
