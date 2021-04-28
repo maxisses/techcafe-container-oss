@@ -1,6 +1,6 @@
 # Canary Reloaded
 
-Canary kennen wir schon aus Session 7. OpenShift hat KNative in seine GUI integriert und macht es uns damit noch einfacher.
+Canary kennen wir schon aus Session 6. OpenShift hat KNative in seine GUI integriert und macht es uns damit noch einfacher.
 
 {% hint style="info" %}
 Der Reviews Service ist recht behäbig. Das liegt an seinem doch sehr mächtigen Application Server. Deshalb entwicklt sich gerade Quarkus extrem stark, als Kubernetes-natives Java Framework: [https://www.redhat.com/de/topics/cloud-native-apps/what-is-quarkus](https://www.redhat.com/de/topics/cloud-native-apps/what-is-quarkus)
