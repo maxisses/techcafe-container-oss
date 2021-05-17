@@ -16,7 +16,7 @@ In diesem Ordner liegt eine Textdatei "GoT\_textonly.txt", welche das gesamte Ga
 
 Das Notebook um das Skript als \*.csv Datei von der Website zu scrapen liegt auch im repo. Das ist aber Out-of-Scope an dieser Stelle. Wir schauen uns jetzt erstmal an wie das python Skript zum Training bzw. Finetunen des Modells aussieht.
 
-[https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/fb1412c3-a906-4ab1-a7a0-5745de86ce0e/view?access\_token=2c233034fd88fe01e1506ce7b6bcdcfffe86dedb9e8b055b92417c195ed23bda](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/fb1412c3-a906-4ab1-a7a0-5745de86ce0e/view?access_token=2c233034fd88fe01e1506ce7b6bcdcfffe86dedb9e8b055b92417c195ed23bda)
+[https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/fb1412c3-a906-4ab1-a7a0-5745de86ce0e/view?access\_token=2c233034fd88fe01e1506ce7b6bcdcfffe86dedb9e8b055b92417c195ed23bda](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/d0cbfc09-ae32-4f6e-a427-0d781d80ba37/view?access_token=00ec5fe003825c08173610ae34e10d5d9a7b57c07924448acfd85efdc2d9f9d2)
 
 {% hint style="info" %}
 Was ihr hier seht ist Transfer Learning, d.h. wir nutzen das bereits mit Tonnen von \(englischen\) Textdaten \(Wikipedia & Co.\) von OpenAI trainierte GPT2 Netz und "finetunen" es nun mit unserem eigenen Netz.
