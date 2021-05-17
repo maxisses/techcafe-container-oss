@@ -81,3 +81,5 @@ Wer hat, der kann es natürlich mit GPU ausführen. Das führt je nach Einstellu
 docker run --gpus all -v $PWD/checkpoint:/checkpoint gpt2trainmodel
 ```
 
+Und wenn das ganze vom fertigen Modell testen möchte
+

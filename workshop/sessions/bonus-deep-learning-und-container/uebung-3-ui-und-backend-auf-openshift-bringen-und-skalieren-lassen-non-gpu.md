@@ -1,6 +1,6 @@
-# Übung 3: \(optional\) UI und Backend auf OpenShift bringen und skalieren lassen \(non-GPU :\( \)
+# Übung 3: UI und Backend auf OpenShift bringen und skalieren lassen \(non-GPU :\( \)
 
-Als ersten deployen wir den Backend-Service. Damit wir den Service "from Dockerfile", also neu bauen könnten, müssten wir das DeepLearning Modell neu gebaut haben, dort entsprechend im Build Ordner ablegen und dann das Dockerimage inklusive des DeepLearning Modells.
+Als ersten deployen wir den Backend-Service. Damit wir den Service "from Dockerfile", also neu durch OpenShift bauen lassen könnten, müssten wir das DeepLearning Modell gebaut haben, dort entsprechend im Build Ordner ablegen und dann das Dockerimage inklusive des DeepLearning Modells.
 
 {% hint style="info" %}
 Es bietet sich extrem an beide Images als 2 Steps in einen Tekton Task zu packen.

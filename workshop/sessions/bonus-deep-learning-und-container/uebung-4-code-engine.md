@@ -1,4 +1,4 @@
-# Übung 4: Die Cloud zur \(halben\) Rettung - Code Engine
+# Übung 4: \(optional\) Die Cloud zur \(halben\) Rettung - Code Engine
 
 Da es ein unglaublich einfach zu bedienendes Tool ist nehmen wir den Container-Service CodeEngine von IBM, welches es uns ermöglicht Container laufen zu lassen ohne die Komplexität von OpenShift oder K8s handlen zu müssen. Unter der Haube läuft Kubernetes mit KNative. Davon merken wir aber nichts.
 
