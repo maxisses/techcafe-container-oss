@@ -2,7 +2,7 @@
 
 Die Ausführung \(bzw. das "Inferencing" mit dem eben gebauten Modell\) wird durch Container noch einfacher. Man muss lediglich den Output des ersten Container Runs in folgenden zu clonenden git folder kopieren:
 
-{% embed url="https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got/gpt2-start" caption="" %}
+{% embed url="https://github.com/maxisses/GoT-Mining/tree/master/gpt2-got/gpt2-model-inferencing" %}
 
 Und danach kann man auch schon wieder mit Docker weitermachen.
 
