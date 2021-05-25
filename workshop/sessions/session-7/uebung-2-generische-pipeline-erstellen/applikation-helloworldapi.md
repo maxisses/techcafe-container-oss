@@ -11,6 +11,8 @@ Wir werden im folgenden eine Pipeline bauen welche:
 * Unit Tests ausführt
 * Ein Container Image erzeugt
 * Das Container Image in die interne Registry pushed
+* Das Helm Chart patchen mit dem Namen des gepushten Container Images
+* Mit einem git push, die Änderung ins git zurückspielen
 
-![](../../../.gitbook/assets/screenshot-2021-04-17-at-14.16.39.png)
+![](../../../.gitbook/assets/image%20%28180%29.png)
 

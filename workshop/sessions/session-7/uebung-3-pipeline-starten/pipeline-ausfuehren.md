@@ -6,7 +6,11 @@ In der Pipeline Übersicht wählen wir unter "Actions" "Start" aus.
 
 Wir fügen die folgenden Parameter ein
 
-* git-url: [https://github.com/wumaxd/golang-presentation](https://github.com/wumaxd/golang-presentation)
+{% hint style="danger" %}
+Macht einen Fork von [https://github.com/maxisses/golang-presentation.git](https://github.com/maxisses/golang-presentation.git) in euren Account und nehmt eure git URL.
+{% endhint %}
+
+* git-url: &lt; eure git url &gt;
 * package: api
 * context: ./exercises/helloWorldAPI
 
