@@ -8,7 +8,7 @@ Wir geben unserer Applikation einen Namen "&lt;eure Initialien&gt;-api" und wäh
 
 ![](../../../.gitbook/assets/screenshot-2021-04-17-at-15.40.12.png)
 
-In der "Repository URL" tragen wir [https://github.com/wumaxd/golang-presentation](https://github.com/wumaxd/golang-presentation) ein und setzen den "Path" auf den Helm Chart "./exercises/helloWorldAPI/charts/go-api/". ArgoCD überprüft sofort das Repository und stellt die folgenden Settings für einen Helm Chart ein.
+In der "Repository URL" tragen wir die URL unseres geforkten git-Repos ein und setzen den "Path" auf den Helm Chart "./exercises/helloWorldAPI/charts/go-api/". ArgoCD überprüft sofort das Repository und stellt die folgenden Settings für einen Helm Chart ein.
 
 ![](../../../.gitbook/assets/screenshot-2021-04-17-at-15.39.31.png)
 
@@ -16,7 +16,7 @@ Für das Ziel der Applikation wählen wir die "Cluster URL" https://kubernetes.d
 
 ![](../../../.gitbook/assets/screenshot-2021-04-17-at-15.39.38.png)
 
-Da ArgoCD erkannt hat, das wir das Deployment mittels eines Helm Charts machen wollen, sind die Werte aus der `values.yml` bereits voreingetragen. Ihr müsste jetzt noch den Wert `container.image` auf `image-registry.openshift-image-registry.svc:5000/<euer Namespace>/go-test-image:latest` anpassen.
+Man kann nun sehen, dass ArgoCD erkannt hat, dass wir mittels Helm-Chart deployen wollen und der in der Pipeline definierte Name des Images sollte hier auftauchen.
 
 ![](../../../.gitbook/assets/screenshot-2021-04-17-at-16.06.39.png)
 
