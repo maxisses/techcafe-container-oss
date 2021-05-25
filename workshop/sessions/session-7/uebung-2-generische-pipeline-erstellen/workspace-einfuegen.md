@@ -142,6 +142,46 @@ spec:
       workspaces:
         - name: source
           workspace: shared-data
+    - name: update-image-name-in-helm
+      params:
+        - name: IMAGE
+          value: $(params.image)
+        - name: context
+          value: $(params.context)
+      runAfter:
+        - buildah-v0-16-3
+      taskRef:
+        kind: Task
+        name: update-image-name-in-helm
+      workspaces:
+        - name: source
+          workspace: shared-data
+    - name: git-cli
+      params:
+        - name: BASE_IMAGE
+          value: 'alpine/git:latest'
+        - name: GIT_SCRIPT
+          value: |
+            echo | ls -al
+            git fetch
+            git checkout main
+            git add .
+            git commit -m "helmupdate"
+            git push
+        - name: GIT_USER_NAME
+          value: maxisses
+        - name: GIT_USER_EMAIL
+          value: max_dargatz@hotmail.com
+      runAfter:
+        - update-image-name-in-helm
+      taskRef:
+        kind: ClusterTask
+        name: git-cli
+      workspaces:
+        - name: source
+          workspace: shared-data
+        - name: input
+          workspace: shared-data
   workspaces:
     - name: shared-data
 
