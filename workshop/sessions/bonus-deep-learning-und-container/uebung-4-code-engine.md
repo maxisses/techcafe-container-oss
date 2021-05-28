@@ -31,7 +31,7 @@ docker.io/maxisses/gotminingui
 Das könntet ihr ebenfalls **from Dockerfile** bzw. **from Source** bauen lassen: [https://github.com/maxisses/GoT-Mining-UI](https://github.com/maxisses/GoT-Mining-UI)
 
 {% hint style="success" %}
-Wichtig: Ihr müsst wieder die Umgebungsvariable GPT2SERVICEURL auf die URL des Backend-Services setzen, die euch die GUI von CodeEngine anzeigt.
+Wichtig: Ihr müsst wieder die Umgebungsvariable GPT2SERVICEURL auf die URL des Backend-Services setzen, die euch die GUI von CodeEngine anzeigt. Außerdem muss der Listening Port **3000** gesetzt werden.
 {% endhint %}
 
 Entweder ihr lasst beide Container direkt in CodeEngine laufen oder ihr deployed nur das backend hier und ändert die Variable
